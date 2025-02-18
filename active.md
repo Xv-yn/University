@@ -10,7 +10,7 @@
         - [x] Do Week 1 Content
         - [x] Practice in R
     - [ ] COMP3027
-        - [ ] Complete Prerequisite Knowledge
+        - [x] Complete Prerequisite Knowledge
         - [ ] Understand Week 1 Tutorial Concepts
         - [ ] Attempt Week 1 Tutorial Sheet
     - [ ] COMP3308
