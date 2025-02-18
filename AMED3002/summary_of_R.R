@@ -6,10 +6,10 @@ getwd()
 # setwd("~/Desktop/University/AMED3002/") 
 
 # # Read From Chosen File
-# data1 <- read.csv(file.choose(), header=T)
+data1 <- read.csv(file.choose(), header=T)
                                     # header checks if the first line in the file contains variable names
 # Read From Specified File
-data1 <- read.csv("~/Desktop/University/AMED3002/student_sleep_patterns.csv", header=T)
+#data1 <- read.csv("~/Desktop/University/AMED3002/student_sleep_patterns.csv", header=T)
 
 data1
 
@@ -42,10 +42,7 @@ p + labs(title = "Sleeping Study Plot", subtitle = "subtitle goes here", caption
 
 
 # Statistical Layer
-  stat_midwest_select <- midwest[midwest$poptotal > 350000 & 
-                            midwest$poptotal <= 500000 & 
-                            midwest$area > 0.01 & 
-                            midwest$area < 0.1, ]smooth(method ="lm", col = "red") + 
+  stat_smooth(method = "lm", fomula = y ~ x, color = "red") +
 
   # Similarly, you can stack stat_ 
   # See: https://ggplot2.tidyverse.org/reference/layer_stats.html
