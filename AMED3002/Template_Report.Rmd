@@ -1,0 +1,70 @@
+---
+title: "Template_Report"
+author: "Author"
+date: "2025-02-14"
+output: bookdown::html_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Contents
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Conclusion](#conclusion)
+
+### Abstract {#abstract}
+For the living subjects in the community of Framingham, Massachusetts:
+- In early stages of life, men do have a higher systolic blood pressure.
+- In later stages of life, women have a higher systolic blood pressure than men.
+
+### Introduction {#introduction}
+```{r, echo = FALSE}
+library(ggplot2)
+setwd("~/Desktop/University/AMED3002/")
+frmgham_data = read.csv("frmgham.csv", header = TRUE)
+frmgham_data$SEX <- sapply(frmgham_data$SEX, 
+                              function(x) switch(x, 
+                                                 "1" = "Male", 
+                                                 "2" = "Female"))
+
+frmgham_data$PERIOD <- sapply(frmgham_data$PERIOD, 
+                              function(x) switch(x, 
+                                                 "1" = "Period 1", 
+                                                 "2" = "Period 2",
+                                                 "3" = "Period 3"))
+```
+This report's intention is to determine the answer to the following question:
+
+> Do men have higher blood pressure than women?
+
+
+### Results {#results}
+``` {r, violin-boxplot-plot, fig.cap = "A violin and boxplot showing the systolic blood pressure of the participants over each period by gender.", echo = FALSE}
+ggplot(data = frmgham_data, aes(x = SYSBP, y = PERIOD, col = SEX)) +
+  labs(title = "Systolic Blood Pressure Over Period By Gender", subtitle = "The relationship between Systolic Blood Pressure and Period by Gender", caption = "*Green boxplot denotes age of participants") + 
+  geom_violin(data = frmgham_data, aes(x = SYSBP, y = PERIOD)) + 
+  geom_boxplot(data = frmgham_data, aes(x = SYSBP, y = PERIOD), width = 0.3) +
+  geom_boxplot(data = frmgham_data, aes(x = AGE, y = PERIOD), col = "green") +
+  facet_grid(rows = vars(SEX)) 
+```
+
+From Figure \@ref{fig:violin-boxplot-plot} we can see that women generally have a higher systolic blood pressure compared to men in later stages of life.
+Specifically:
+- In Period 1, men have a higher systolic blood pressure.
+- In Periods 2 and 3, women have a higher systolic blood pressure.
+
+
+### Discussion {#discussion}
+The age range for the participants of each period are very similar for each sex. 
+Additionally, the data collected form Framingham Heart Study can be considered reliable for the living subjects in the community of Framingham,
+Massachusetts due to the large sample size.
+But there is not mention of the ethnicities nor environmental factors of each participant, which may be a factor in answering the question.
+
+### Conclusion {#conclusion}
+In conclusion, the answer to the question "Do men have higher blood pressure than women?" is as follows for the living subjects in the community of Framingham, Massachusetts:
+- In early stages of life, men do have a higher systolic blood pressure.
+- In later stages of life, women have a higher systolic blood pressure than men.

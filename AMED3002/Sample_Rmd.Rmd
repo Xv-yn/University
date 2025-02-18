@@ -1,0 +1,60 @@
+---
+title: "Sample_Rmd"
+output: bookdown::html_document2
+date: "2025-02-14"
+author: "Author"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+# This is the config for this Rmd file setting the default echo to TRUE
+```
+
+### Contents
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Results](#results)
+- [Discussion](#discussion)
+- [Conclusion](#conclusion)
+
+### Abstract {#abstract}
+No conclusion could be drawn due to the unreliability of the data. 
+However, the conclusion drawn from the data was a positive relationship between caffeine intake and sleep quality for males and the inverse for females and other. 
+
+
+### Introduction {#introduction}
+This is a sample report (or a template for a report) using data taken from [kaggle.com](https://www.kaggle.com/datasets/arsalanjamal002/student-sleep-patterns). 
+
+The intention of this report is to determine the relationship between Caffeine Intake and Sleep Quality and Gender.
+
+### Results {#results}
+
+```{r, echo = FALSE}
+student_sleep_patterns <- read.csv("~/Desktop/University/AMED3002/student_sleep_patterns.csv", header=T)
+library(ggplot2)
+```
+
+``` {r caffeine-sleep-plot, fig.cap = "A Jitter Plot that explores the correlation between Caffeine Intake and Sleep Quality by gender.", echo = TRUE}
+
+p <- ggplot(data = student_sleep_patterns, aes(x = Caffeine_Intake, y = Sleep_Quality, col = Gender))
+
+p + labs(title = "Relationship Between Caffeine Intake and Sleep Quality by Gender", subtitle = "Data Collected from Kaggle, Showing Caffeine Intake and Sleep Quality Patterns Across Genders", caption = "*Each point represents an individual, with color representing gender.") +
+  geom_jitter(width = 0.2, height = 0.2, size = 2, alpha = 0.5) +
+  stat_smooth(method ="lm", formula = y ~ poly(x,2), aes(fill = Gender), alpha = 0.2, se = TRUE)
+```
+
+### Discussion {#discussion}
+From Figure \@ref(fig:caffeine-sleep-plot) it can be observed that:
+
+- In females and other:
+  - A higher caffeine intake can lead to a lower sleep quality 
+  - A lower caffeine intake can lead to a higher sleep quality
+- In males:
+  - A higher caffeine intake can lead to a higher sleep quality
+  - A lower caffeine intake can lead to a lower sleep quality
+
+However, this data is only limited to university students with the age range of 18 to 24.
+Additionally, it is unknown how this data was collected. 
+
+### Conclusion {#conclusion}
+In conclusion, due to the unreliability of the data (in not knowing how the data was collected) no conclusions can be drawn.
