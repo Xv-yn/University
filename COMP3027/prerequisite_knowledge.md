@@ -89,8 +89,35 @@
     > * Iteration over edges is slower
 
 * Simple Paths
-
+    > A path in a graph that does not repeat any vertices
 
 * Cycles
+    > A path in a graph that:
+    >   * Begins and ends on the same vertex
+    >   * No other vertices are repeated except the start and end
+
+* Trees
+    > A type of graph with the following characteristics:
+    > * Does not contain any cycles
+    > * Every pair of vertices in a tree is connected by exactly one path
+    > * If there are n vertices, then there must be n - 1 edges 
+
+* Unrooted Trees
+    > A tree with an undesignated root
+
+* Rooted Trees
+    > A tree with a designated root
+    > 
+    > There must be a statement of some sort or label on the graph
+    > specifying the designated root
+
+* Bipartite Graph
+    > Two disjointed sets of vertices and each edge connects a vertex in 
+    > one set to the other set.
+    > There are no edges between vertices within the same set
+    > 
+    > There are no Odd-Length cycles
+
+##### Graph Traversal
 
 
