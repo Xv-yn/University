@@ -120,4 +120,21 @@
 
 ##### Graph Traversal
 
+* Breadth First Search (BFS)
+    > Visits the first node
+    > Mark first node as "visited"
+    > Add first node to queue
+    > While queue is not empty:
+    >   * Dequeue vertex from the front
+    >   * Visit all unvisited neighbours and mark as visited and add them
+    >     to the queue
+
+* Depth First Search (DFS)
+    > Visit the first node and mark as "visited"
+    > Push the first node onto the stack
+    > While the stack is not empty:
+    >   * Pop vertex from top of stack 
+    >   * Visit all unvisited neighbours, mark as "visited" and push 
+    >     onto stack
+
 
