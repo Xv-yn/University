@@ -2,21 +2,6 @@
 
 ## Todo
 
-- [ ] Week 0 Pre-Work/Clarification for:
-    - [x] AMED3002
-        - [x] Create "Cheat Sheet" for R
-        - [x] Get Familiar with ggplot Graph Types
-        - [x] Understand when to use specific Graph Types
-        - [x] Do Week 1 Content
-        - [x] Practice in R
-    - [ ] COMP3027
-        - [x] Complete Prerequisite Knowledge
-        - [ ] Understand Week 1 Tutorial Concepts
-        - [ ] Attempt Week 1 Tutorial Sheet
-    - [ ] COMP3308
-    - [ ] INFO4444
-
-
 ### Active Assessments
 
 > [!note] AMED3002
@@ -34,8 +19,8 @@
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
->      Est. Given: Every Monday
->             Due: Every Sunday 
+>      Est. Given: 3pm Tuesday
+>             Due: 3pm Tuesday 
 
 > [!note] INFO4444
 > - [ ] (10%) Weekly Exercises 
@@ -65,6 +50,12 @@ print("Hello World!")
 [!caution]
 
 > Table
+
+| Column1 | Column2 |
+| -------------- | --------------- |
+| Item1.1 | Item2.1 |
+| Item1.2 | Item2.2 |
+| Item1.3 | Item2.3 |
 
 | IV  | DV  |
 | :-: | :-: |
