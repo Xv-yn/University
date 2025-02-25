@@ -19,7 +19,7 @@
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
->      Est. Given: 3pm Tuesday
+>      Est. Given: 9am Saturday
 >             Due: 3pm Tuesday 
 
 > [!note] INFO4444

@@ -2,7 +2,7 @@
 
 - [ ] (4%) Weekly Homework 
         Individual
-     Est. Given: 3pm Tuesdays
+     Est. Given: 9am Saturdays
             Due: 3pm Tuesdays 
 
 - [ ] (12%) Assignment 1 
