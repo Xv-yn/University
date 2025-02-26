@@ -27,20 +27,21 @@ setwd("~/Desktop/University/AMED3002/")
 ```{r, echo = FALSE}
 # Libraries
 library(ggplot2)
-library
+library(tidyr)
 
 # Raw Data
 sleep <- read.csv("StudentTSleepData.csv", row.names=1)
 ```
 
 ```{r}
+# Reorganize Data
 sleep$patient <- factor(1:10)
 sleepLong <- pivot_longer(sleep, cols=c("Dextro", "Laevo"), names_to="treatment", values_to="hours")
 ```
 
 
 ### Results {#results}
-``` {r, SYSBP-AGE-SEX_POINT, fig.cap = "A vi ", echo = TRUE}
+``` {r, NAME, fig.cap = "", echo = TRUE}
 # Insert plot
 ggplot(sleepLong, aes(x=patient, y=hours, fill=treatment)) + 
   geom_bar(stat="identity", position=position_dodge()) +
