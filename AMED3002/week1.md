@@ -52,7 +52,7 @@
 
 
 
-## Doctor - Patient Cancer
+## Doctor - Patient: Cancer
 
 Potential Causes of Cancer:
 - Germline (Inherited from Parents)
