@@ -52,6 +52,17 @@
 
 
 
+## Doctor - Patient Cancer
+
+Potential Causes of Cancer:
+- Germline (Inherited from Parents)
+- Somatic (Lifetime Events)
+    - UV Exposure
+    - Viral Infection (HPV, Hep B)
+    - Smoking
+    - Aging
+
+
 
 
 
