@@ -2,6 +2,7 @@
 
 ## Todo
 
+
 ### Active Assessments
 
 > [!note] AMED3002
@@ -19,8 +20,8 @@
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
->      Est. Given: 9am Saturday
->             Due: 3pm Tuesday 
+>      Est. Given: 3pm Tuesdays
+>             Due: 3pm Tuesdays 
 
 > [!note] INFO4444
 > - [ ] (10%) Weekly Exercises 
