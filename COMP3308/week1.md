@@ -25,6 +25,24 @@
     - Path finding (Maps)
 - Game Playing
     - Chess
+        - Branching Factor
+            - Lets turn the game state into an existing tree.
+            - As a result, each potential move is one branch.
+            - The branching factor is the maximum number of potential moves.
+            - Let the branching factor be `b`. Then, the first node has `b`
+              children.
+            - Now each child node will also have more possible moves.
+            - Therefore, each child would have a maximum of `b` branches.
+            - And this continues until the end (lets say the maximum is `k`)
+            - Therefore in the worst case, there is `b^k` states.
+            ```txt
+                             O        ^
+                          /     \     |
+                         O       O    k
+                        / \     / \   |
+                       O   O   O   O  v
+                       <-b->
+            ```
 - Machine Learning
     - Classification Example
     - Clustering Example
