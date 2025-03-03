@@ -2,6 +2,12 @@
 
 ## Todo
 
+- [ ] Tuesday
+    - [ ] COMP3308
+        - [ ] write psuedo code for BFS and time complexity analysis
+        - [ ] write psuedo code for DFS and time complexity analysis
+        - [ ] write psuedo code for UCS and time complexity analysis
+        - [ ] write psuedo code for IDS and time complexity analysis
 
 ### Active Assessments
 
