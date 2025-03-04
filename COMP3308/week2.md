@@ -50,8 +50,62 @@ Evaluation Criteria:
 > - `d` - depth of optimal solution 
 > - `m` - maximum depth of space state (how far down the tree goes, can be infinite)
 
+## Breadth First Search (BFS)
+```txt
+visited_nodes = []
+temp_queue = []
+
+append Start_Node into temp_queue
+
+while temp_queue is not empty:
+    node <- dequeue(temp_queue)
+    for child in node.children:
+        if child not in visited_nodes
+            enqueue(child, temp_queue)
+    append node to visited_nodes
+```
+
+## Depth First Search
+```txt
+visited_nodes = []
+temp_stack = []
+
+append Start_Node into temp_stack
+
+while temp_stack is not empty:
+    node <- pop(node, temp_stack)
+    if node is not in visited_nodes:
+        append(node, visited_nodes)
+        for child in reverse(node.children)
+            append(child, temp_stack)    
+```
+
+## Uniform Cost Search
+```txt
+# Assumed node structure Node(cost, children[], other_data)
+
+visited_nodes = []
+priority_queue = []
+
+append (0,Start_Node) into priority_queue
+
+while priority_queue is not empty:
+    cost, node <- priority_dequeue(priority_queue)
+    if node in visited_nodes:
+        append (cost, node) into visited_nodes
+        for child_cost, child in node.children:
+            enqueue((child_cost + cost, child), priority_queue)
+```
+
+## Iterative Depth Search
+```txt
 
 
+
+```
+
+
+## Greedy Search
 
 
 
