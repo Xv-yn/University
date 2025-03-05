@@ -2,12 +2,10 @@
 
 ## Todo
 
-- [ ] Tuesday
-    - [ ] COMP3308
-        - [x] write psuedo code for BFS and time complexity analysis
-        - [x] write psuedo code for DFS and time complexity analysis
-        - [x] write psuedo code for UCS and time complexity analysis
-        - [x] write psuedo code for IDS and time complexity analysis
+- [ ] COMP3027 Weekly Quiz
+- [ ] INFO4444 Notes
+- [ ] COMP3308 Tutorial Questions
+
 
 ### Active Assessments
 
@@ -20,8 +18,8 @@
 > [!note] COMP3027
 > - [ ] (10%) Weekly Quiz 
 >         Individual
->      Est. Given: Every Monday
->             Due: Every Sunday 
+>      Est. Given: Every Thursday
+>             Due: Every Wednesday
 
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 

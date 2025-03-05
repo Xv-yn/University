@@ -2,8 +2,8 @@
 
 - [ ] (10%) Weekly Exercises 
         Individual
-     Est. Given: Every Monday
-            Due: Every Sunday 
+     Est. Given: Every Thursday
+            Due: Every Thursday 
 
 - [ ] (15%) Assignment 1 
         Individual
@@ -24,4 +24,21 @@
         Individual
      Est. Given: Formal exam period 
             Due: Formal exam period
+
+
+## Definition of Innovation
+
+Innovation involves a new idea that is applied commercially.
+
+Invention is the first occurrence of an idea for a new product or
+process, while innovation is the first attempt to carry it out into
+practice
+
+## General Purpose Technologies (GPTs)
+GPTs are technologies that impact economic growth and transform both 
+household life and the ways in which firms conduct business.
+
+E.g. IT (software engineering), enables other technologies
+     Can be applied almost anywhere
+
 
