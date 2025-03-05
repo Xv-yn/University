@@ -7,7 +7,7 @@
         - [x] write psuedo code for BFS and time complexity analysis
         - [x] write psuedo code for DFS and time complexity analysis
         - [x] write psuedo code for UCS and time complexity analysis
-        - [ ] write psuedo code for IDS and time complexity analysis
+        - [x] write psuedo code for IDS and time complexity analysis
 
 ### Active Assessments
 
@@ -26,14 +26,14 @@
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
->      Est. Given: 3pm Tuesdays
+>      Est. Given: 9am Saturdays 
 >             Due: 3pm Tuesdays 
 
 > [!note] INFO4444
 > - [ ] (10%) Weekly Exercises 
 >         Individual
->      Est. Given: Every Monday
->             Due: Every Sunday 
+>      Est. Given: Every Thursday 
+>             Due: Every Thursday 
 
 #### Tips
 

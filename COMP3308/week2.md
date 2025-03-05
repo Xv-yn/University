@@ -64,6 +64,7 @@ while temp_queue is not empty:
             enqueue(child, temp_queue)
     append node to visited_nodes
 ```
+Time Complexity: O(b^d)
 
 ## Depth First Search
 ```txt
@@ -79,6 +80,7 @@ while temp_stack is not empty:
         for child in reverse(node.children)
             append(child, temp_stack)    
 ```
+Time Complexity: O(b^d)
 
 ## Uniform Cost Search
 ```txt
@@ -96,17 +98,27 @@ while priority_queue is not empty:
         for child_cost, child in node.children:
             enqueue((child_cost + cost, child), priority_queue)
 ```
+Time Complexity: O(b^(C∗/eˉ)d)
 
 ## Iterative Depth Search
 ```txt
+def IterativeDeepeningSearch(root, list)
+    for depth from 0 to ∞ :
+        result ← DepthLimitedSearch(root, list, depth)
+        IF result ≠ "Not Found" THEN
+            RETURN result
+    return list 
 
+def DepthLimitedSearch(node, list, limit)
+    list.append(node)
+    
+    if limit = 0 then
+        return   
 
-
+    for child in node.children
+        result ← DepthLimitedSearch(child, list, limit - 1)
+    return
 ```
-
-
-## Greedy Search
-
-
+Time Complexity: O(b^d)
 
 
