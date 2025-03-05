@@ -3,7 +3,6 @@
 ## Todo
 
 - [ ] COMP3027 Weekly Quiz
-- [ ] INFO4444 Notes
 - [ ] COMP3308 Tutorial Questions
 
 
