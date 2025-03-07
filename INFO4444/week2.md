@@ -69,19 +69,55 @@ Expectations
    ^
    |                 Peak of Inflated Expectations
    |                    .-'`'-.
-   |                  .'       '.
-   |                 /           \
-   |                /             \ 
-   |               /               \             .--'
-   | Innovation  .'                 '.       .--'             Slope of Enlightenment
+   |                  .'       '.                            .--'
+   |                 /           \                       .--'
+   |                /             \                  .--'    Slope of
+   |               /               \             .--'        Enlightenment
+   | Innovation  .'                 '.       .--'             
    | Trigger   .'                     '._.--'   
-                                      Trough of
-                                    Disillusionment
+   |                                  Trough of
+   |                                Disillusionment
 ```
+Example: Amazon Alexa
+        1. It seemed like a perfect AI
+        2. It was fun to use
+        3. Realized that it was only really sued for music and lights
+        4. Acceptance
 
+## Design Dominance
 
+### Uncertainty Phase
+1. A first new product is introduced, _usually_ "Made To Order"
+2. If it attracts enough marketshare, it forces imitation
+3. Competitors products are released
+4. Cost reduction pressure on companies to get cheaper components
 
+### Fluidity Phase
+5. A dominant design is developed by either the original or competitors
+   that meets certain standards
+6. The dominant design becomes the base for the industry
+7. The dominant design can become the "standard"
+    - Ensures quality
+    - Compatibility
 
+### Reasons for Selection
+1. Learning Effects
+    - Easy to use
+    - Increase productivity
+2. Network Effects
+    - increased number of product -> increased number of users -> 
+      increased number of product -> ...
+
+### First, Second, Fast Second
+1. First Mover
+    - Their product may become the dominant design
+2. Second Mover
+    - Basically a product clone
+    - BUT, drives cost/pricing competition
+3. Fast Second
+    - Potentially creates the dominant design or help create it
+    - Attempts to lead the market
+    - Timing - has to be ready to move as the first mover
 
 
 

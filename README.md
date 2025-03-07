@@ -1,10 +1,11 @@
-# Currently Week 0
+# Currently Week 2
 
 ## Todo
 
-- [ ] COMP3027 Weekly Quiz
+- [x] COMP3027 Weekly Quiz
+- [x] COMP3027 Week 2 notes
 - [ ] COMP3308 Tutorial Questions
-
+- [x] INFO4444 notes
 
 ### Active Assessments
 
