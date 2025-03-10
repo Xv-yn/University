@@ -2,7 +2,15 @@
 
 ## Todo
 
-- [ ] COMP3308 Tutorial Questions
+> [!warning] COMP3027 Assignment 1
+> - [ ] (7.5%) Assignment 1 
+>         Individual
+>      Est. Given: 10 Mar 2025 Week 3 Monday
+>             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
+
+- [ ] [!caution] COMP3308 Lecture Notes
+- [ ] INFO4444 Lecture Notes
+- [ ] COMP3027 Tutorial Prep
 
 ### Active Assessments
 

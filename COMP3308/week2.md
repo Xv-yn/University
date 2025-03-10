@@ -34,6 +34,13 @@ weather or one's blood type is irrelevant.
 1. We generate the possible moves in the form of a tree
 2. We run a search algorithm (DFS, BFS) to find the goal state
 
+* Expanded Nodes - These nodes have already been processed and placed into
+                   the 'visited' list
+* Frontier Nodes - These nodes are on the 'temp_list'
+* Evaluation Function - This function is what we use to traverse the tree.
+                        It is how we decide which node to visit next.
+* Heuristic Function - This function assigns heuristic values to each node.
+
 # Search Strategies
 Evaluation Criteria:
 - Completeness
