@@ -9,8 +9,8 @@
 >             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
 
 - [ ] [!caution] COMP3308 Lecture Notes
-- [x] INFO4444 Lecture Notes
-- [x] COMP3027 Tutorial Prep
+- [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
+- [ ] COMP3308 Assignment Prep
 
 ### Active Assessments
 
