@@ -9,8 +9,8 @@
 >             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
 
 - [ ] [!caution] COMP3308 Lecture Notes
-- [ ] INFO4444 Lecture Notes
-- [ ] COMP3027 Tutorial Prep
+- [x] INFO4444 Lecture Notes
+- [x] COMP3027 Tutorial Prep
 
 ### Active Assessments
 
