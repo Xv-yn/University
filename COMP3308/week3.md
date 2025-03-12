@@ -109,7 +109,32 @@ We can generate 3 relaxed problems by removing 1 or both conditions:
 - Relaxed Problem 3
     - A tile can move from Square A to Square B 
 
+## Heuristic Consistency
 
+```txt
+             S                                S
+            / \                              / \
+           /   \                            /   \
+          /     \                          /     \
+         /       \                      4 /       \ 2
+        /         \                      /         \
+       /           \                    /           \
+      /   c(n,n`)   \                  /      2      \
+h(n) n ------------- n` h(n`)     [3] a ------------- b [4]
+      \             /                  \             /
+       \           /                    \           /
+        \         /                      \         /
+         \       /                      4 \       / 5
+          \     /                          \     /
+           \   /                            \   /
+            \ /                              \ /
+             G                                G 
+```
+
+
+
+A consistent heuristic is ALWAYS admissble. 
+BUT an admissble heuristic is NOT always consistent.
 
 ## Terminology
  - Manhattan Distance - the sum of distance from the start position 
