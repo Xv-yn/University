@@ -9,6 +9,10 @@
 Each node in a graph/tree is given a heuristic value (calculated by 
 the evaluation function). 
 
+An admissible heuristic is a number that is given to a node that guesses its distance
+from the goal. Note that this value is optimistic, like travelling through a city with
+no traffic.
+
 To determine if a heuristic is admissible, the heuristic value must be 
 less than or equal to the true cost to readch the goal.
 
@@ -116,7 +120,7 @@ We can generate 3 relaxed problems by removing 1 or both conditions:
             / \                              / \
            /   \                            /   \
           /     \                          /     \
-         /       \                      4 /       \ 2
+  c(S,n) /       \ c(S,n`)              2 /       \ 2
         /         \                      /         \
        /           \                    /           \
       /   c(n,n`)   \                  /      2      \
@@ -124,17 +128,37 @@ h(n) n ------------- n` h(n`)     [3] a ------------- b [4]
       \             /                  \             /
        \           /                    \           /
         \         /                      \         /
-         \       /                      4 \       / 5
+  c(n,G) \       / c(n`,G)              4 \       / 5
           \     /                          \     /
            \   /                            \   /
             \ /                              \ /
              G                                G 
 ```
 
+Heuristics consistency is important because this calculation prevents revisiting 
+an already visited node.
+
+To determine if a heuristic is consistent, the h(n) must meet the following equation
+for ALL connected edges (even the one it came from!): 
+
+h(n) <= c(n, n\`) + h(n\`)
+
+> [!important]
+> This equation basically says:
+> The distance to the goal from where you are now (h(n)),
+> must be less than or equal to (<=)
+> the cost of travelling to the neighbouring node (c(n, n\`))
+> and the distance from the neighbouring node to the goal combined (+ h(n\`))
+
+In simpler terms, lets say we were at node `a` in the above graph. It would make 
+more sense to directly travel to `G` with a cost of 4 instead of going to `b` then `G`.
+Consistency is measuring whether or not it is logical to take that "detour".
+
+> [!note]
+> A consistent heuristic is ALWAYS admissble. 
+> BUT an admissble heuristic is NOT always consistent.
 
 
-A consistent heuristic is ALWAYS admissble. 
-BUT an admissble heuristic is NOT always consistent.
 
 ## Terminology
  - Manhattan Distance - the sum of distance from the start position 

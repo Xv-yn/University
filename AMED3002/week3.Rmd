@@ -1,0 +1,25 @@
+
+
+```{r}
+respiratory <- read.delim("https://wimr-genomics.vip.sydney.edu.au/AMED3002/data/respiratory.txt", sep = "\t")
+```
+
+
+```{r}
+dupe <- respiratory
+```
+
+```{r}
+dupe <- table(respiratory$treatment, respiratory$status)
+```
+
+```{r}
+chisq.test(dupe)
+test = chisq.test(dupe)
+test$expected >= 5
+```
+
+```{r}
+OR <- (dupe[1,1]*dupe[2,2])/(dupe[2,1]*dupe[1,2])
+OR
+```
