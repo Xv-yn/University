@@ -158,9 +158,81 @@ Consistency is measuring whether or not it is logical to take that "detour".
 > A consistent heuristic is ALWAYS admissble. 
 > BUT an admissble heuristic is NOT always consistent.
 
+# Optimization Problems
 
+Up until now, the goal was to find a path to a certain state.
+Now, we just want to find a certain state, regardless of path.
 
-## Terminology
+We can't use BFS, DFS, UCS, IDS, Greedy or A* due to how expensive it is
+computationally.
+
+So to do this, using each state, we can calculate a specific value, 
+representing how optimal the current state is. This function is called:
+"heuristic evaluation function".
+
+Generalized Steps:
+1. Find the global maximum (to get a feel for the upper bound of the dataset)
+2. Find the global minimum (to get a feel for the lower bound of the dataset)
+3. Start local search
+    - Complete local search finds a valid goal state if it exists
+    - Optimal local serach finds the best possible state associated with the
+      global max or min
+
+## Hill-Climbing Algorithm
+
+This algorithm only works on a "small scale", more sepcifically, only a 
+local area. If this algorithm cannot find a suitable state, then it can:
+    - restart with a randomly chosen new starting state
+
+### Potential Modifications
+- keep track of states that have been visited
+- check the neighbours neighbours instead of neighbours
+- check multiple states ahead instead of only looking at neighbours
+- occasionallly accept 2nd best moves (or worse)
+- beam search, select the best 2 children of the next layer and so on
+
+### Simulated Annealing
+This method is basically, start at a certian node, with a "high temperature"
+variable. This "high temperature" causes the algorithm to explore widely and
+accept wrose moves often, after every move, the "high temperature" decreases,
+meaning that the algorithm becomes more selective picking less worse moves 
+until a goal is found.
+
+### Descent
+1. Starting at an intial state s
+2. Find the best neighbouring state (the one with the lowest v(n) value)
+3. Compare v(n) against the the current states v(s)
+4. If v(n) is better than v(s) move to this state, else stop
+
+### Ascent
+
+1. Starting at an intial state s
+2. Find the best neighbouring state (the one with the highest v(n) value)
+3. Compare v(n) against the the current states v(s)
+4. If v(n) is better than v(s) move to this state, else stop
+
+## Genetic Algorithm
+
+Literally DNA chromosome mixing/crossing over stuff.
+
+1. Create a random population
+    - Each individual is represented as a chromosome 
+      (bitstring, list, or encoded parameters)
+2. Apply a fitness function (a function that determines how good a 
+                             solution is)
+3. Select parents
+    - Can be selected randomly, or based on fitness function
+4. Crossover
+    - Cut two/three/etc. segments and attach to opposite
+    - Could also mix them up randomly
+5. Mutation
+    - Randomly change some of the "offspring"
+    - E.g. Always flip the second bit like "0110" -> "0010"
+6. Replacement
+    - Replace the old population with the new ones and keep the best
+7. Repeat until satisfactory solution is found 
+
+# Terminology
  - Manhattan Distance - the sum of distance from the start position 
    to the goal position for each node.
 
