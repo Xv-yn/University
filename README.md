@@ -1,16 +1,31 @@
-# Currently Week 2
+# Currently Week 3
 
 ## Todo
 
 > [!warning] COMP3027 Assignment 1
-> - [ ] (7.5%) Assignment 1 
+> - [x] (7.5%) Assignment 1 
 >         Individual
 >      Est. Given: 10 Mar 2025 Week 3 Monday
 >             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
 
-- [ ] [!caution] COMP3308 Lecture Notes
+> [!warning] COMP3308
+> - [ ] (4%) Weekly Homework 
+>         Individual
+>      Est. Given: 9am Saturdays 
+>             Due: 3pm Tuesdays 
+> - [ ] (12%) Assignment 1 
+>         Group
+>      Est. Given: 08 Mar 2025 Week 3 Friday
+>             Due: 08 Apr 2025 at 23:59 Week 7 Tuesday
+
+> [!warning] INFO4444
+> - [ ] (15%) Assignment 1 
+>         Individual
+>      Est. Given: 14 Mar 2025 Week 3 Friday
+>             Due: 28 Mar 2025 at 23:59 Week 5 Friday
+
+- [ ] COMP3027 Week 3 Notes Mater Theorem
 - [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
-- [ ] COMP3308 Assignment Prep
 
 ### Active Assessments
 
