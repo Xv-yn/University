@@ -33,5 +33,10 @@ def count_elements(arr):
     return left_count + right_count
 ```
 
+## Master Theorem
+
+
+
+
 
 
