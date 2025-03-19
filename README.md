@@ -25,7 +25,6 @@
 >             Due: 28 Mar 2025 at 23:59 Week 5 Friday
 
 - [ ] INFO4444 Week 4 Notes
-- [ ] COMP3308 Week 4 Notes
 - [ ] COMP3027 Practice Recursion
 - [ ] COMP3027 Week 3 Notes Mater Theorem
 - [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
