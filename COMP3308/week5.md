@@ -55,6 +55,22 @@ An example would be:
 - Thus, using this algorithm we say that since these two people have scored basically the same
     -> the person who has missing data can be filled in as 80% 
 
+### Manhattan Distance Calculation:
+
+D(Point_1, Point\_2) = |Point\_1_x - Point\_2_y| + ... (any other variables)
+
+This calculates the distance between two points, so we have to calculate the distance
+between all "new samples" and "samples of the dataset".
+
+### Euclidean Distance
+
+Distance = sqrt((new_sample - sample_1) + (new\_sample - sample\_2) + ...)
+
+This distance is then compared against all samples to find the k nearest samples 
+
+Nominal variables such as Male or Female, when we compare against the new sample, we set it
+such that if it is the same, then 0 else 1.
+
 ## Normalization
 
 In some cases when we are comparing more than 1 variable against each other. If we calculate
