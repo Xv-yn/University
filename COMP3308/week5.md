@@ -82,4 +82,21 @@ As a result of this, this allows for each variable to be weighted equally.
 
 In terms of weightage, we can apply a weightage as needed.
 
+## 1R Algorithm
+
+What we do is we collect the "1 Rule" (one variable ONLY) and compare that variable against
+the goal variable (the variable we want to predict).
+
+So we have something like:
+```txt
+                has_iphone
+income:     no          yes
+    High    2           {2} -> To break ties, we can anyhow select yes or no 
+    Medium  {2}         3   -> Based on this, those in medium income has an iphone cuz 3 > 2
+    Low     {1}         3 
+
+Error = ({2} + {2} + {1}) / total_number_of_samples
+        This is the sum of the incorrect predictions
+```
+
 
