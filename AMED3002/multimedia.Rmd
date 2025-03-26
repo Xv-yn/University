@@ -1,0 +1,72 @@
+---
+title: "R Code"
+author: "RmD Graphs"
+date: "2025-03-26"
+output: 
+  rmdformats::downcute:
+    number_sections: false
+    toc_depth: 3
+    code_folding: hide
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Testing for R Code
+
+```{r setup}
+setwd("~/Desktop/University/AMED3002/") # Set the working directory to wherever you data is
+multideath <- read.csv("multideath.csv", fileEncoding = "latin1")
+cancer_rates <- read.csv("cancerrates.csv")
+```
+
+
+```{r}
+library(dplyr)
+cancer_subset <- cancer_rates %>%
+  filter(
+    Cancer_Type %in% c("Breast cancer", "Lung cancer", "Pancreatic cancer", "Prostate cancer", "Skin cancer")
+  )
+
+multi_subset <- multideath %>%
+  filter(
+    cause_of_death %in% c("Breast cancer (ICD-10 C50)", "Lung cancer (ICD-10 C33, C34)", "Pancreatic cancer (ICD-10 C25)", "Prostate cancer (ICD-10 C61)", "Skin cancer (ICD-10 C43, C44)")
+  )
+
+multi_subset$cause_of_death <- sapply(multi_subset$cause_of_death, 
+                                       function(x) switch(as.character(x),
+                                                          "Breast cancer (ICD-10 C50)" = "Breast cancer",
+                                                          "Lung cancer (ICD-10 C33, C34)" = "Lung cancer",
+                                                          "Pancreatic cancer (ICD-10 C25)" = "Pancreatic cancer",
+                                                          "Prostate cancer (ICD-10 C61)" = "Prostate cancer",
+                                                          "Skin cancer (ICD-10 C43, C44)" = "Skin cancer")
+                                      )
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+library(dplyr)
+subset <- cancer_rates %>%
+  filter(
+    Cancer_Type == "Acute lymphoblastic leukaemia",
+    Sex == "Male",
+    !is.na(Age_0_to_4)
+  )
+library(ggplot2)
+ggplot(subset, aes(x = Year, y = Age_0_to_4, group = Type, color = Type)) +
+  geom_line() +
+  geom_point() +
+  labs(title = "Acute Lymphoblastic Leukaemia (Age 0–4, Male)",
+       x = "Year",
+       y = "Number of Cases") 
+  # facet_wrap(~ subset$Type)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
