@@ -53,9 +53,9 @@ You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
 library(dplyr)
-subset <- cancer_rates %>%
+smaller_subset <- cancer_rates %>%
   filter(
-    Cancer_Type == "Acute lymphoblastic leukaemia",
+    Cancer_Type == "Breast cancer",
     Sex == "Male",
     !is.na(Age_0_to_4)
   )
