@@ -2,12 +2,6 @@
 
 ## Todo
 
-> [!warning] COMP3027 Assignment 1
-> - [x] (7.5%) Assignment 1 
->         Individual
->      Est. Given: 10 Mar 2025 Week 3 Monday
->             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
-
 > [!warning] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
@@ -18,15 +12,19 @@
 >      Est. Given: 08 Mar 2025 Week 3 Friday
 >             Due: 08 Apr 2025 at 23:59 Week 7 Tuesday
 
-> [!warning] INFO4444
-> - [ ] (15%) Assignment 1 
+> [!note] COMP3027
+> - [ ] (10%) Weekly Quiz 
 >         Individual
->      Est. Given: 14 Mar 2025 Week 3 Friday
->             Due: 28 Mar 2025 at 23:59 Week 5 Friday
+>      Est. Given: Every Thursday
+>             Due: Every Wednesday
+> - [ ] (7.5%) Assignment 2 
+>         Individual
+>      Est. Given: 26 Mar 2025 Week 5 Wednesday
+>             Due: 09 Apr 2025 at 23:59 Week 7 Wednesday
 
-- [ ] INFO4444 Week 4 Notes
+- [ ] INFO4444 Week 5 Notes
+- [ ] COMP3027 Week 5 Notes
 - [ ] COMP3027 Practice Recursion
-- [ ] COMP3027 Week 3 Notes Mater Theorem
 - [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
 
 ### Active Assessments
@@ -57,11 +55,10 @@
 >         Individual
 >      Est. Given: Every Thursday
 >             Due: Every Wednesday
-> 
-> - [ ] (7.5%) Assignment 1 
+> - [ ] (7.5%) Assignment 2 
 >         Individual
->      Est. Given: 10 Mar 2025 Week 3 Monday
->             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
+>      Est. Given: 26 Mar 2025 Week 5 Wednesday
+>             Due: 09 Apr 2025 at 23:59 Week 7 Wednesday
 
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
@@ -78,11 +75,6 @@
 >         Individual
 >      Est. Given: Every Thursday 
 >             Due: Every Thursday 
-> 
-> - [ ] (15%) Assignment 1 
->         Individual
->      Est. Given: 14 Mar 2025 Week 3 Friday
->             Due: 28 Mar 2025 at 23:59 Week 5 Friday
 
 #### Tips
 
