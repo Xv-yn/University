@@ -98,5 +98,6 @@ income:     no          yes
 Error = ({2} + {2} + {1}) / total_number_of_samples
         This is the sum of the incorrect predictions
 ```
-
+In most cases, this is considered simple, but by occam's razor, sometimes the
+simplest solution is the best solution.
 
