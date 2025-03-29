@@ -1,6 +1,25 @@
 # Currently Week 5
 
 ## Todo
+> [!note] AMED3002
+> - [ ] (6%) Lab Report: Module 2
+>         Individual
+>      Est. Given: 21 Mar 2025 Week 4 Friday
+>             Due: 04 Apr 2025 at 23:59 Week 6 Friday
+> 
+> - [ ] (10%) Multimedia Project
+>         Group
+>      Est. Given: 24 Mar 2025 Week 5 Monday
+>             Due: 07 Apr 2025 at 23:59 Week 7 Monday
+>
+> - [ ] (10%) Oral Presentation 1 
+>         Group
+>      Est. Given: 24 Mar 2025 Week 5 Monday
+>             Due: 07 Apr 2025 at 23:59 Week 7 Monday
+> 
+> - [ ] (2%) Reflection 1 
+>         Individual
+>      Est. Given: 28 Mar 2025 Week 5 Friday
 
 > [!warning] COMP3308
 > - [ ] (4%) Weekly Homework 
