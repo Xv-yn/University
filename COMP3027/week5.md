@@ -108,6 +108,9 @@ We now have 10 base cases to build up from:
 
 Using these base cases and substitution via recursion, we get the optimal solution.
 
+> [!note] NOTE
+> Note that this runs in O(n) time.
+
 ## Pseudocode
 
 ```txt
@@ -156,7 +159,80 @@ Base Case: OPT(0) = 0
 
 # 2 Dimensional Dynamic Programming
 
+This is similar to 1 Dimension, but instead it requires O(n^2) time.
 
+The method is the same where:
+1. Assume you have a solution
+2. Build up the solution by determining cases
+3. Defining the base cases
 
+An example would be as follows:
+
+## Example: Longest Common String
+
+Given the strings `AABCXYZ` and `AXYZABC`, we want to find the longest common
+subsequence inside both of these strins.
+
+Now, from us just looking at it, we know that the Longest Common Subsequence
+is `AABC`.
+
+Now Step by step:
+
+### Step 1
+
+OPT(i)(j) = length of the longest common subsequence of first string (with 
+            length i) and second string (with length j)
+
+So using the above example of strings `AABCXYZ` and `AXYZABC`, where `i = 7`
+and `j = 7`,we assume that OPT(7)(7) = 4, because the LCS is `AABC`.
+
+### Step 2
+
+- Case 1: If first_string[i] != second_string[j]
+    - This case is basically saying if a specific character on both
+      strings are not the same.
+    - Using the above example, if `i = 6` and `j = 6`. Where the highlighted 
+      character is denoted using `| |`
+      `AABCXY |Z|`
+      `AXYZAB |C|`
+    - But you see, at this point we've identified the case, but not what we
+      should do once we've identified it.
+    - This part is similar to 1 Dimension, but this time we are iterating over
+      two strings instead of 1. Hence we take the optimal solution from right
+      before, which is either:
+      - OPT(i-1)(j)
+      - OPT(i)(j-1)
+    - Thus: `max( OPT(i-1)(j), OPT(i)(j-1) )`
+
+- Case 2: If first_string[i] == second_string[j]
+    - This case is basically saying if the characters are the same.
+    - Using the example, if `i = 6` and `j = 3`. Where the highlighted 
+      character is denoted using `| |`
+      `AABCXY   |Z|`
+      `AXY |Z| ABC`
+    - Same as above, similar to 1 dimension, but now we have 3 sub-cases
+        - OPT(i-1)(j-1) + 1
+            - This is saying the optimal solution of `AABCXY` and `AXY`
+              which is `AXY`, which is 3, plus 1 (which is `Z`).
+
+-  Base Case: Literally the start, However, we need two sets of base cases
+   because we are comparing two strings
+    - if i = 0, then we are comparing all j with an empty string.
+      - Specifically, OPT(0)(j) is saying the optimal solution for an string
+        length 0 and a string of length j.
+    - same for if j = 0
+    - Therefore:
+        - when i = 0, OPT(0)(j) = 0 for all j
+        - when j = 0, OPT(i)(0) = 0 for all i
+
+### Putting it together
+
+```txt
+OPT(i)(j) = { 0                              if i = 0 or j = 0
+          = { max(OPT(i-1)(j), OPT(i)(j-1))  if string_one[i] != string_two[j]
+          = { OPT(i-1)(j-1) + 1              if string_one[i] == string_two[j]
+```
+
+# Application in Biology (RNA Stuff)
 
 

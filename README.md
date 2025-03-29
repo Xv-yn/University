@@ -22,7 +22,6 @@
 >      Est. Given: 26 Mar 2025 Week 5 Wednesday
 >             Due: 09 Apr 2025 at 23:59 Week 7 Wednesday
 
-- [ ] INFO4444 Week 5 Notes
 - [ ] COMP3027 Week 5 Notes
 - [ ] COMP3027 Practice Recursion
 - [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
