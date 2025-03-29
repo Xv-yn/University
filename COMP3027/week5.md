@@ -41,7 +41,7 @@ Now, we need to find a way to build up to that solution.
 
 To do this, we need to define the possible cases from the optimal
 solution. In this case, we "build down" from the existing assumed
-solution.
+solution/we find the previous iteration. 
 
 - Case 1: Assume there exists an optimal solution for i - 1. For example,
   if i = 14, then we would assume there is a solution for 13.
@@ -235,4 +235,44 @@ OPT(i)(j) = { 0                              if i = 0 or j = 0
 
 # Application in Biology (RNA Stuff)
 
+
+
+# Application in Graphs (Shortest Path)
+
+Given a Graph G(V,E), we want to find the shortest path from node s to node t.
+
+To do this we assume we have a solution:
+
+OPT(i, v) = the shortest path from node v to node t in less than or equal to i 
+            edges.
+
+- Case 1: There exists a solution with less edges
+    - OPT(i-1, v)
+    - This is saying there is a path from node v to node t that exists in 
+      i-1 edges.
+
+- Case 2: There exists a node w such that path w to t uses i - 1 edges and
+          v is connected to w in 1 edge.
+    - OPT(i-1,w) + cost_vw
+    - More specifically its `min(OPT(i-1,w) + cost_vw)`
+    - Think about it like this:
+        - There exists multiple paths from w to t, if we be greedy and just
+          take the minimum of this path, we aren't looking at the overall
+          solution. Hence, we want the minimum OVERALL cost of path w to t
+          plus teh cost from v to w.
+
+- Base Case: 
+    - OPT(0,t) = 0
+        - This is aying that if we are at t, then cost to reach it is 0
+    - OPT(0,v) = inf
+        - This is saying, if we are at node v but have 0 edges to reach t
+          then its impossible to reach the goal node, hence its inf. Assuming
+          that v != t.
+
+Putting it together, we get:
+```txt
+OPT(i,v) = { 0                                            if i = 0 and v == t 
+           { inf                                          if i = 0 and v != t
+           { min(OPT(i-1,v), min(OPT(i-1,w) + cost_vw))   otherwise
+```
 

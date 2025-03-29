@@ -26,7 +26,7 @@
 >         Individual
 >      Est. Given: 9am Saturdays 
 >             Due: 3pm Tuesdays 
-> - [ ] (12%) Assignment 1 
+> - [x] (12%) Assignment 1 
 >         Group
 >      Est. Given: 08 Mar 2025 Week 3 Friday
 >             Due: 08 Apr 2025 at 23:59 Week 7 Tuesday
