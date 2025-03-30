@@ -140,7 +140,7 @@ def OPT(i):
     if i < 0:
         return float('inf')  # using infinity for invalid cases
     
-    return min(OPT(i - 1), OPT(i - 7), OPT(i - 10)) + 1
+    return min(OPT(i - 1) + 1, OPT(i - 7) + 1, OPT(i - 10) + 1)
 ```
 
 ## Another Example (Less Explanation)
@@ -168,13 +168,13 @@ The method is the same where:
 
 An example would be as follows:
 
-## Example: Longest Common String
+## Example: Longest Common Subsequence 
 
 Given the strings `AABCXYZ` and `AXYZABC`, we want to find the longest common
 subsequence inside both of these strins.
 
 Now, from us just looking at it, we know that the Longest Common Subsequence
-is `AABC`.
+is `AABC` or `AXYZ`.
 
 Now Step by step:
 
@@ -252,14 +252,14 @@ OPT(i, v) = the shortest path from node v to node t in less than or equal to i
       i-1 edges.
 
 - Case 2: There exists a node w such that path w to t uses i - 1 edges and
-          v is connected to w in 1 edge.
+          v is connected to w in 1 edge. Totalling i edges.
     - OPT(i-1,w) + cost_vw
     - More specifically its `min(OPT(i-1,w) + cost_vw)`
     - Think about it like this:
         - There exists multiple paths from w to t, if we be greedy and just
           take the minimum of this path, we aren't looking at the overall
           solution. Hence, we want the minimum OVERALL cost of path w to t
-          plus teh cost from v to w.
+          plus the cost from v to w.
 
 - Base Case: 
     - OPT(0,t) = 0

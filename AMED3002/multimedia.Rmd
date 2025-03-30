@@ -18,7 +18,8 @@ knitr::opts_chunk$set(echo = TRUE)
 Testing for R Code
 
 ```{r setup}
-setwd("~/Desktop/University/AMED3002/") # Set the working directory to wherever you data is
+# setwd("~/Desktop/University/AMED3002/") # Set the working directory to wherever you data is
+setwd(file.path("C:", "Users", "elwoo", "Desktop", "University", "AMED3002"))
 multideath <- read.csv("multideath.csv", fileEncoding = "latin1")
 cancer_rates <- read.csv("cancerrates.csv")
 ```
@@ -28,7 +29,7 @@ cancer_rates <- read.csv("cancerrates.csv")
 library(dplyr)
 cancer_subset <- cancer_rates %>%
   filter(
-    Cancer_Type %in% c("Breast cancer", "Lung cancer", "Pancreatic cancer", "Prostate cancer", "Skin cancer")
+    Cancer_Type %in% c("Breast cancer", "Lung cancer", "Pancreatic cancer", "Prostate cancer", "Non-melanoma skin cancer, all types", "Melanoma of the skin", "Non-melanoma skin cancer, rare types")
   )
 
 multi_subset <- multideath %>%
@@ -45,6 +46,14 @@ multi_subset$cause_of_death <- sapply(multi_subset$cause_of_death,
                                                           "Skin cancer (ICD-10 C43, C44)" = "Skin cancer")
                                       )
 
+cancer_subset <- cancer_subset %>%
+  mutate(Cancer_Type = case_when(
+    Cancer_Type %in% c("Melanoma of the skin", 
+                       "Non-melanoma skin cancer, all types", 
+                       "Non-melanoma skin cancer, rare types") ~ "Skin cancer",
+    TRUE ~ Cancer_Type
+  ))
+unique(cancer_subset$Cancer_Type)
 ```
 
 ## Including Plots
@@ -70,3 +79,145 @@ ggplot(subset, aes(x = Year, y = Age_0_to_4, group = Type, color = Type)) +
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+library(dplyr)
+lung <- cancer_rates %>%
+  filter(Cancer_Type == "Lung cancer", Type == "Mortality")
+
+age_cols <- grep("^Age_\\d|^Age_85\\+|^Age_Unknown", names(lung), value = TRUE)
+
+lung_avg <- lung %>%
+  filter(Cancer_Type == "Lung cancer", Type == "Mortality") %>%
+  rowwise() %>%
+  mutate(avg_mortality = mean(c_across(all_of(age_cols)), na.rm = TRUE)) %>%
+  ungroup() %>%
+  group_by(Year) %>%
+  summarise(avg_mortality = mean(avg_mortality, na.rm = TRUE))
+
+library(ggplot2)
+ggplot(lung_avg, aes(x = Year, y = avg_mortality)) +
+  geom_point(color = "blue", size = 2) +
+  labs(
+    title = "Average Lung Cancer Mortality Over Time",
+    x = "Year",
+    y = "Average Mortality (across age groups)"
+  )
+```
+
+```{r}
+library(tidyr)
+lung_multi <- multi_subset %>%
+  filter(cause_of_death == "Lung cancer") %>%
+  drop_na()
+
+lung_avg_multi <- lung_multi %>%
+  group_by(year) %>%
+  summarise(avg_mortality = mean(age_standardised_rate_per_100000, na.rm = TRUE))
+
+ggplot(lung_avg_multi, aes(x = year, y = avg_mortality)) +
+  geom_point(color = "blue", size = 2) +
+  labs(
+    title = "Average Lung Cancer Mortality Over Time",
+    x = "Year",
+    y = "age_standardised_rate_per_100000"
+  )
+```
+
+```{r}
+
+mortality <- cancer_subset %>%
+  filter(Type == "Mortality")
+
+# Identify all age-specific mortality columns (excluding standardized rates)
+age_cols <- grep("^Age_\\d|^Age_85\\+|^Age_Unknown", names(mortality), value = TRUE)
+
+# Calculate overall mortality (average across all age groups)
+mortality <- mortality %>%
+  rowwise() %>%
+  mutate(overall_mortality = mean(c_across(all_of(age_cols)), na.rm = TRUE)) %>%
+  ungroup()
+
+# Average mortality per cancer type
+cancer_mortality <- mortality %>%
+  group_by(Cancer_Type) %>%
+  summarise(avg_mortality = mean(overall_mortality, na.rm = TRUE)) %>%
+  arrange(desc(avg_mortality))
+
+# Plot
+ggplot(cancer_mortality, aes(x = reorder(Cancer_Type, avg_mortality), y = avg_mortality)) +
+  geom_col(fill = "skyblue") +
+  coord_flip() +
+  labs(
+    title = "Overall Mortality by Cancer Type",
+    x = "Cancer Type",
+    y = "Average Mortality (per 100,000 across age groups)"
+  )
+
+```
+
+```{r}
+
+multi_death_clean <- multi_subset %>%
+  filter(!is.na(age_standardised_rate_per_100000))
+
+cause_mortality <- multi_death_clean %>%
+  group_by(cause_of_death) %>%
+  summarise(avg_mortality = mean(age_standardised_rate_per_100000, na.rm = TRUE)) %>%
+  arrange(desc(avg_mortality))
+
+ggplot(cause_mortality, aes(x = reorder(cause_of_death, avg_mortality), y = avg_mortality)) +
+  geom_col(fill = "skyblue") +
+  coord_flip() +
+  labs(
+    title = "Average Mortality by Cause of Death",
+    x = "Cause of Death",
+    y = "Average Mortality Rate (per 100,000)"
+  )
+
+```
+
+
+```{r}
+plot_3_mortality <- cancer_subset %>%
+  filter(Type == "Mortality")
+
+plot_3_age_cols <- grep("^Age_\\d|^Age_85\\+|^Age_Unknown", names(plot_3_mortality), value = TRUE)
+
+plot_3_mortality <- plot_3_mortality %>%
+  rowwise() %>%
+  mutate(overall_mortality = mean(c_across(all_of(age_cols)), na.rm = TRUE)) %>%
+  ungroup()
+
+sex_mortality <- plot_3_mortality %>%
+  group_by(Year, Sex) %>%
+  summarise(avg_mortality = mean(overall_mortality, na.rm = TRUE), .groups = "drop")
+
+ggplot(sex_mortality, aes(x = Year, y = avg_mortality, color = Sex)) +
+  geom_line(size = 1.2) +
+  labs(
+    title = "Average Mortality Over Time by Sex",
+    x = "Year",
+    y = "Average Mortality (across age groups)"
+  )
+```
+
+```{r}
+
+multi_clean <- multi_subset %>%
+  filter(!is.na(age_standardised_rate_per_100000))
+
+new_sex_mortality <- multi_clean %>%
+  group_by(year, sex) %>%
+  summarise(avg_mortality = mean(age_standardised_rate_per_100000, na.rm = TRUE), .groups = "drop")
+
+ggplot(new_sex_mortality, aes(x = year, y = avg_mortality, color = sex)) +
+  geom_line(size = 1.2) +
+  labs(
+    title = "Average Mortality Over Time by Sex",
+    x = "Year",
+    y = "Average Crude Mortality Rate (per 100,000)"
+  )
+```
+
+
