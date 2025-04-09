@@ -1,88 +1,61 @@
-# Currently Week 5
+# Currently Week 7
 
 ## Todo
 
-> [!warning] COMP3027 Assignment 1
-> - [x] (7.5%) Assignment 1 
->         Individual
->      Est. Given: 10 Mar 2025 Week 3 Monday
->             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
+- [ ] [!caution] AMED3002 Test Prep
+- [ ] AMED3003 Content Review
 
-> [!warning] COMP3308
-> - [ ] (4%) Weekly Homework 
->         Individual
->      Est. Given: 9am Saturdays 
->             Due: 3pm Tuesdays 
-> - [ ] (12%) Assignment 1 
->         Group
->      Est. Given: 08 Mar 2025 Week 3 Friday
->             Due: 08 Apr 2025 at 23:59 Week 7 Tuesday
+- [ ] COMP3027 Week 6 notes (Flow Theory)
+- [ ] COMP3027 Week 7 notes (Flow Application)
+- [ ] COMP3027 Content Review
 
-> [!warning] INFO4444
-> - [ ] (15%) Assignment 1 
->         Individual
->      Est. Given: 14 Mar 2025 Week 3 Friday
->             Due: 28 Mar 2025 at 23:59 Week 5 Friday
+- [ ] COMP3308 Week 6 notes
+- [ ] COMP3308 Week 7 notes
+- [ ] COMP3308 Content Review
 
-- [ ] INFO4444 Week 4 Notes
-- [ ] COMP3027 Practice Recursion
-- [ ] COMP3027 Week 3 Notes Mater Theorem
-- [ ] COMP3308 Practice Proof of Correctness for Tutorial Algorithms
+- [ ] INFO4444 Week 5 notes
+- [ ] INFO4444 Week 6 notes
+- [ ] INFO4444 Week 7 notes
+- [ ] INFO4444 Content Review
 
 ### Active Assessments
 
 > [!note] AMED3002
-> - [ ] (6%) Lab Report: Module 2
->         Individual
->      Est. Given: 21 Mar 2025 Week 4 Friday
->             Due: 04 Apr 2025 at 23:59 Week 6 Friday
-> 
-> - [ ] (10%) Multimedia Project
->         Group
->      Est. Given: 24 Mar 2025 Week 5 Monday
->             Due: 07 Apr 2025 at 23:59 Week 7 Monday
->
-> - [ ] (10%) Oral Presentation 1 
->         Group
->      Est. Given: 24 Mar 2025 Week 5 Monday
->             Due: 07 Apr 2025 at 23:59 Week 7 Monday
-> 
 > - [ ] (2%) Reflection 1 
 >         Individual
 >      Est. Given: 28 Mar 2025 Week 5 Friday
 >             Due: 11 Apr 2025 at 23:59 Week 7 Friday
+>
+> - [ ] (35%) Skill-based Exam 
+>         Individual
+>      Est. Given: 01 Apr 2025 Week 5 Friday
+>             Due: 14 Apr 2025 at 18:00 Week 8 Monday 
 
 > [!note] COMP3027
 > - [ ] (10%) Weekly Quiz 
 >         Individual
 >      Est. Given: Every Thursday
 >             Due: Every Wednesday
-> 
-> - [ ] (7.5%) Assignment 1 
+> - [ ] (7.5%) Assignment 3 
 >         Individual
->      Est. Given: 10 Mar 2025 Week 3 Monday
->             Due: 26 Mar 2025 at 23:59 Week 5 Wednesday
+>      Est. Given: 23 Apr 2025 Week 8 Wednesday
+>             Due: 07 May 2025 at 23:59 Week 10 Wednesday
 
 > [!note] COMP3308
 > - [ ] (4%) Weekly Homework 
 >         Individual
 >      Est. Given: 9am Saturdays 
 >             Due: 3pm Tuesdays 
-> - [ ] (12%) Assignment 1 
+> - [ ] (24%) Assignment 2 
 >         Group
->      Est. Given: 08 Mar 2025 Week 3 Friday
->             Due: 08 Apr 2025 at 23:59 Week 7 Tuesday
+>      Est. Given: 09 Apr 2025 Week 7 Wednesday
+>             Due: 09 May 2025 at 23:59 Week 10 Friday
 
 > [!note] INFO4444
 > - [ ] (10%) Weekly Exercises 
 >         Individual
 >      Est. Given: Every Thursday 
 >             Due: Every Thursday 
-> 
-> - [ ] (15%) Assignment 1 
->         Individual
->      Est. Given: 14 Mar 2025 Week 3 Friday
->             Due: 28 Mar 2025 at 23:59 Week 5 Friday
 
 #### Tips
 
