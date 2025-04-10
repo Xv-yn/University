@@ -18,7 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r init}
 # setwd("~/Desktop/University/AMED3002/") # Set the working directory to wherever you data is
 setwd(file.path("C:", "Users", "elwoo", "Desktop", "University", "AMED3002"))
-multideath <- read.csv("multideath.csv", fileEncoding = "latin1")
+multideath <- read.csv("multideath.csv", fileEncoding = "Windows-1252")
 cancer_rates <- read.csv("cancerrates.csv")
 ```
 
