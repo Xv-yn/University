@@ -60,7 +60,7 @@ can be used for anything.
 # Crowdsourcing and Crowdfunding
 ## Crowdsourcing
 This is basically saying, "I don't know how to do this part" and asking
-people on the interne for help. This requires people from the public to
+people on the internet for help. This requires people from the public to
 voluntarily help and provide their expertise on the subject and they get
 a reward!
 
