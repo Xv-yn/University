@@ -200,7 +200,7 @@ kmeans_result <- kmeans(ScaledData, centers = 2)
 
 k_means_data$cluster <- as.factor(kmeans_result$cluster)
 
-ggplot(k_means_data, aes(x = Petal.Width, y = Petal.Length, color = cluster)) +
+ggplot(k_means_data, aes(x = Petal.Width, y = Petal.Length, color = Species)) +
   geom_point(size = 3, alpha = 0.7) +
   geom_encircle(aes(group = cluster), expand = 0.05, spread = 0.05,
                 color = "black", linetype = "dashed", size = 1.2) +
