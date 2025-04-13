@@ -1555,7 +1555,10 @@ margin-left: 0 !important;
           <div class="SidebarItems" id="toc">
             <ul>
             <li><a href="#library-initialization" id="toc-library-initialization">Library Initialization</a></li>
-            <li><a href="#data-initialization" id="toc-data-initialization">Data Initialization</a></li>
+            <li><a href="#data-initialization" id="toc-data-initialization">Data Initialization</a>
+            <ul>
+            <li><a href="#assumptions" id="toc-assumptions">Assumptions</a></li>
+            </ul></li>
             <li><a href="#data-cleaning" id="toc-data-cleaning">Data Cleaning</a>
             <ul>
             <li><a href="#convert-character-to-factor-turns-it-categorical" id="toc-convert-character-to-factor-turns-it-categorical">Convert “character” to factor (Turns it Categorical)</a></li>
@@ -1623,6 +1626,12 @@ library(naniar)</code></pre>
 
 # Artificially Add Column
 data$Size &lt;- ifelse(data$Sepal.Length &gt; 5, &quot;Large&quot;, &quot;Small&quot;)</code></pre>
+<div id="assumptions" class="section level3">
+<h3>Assumptions</h3>
+<blockquote>
+<p>We ALWAYS assume that observations (rows of data) are independent.</p>
+</blockquote>
+</div>
 </div>
 <div id="data-cleaning" class="section level2">
 <h2>Data Cleaning</h2>
@@ -1963,17 +1972,6 @@ summary(anova_result)</code></pre>
 ## Residuals   147   6.16    0.04                   
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
-<pre class="r"><code>TukeyHSD(anova_result)</code></pre>
-<pre><code>##   Tukey multiple comparisons of means
-##     95% family-wise confidence level
-## 
-## Fit: aov(formula = Petal.Width ~ Species, data = data)
-## 
-## $Species
-##                      diff       lwr       upr p adj
-## versicolor-setosa    1.08 0.9830903 1.1769097     0
-## virginica-setosa     1.78 1.6830903 1.8769097     0
-## virginica-versicolor 0.70 0.6030903 0.7969097     0</code></pre>
 </div>
 <div id="way-anova-1" class="section level4">
 <h4>2 way ANOVA</h4>
@@ -1985,6 +1983,9 @@ summary(aov_2_result)</code></pre>
 ## Residuals   146   5.91    0.04                   
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+</div>
+<div id="additional-test-after-anova" class="section level4">
+<h4>Additional Test AFTER ANOVA</h4>
 <pre class="r"><code>TukeyHSD(aov_2_result)</code></pre>
 <pre><code>##   Tukey multiple comparisons of means
 ##     95% family-wise confidence level

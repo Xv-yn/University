@@ -34,6 +34,9 @@ data <- iris
 data$Size <- ifelse(data$Sepal.Length > 5, "Large", "Small")
 ```
 
+### Assumptions
+> We ALWAYS assume that observations (rows of data) are independent.
+
 ## Data Cleaning
 
 ### Convert "character" to factor (Turns it Categorical)
@@ -236,16 +239,13 @@ anova_result = aov(Petal.Width~Species, data)
 summary(anova_result)
 ```
 
-```{r}
-TukeyHSD(anova_result)
-```
-
 #### 2 way ANOVA
 ```{r}
 aov_2_result <- aov(Petal.Width ~ Species + Size, data)
 summary(aov_2_result)
 ```
 
+#### Additional Test AFTER ANOVA
 
 ```{r}
 TukeyHSD(aov_2_result)
