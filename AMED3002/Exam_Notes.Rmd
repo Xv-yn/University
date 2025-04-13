@@ -1,0 +1,252 @@
+---
+title: "Exam_Notes"
+author: "Elwood Fong"
+date: "2025-04-13"
+output: 
+  rmdformats::downcute:
+    number_sections: false
+    toc_depth: 3
+    use_bookdown: true
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Library Initialization
+
+```{r, message=FALSE, warning=FALSE}
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(ggalt)
+library(naniar)
+```
+
+## Data Initialization
+
+```{r}
+data <- iris
+# data <- read.csv("FilePath\to\csvFile")
+
+# Artificially Add Column
+data$Size <- ifelse(data$Sepal.Length > 5, "Large", "Small")
+```
+
+## Data Cleaning
+
+### Convert "character" to factor (Turns it Categorical)
+
+```{r}
+data$Size <- as.factor(data$Size)
+```
+
+### Visualizing Missingness of Data
+```{r}
+vis_miss(data)
+```
+
+### Remove NA Values
+
+```{r}
+data <- na.omit(data)
+```
+
+### Getting Dimensions of Data (See Observations and Variables)
+
+```{r}
+dim(data)
+# Outputs: 
+# Observations: 150    Variables: 6
+```
+
+### Changing Data Dimensions
+
+```{r}
+grouped_data <- data
+grouped_data %>%
+  group_by(Species) %>%
+  summarise(
+    mean_Petal.Length = mean(Petal.Length, na.rm = TRUE), 
+    median_Petal.Length = median(Petal.Length, na.rm = TRUE))
+```
+
+```{r}
+grouped_data <- data
+grouped_data %>%
+  group_by(Species) %>%
+  summarise(
+    mean_Petal.Length = mean(Petal.Length, na.rm = TRUE), 
+    median_Petal.Length = median(Petal.Length, na.rm = TRUE)) %>%
+  pivot_longer(cols=c("mean_Petal.Length", "median_Petal.Length"), names_to="summary", values_to="length")
+```
+
+### Scaling Data {#datascaling}
+
+```{r}
+ScaledData <- data %>%
+  dplyr::select(-Species, -Size) %>%
+  scale()
+head(ScaledData)
+# Output:
+# Table of Scaled Data
+# Should only be done with numerical variables
+```
+
+## Reading Data
+
+### Get Row with Minimum Petal.Length
+
+```{r}
+library(tidyr)
+data %>%
+  filter(data$Petal.Length==min(data$Petal.Length))
+```
+
+### Count Number of NA Values
+
+```{r}
+sum(is.na(data))
+# Outputs:
+# Number of NA values: 0
+```
+
+### Count Number of rows with NA Values
+
+```{r}
+sum(!complete.cases(data))
+# Outputs:
+# Number of rows with NA values: 0
+```
+
+### Check Variable Data Types
+```{r}
+sapply(data,class)
+# Outputs:
+# Sepal.Length  Sepal.Width Petal.Length  Petal.Width       Species         Size 
+#    "numeric"    "numeric"    "numeric"    "numeric"      "factor"      "factor"
+
+# Type of Variable:
+# Sepal.Length  Sepal.Width Petal.Length  Petal.Width       Species         Size 
+#  "numerical"  "numerical"  "numerical"  "numerical" "categorical" "categorical"
+```
+
+### Constructing a Contingency Table
+```{r}
+contingency_table <- table(data$Species, data$Size)
+contingency_table
+```
+
+## Analyzing Data
+
+### Chi-Squared Test
+
+#### Requirements
+- Comparing 2 CATEGORICAL variables
+- H~0~  = Null Hypothesis 
+  - There is no relationship between variables
+  - TRUE only if `p-value` > 0.05
+- H~a~  = Alternate Hypothesis 
+  - There is a relationship between variables
+  - TRUE only if `p-value` < 0.05
+
+#### Application
+```{r}
+chisq_tab <- table(data$Species, data$Size)
+chisq_result = chisq.test(chisq_tab)
+chisq_result
+```
+
+#### Chi-Squared Test Result Components
+
+| R Code                     | Meaning / Description                                                     | Interpretation / Usage                         |
+|---------------------------|----------------------------------------------------------------------------|------------------------------------------------|
+| `chisq_result$statistic`  | Chi-squared Test Statistic (X²)                                            | Higher value → More difference between observed and expected counts and stronger evidence against H₀   |
+| `chisq_result$parameter`  | Degrees of Freedom (df)                                                    | Depends on table size: (rows-1) × (cols-1) → just tells you how many categories you're comparing   |
+| `chisq_result$p.value`    | P-value (significance level)                                               | Small p-value (< 0.05) → Reject H₀           |
+| `chisq_result$observed`   | Observed counts from your data                                             | Actual values in your data table              |
+| `chisq_result$expected`   | Expected counts under the null hypothesis                                  | What values you'd expect if no association, if Expected Count ≥ 5 → The Chi-squared test is reliable.    |
+| `chisq_result$residuals`  | Raw Residuals = (Observed - Expected) / sqrt(Expected)                    | Measures difference between observed and expected → if bigger, then stronger evidence against H₀        |
+| `chisq_result$stdres`     | Standardized Residuals (scaled residuals) →                               | Values Between -2 and 2	supports H₀, Bigger than 2 or less than -2 supports H~a~ |
+
+---
+
+```{r}
+chisq_result$statistic       # Test statistic
+chisq_result$parameter       # Degrees of freedom
+chisq_result$p.value         # P-value
+chisq_result$observed        # Observed table
+chisq_result$expected        # Expected counts
+chisq_result$residuals       # Residuals
+chisq_result$stdres          # Standardized residuals
+```
+
+#### Chi-Squared Test Result Analysis
+```{r}
+chisq_result$stdres > 2 | chisq_result$stdres < -2
+```
+
+### K Means Clustering
+
+> Requires Data Scaling from [data scaling](#datascaling)
+
+```{r}
+set.seed(256)
+
+k_means_data <- data
+
+kmeans_result <- kmeans(ScaledData, centers = 2)
+
+k_means_data$cluster <- as.factor(kmeans_result$cluster)
+
+ggplot(k_means_data, aes(x = Petal.Width, y = Petal.Length, color = cluster)) +
+  geom_point(size = 3, alpha = 0.7) +
+  geom_encircle(aes(group = cluster), expand = 0.05, spread = 0.05,
+                color = "black", linetype = "dashed", size = 1.2) +
+  labs(title = "Title",
+       x = "Petal.Width", y = "Petal.Length")
+```
+
+### ANOVA
+
+#### Requirements
+- Comparing 1 CATEGORICAL and 1 NUMERICAL variable
+- H~0~  = Null Hypothesis 
+  - There is no relationship between variables
+  - TRUE only if `p-value` > 0.05
+- H~a~  = Alternate Hypothesis 
+  - There is a relationship between variables
+  - TRUE only if `p-value` < 0.05
+  
+#### ANOVA Result Componenets
+
+| ANOVA Output Column | Meaning / Description                                                | Interpretation / Usage                                    |
+|--------------------|----------------------------------------------------------------------|-----------------------------------------------------------|
+| `Df`               | Degrees of Freedom                                                   | Number of groups - 1 for factor; Number of observations - groups for residuals |
+| `Sum Sq`           | Sum of Squares                                                       | Total variation explained by factor or left in residuals  |
+| `Mean Sq`          | Mean Square = Sum Sq / Df                                            | Average variation per degree of freedom                  |
+| `F value`          | F-statistic = Mean Sq of Factor / Mean Sq of Residuals               | Higher value → Stronger evidence against H₀ (factor affects response variable) |
+| `Pr(>F)`           | P-value for F-statistic                                              | Small p-value (< 0.05) → Reject H₀ → Factor has significant effect |
+  
+#### 1 way ANOVA
+
+```{r}
+anova_result = aov(Petal.Width~Species, data)
+summary(anova_result)
+```
+
+```{r}
+TukeyHSD(anova_result)
+```
+
+#### 2 way ANOVA
+```{r}
+aov_2_result <- aov(Petal.Width ~ Species + Size, data)
+summary(aov_2_result)
+```
+
+
+```{r}
+TukeyHSD(aov_2_result)
+```
