@@ -239,14 +239,37 @@ anova_result = aov(Petal.Width~Species, data)
 summary(anova_result)
 ```
 
+1. Species:
+- Df = 2 → There are 3 species groups (k-1 = 3-1 = 2).
+- Sum Sq = 80.41 → Most of the variation comes from the species differences.
+- F value = 960 → This is huge. It means the variation between species is much bigger than the variation within species.
+- p-value < 2e-16 → This is basically 0. Very statistically significant (*** means p < 0.001).
+
+Conclusion: The species groups have significantly different means.
+
+2. Residuals:
+- Df = 147 → There were 150 total observations (because N-k = 147, so N=147+3=150).
+- Sum Sq = 6.16 → Only a small amount of variation comes from randomness within species.
+- Mean Sq = 0.04 → Very small — shows low within-group variability.
+
 #### 2 way ANOVA
 ```{r}
 aov_2_result <- aov(Petal.Width ~ Species + Size, data)
 summary(aov_2_result)
 ```
+Same analysis as above (do the same for Size) but with the following conlusion:
+
+"Species matters a lot more than size in this data. Size still has a small effect, but species differences explain most of the variation. Both species and size are statistically significant."
 
 #### Additional Test AFTER ANOVA
 
 ```{r}
 TukeyHSD(aov_2_result)
 ```
+
+All species pairs are significantly different from each other (p-value = 0). 
+- Note that the difference between virginica and setosa is the largest.
+
+
+There is a very small difference in Petal.Width between Small and Large sizes. p-value is about 0.05 → Barely statistically significant.
+ - Since the confidence interval barely touches 0, the result is very weak — this could be borderline or not practically significant.

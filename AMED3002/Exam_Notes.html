@@ -1972,6 +1972,24 @@ summary(anova_result)</code></pre>
 ## Residuals   147   6.16    0.04                   
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<ol style="list-style-type: decimal">
+<li>Species:</li>
+</ol>
+<ul>
+<li>Df = 2 → There are 3 species groups (k-1 = 3-1 = 2).</li>
+<li>Sum Sq = 80.41 → Most of the variation comes from the species differences.</li>
+<li>F value = 960 → This is huge. It means the variation between species is much bigger than the variation within species.</li>
+<li>p-value &lt; 2e-16 → This is basically 0. Very statistically significant (*** means p &lt; 0.001).</li>
+</ul>
+<p>Conclusion: The species groups have significantly different means.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Residuals:</li>
+</ol>
+<ul>
+<li>Df = 147 → There were 150 total observations (because N-k = 147, so N=147+3=150).</li>
+<li>Sum Sq = 6.16 → Only a small amount of variation comes from randomness within species.</li>
+<li>Mean Sq = 0.04 → Very small — shows low within-group variability.</li>
+</ul>
 </div>
 <div id="way-anova-1" class="section level4">
 <h4>2 way ANOVA</h4>
@@ -1983,6 +2001,8 @@ summary(aov_2_result)</code></pre>
 ## Residuals   146   5.91    0.04                   
 ## ---
 ## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1</code></pre>
+<p>Same analysis as above (do the same for Size) but with the following conlusion:</p>
+<p>“Species matters a lot more than size in this data. Size still has a small effect, but species differences explain most of the variation. Both species and size are statistically significant.”</p>
 </div>
 <div id="additional-test-after-anova" class="section level4">
 <h4>Additional Test AFTER ANOVA</h4>
@@ -2001,6 +2021,10 @@ summary(aov_2_result)</code></pre>
 ## $Size
 ##                    diff        lwr          upr     p adj
 ## Small-Large -0.07913136 -0.1583863 0.0001235398 0.0503535</code></pre>
+<p>All species pairs are significantly different from each other (p-value = 0).
+- Note that the difference between virginica and setosa is the largest.</p>
+<p>There is a very small difference in Petal.Width between Small and Large sizes. p-value is about 0.05 → Barely statistically significant.
+- Since the confidence interval barely touches 0, the result is very weak — this could be borderline or not practically significant.</p>
 </div>
 </div>
 </div>
