@@ -273,3 +273,32 @@ All species pairs are significantly different from each other (p-value = 0).
 
 There is a very small difference in Petal.Width between Small and Large sizes. p-value is about 0.05 → Barely statistically significant.
  - Since the confidence interval barely touches 0, the result is very weak — this could be borderline or not practically significant.
+ 
+### Linear Regression
+
+#### Requirements
+- Comparing 2 NUMERICAL variables
+- H~0~  = Null Hypothesis 
+  - There is no relationship between variables
+  - TRUE only if `p-value` > 0.05
+- H~a~  = Alternate Hypothesis 
+  - There is a relationship between variables
+  - TRUE only if `p-value` < 0.05
+
+#### Application
+```{r}
+fit <- lm(Petal.Width~Petal.Length, data)
+summary(fit)
+```
+
+Petal.Length is a very strong predictor of Petal.Width. 
+
+The model explains 92.7% of the variation (R² = 0.9271). 
+
+Every 1 unit increase in Petal.Length increases Petal.Width by about 0.416 units. 
+
+The model is highly statistically significant (p-value < 2.2e-16).
+
+```{r}
+ggplot(data,aes(x = Petal.Width,y =Petal.Length))+geom_point(aes(color = Species)) + theme_bw() + geom_smooth(method = 'lm', formula=  y ~ x)
+```
