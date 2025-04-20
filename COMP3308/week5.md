@@ -64,7 +64,7 @@ between all "new samples" and "samples of the dataset".
 
 ### Euclidean Distance
 
-Distance = sqrt((new_sample - sample_1) + (new\_sample - sample\_2) + ...)
+Distance = sqrt((new_sample - sample_1)^2 + (new\_sample - sample\_2)^2 + ...)
 
 This distance is then compared against all samples to find the k nearest samples 
 

@@ -5,6 +5,23 @@
                             path_cost + heuristic_value
     - To handle ties, the first node added to the queue is chosen first
 
+f(n) is also called the f-value. This is basically an estimate of the distance of the 
+entire path.
+
+Using an example, say I'm at the start of a walking path. On estimate I need to walk 10 
+kilometers to reach the end. 
+In this scenario, the path cost = 0 and the heuristic value = 10, thus, the f-value = 10
+- path cost = 0 because I haven't walked any distance yet
+- heuristic value = 10 because I think I need to walk 10 km
+- f-value = 10, which the total path distance I need to walk from start to end
+
+Now that I'm halfway, I have already walked 5 kilometers. Looking at the estimate I 
+need to walk another 5 kilometers to reach the end.
+In this scenario, the path cost = 5 and the heuristic value = 5, thus, the f-value = 10
+- path cost = 5 because I have already walked 5 kilometers
+- heuristic value = 5 because I think I need to walk another 5 km to reach the end
+- f-value = 10, which is still the total path distance I need to walk from start to end
+
 ## Admissible Heuristics
 Each node in a graph/tree is given a heuristic value (calculated by 
 the evaluation function). 
@@ -149,6 +166,28 @@ h(n) <= c(n, n\`) + h(n\`)
 > must be less than or equal to (<=)
 > the cost of travelling to the neighbouring node (c(n, n\`))
 > and the distance from the neighbouring node to the goal combined (+ h(n\`))
+
+> [!caution] Intuititively
+> Assuming that all the heuristics that we check are admissable (meaning that they are
+> optimistic) we are saying that the estimated distance to reach the goal from where we 
+> are must always be less than or equal to the cost to travel to any neightbour plus 
+> their estimate to the goal.
+
+```txt
+    We need to travel 3 km to reach (G)
+              |
+              v
+[2]          [3]          [1]          [0] 
+(S) -------> (A) -------> (B) -------> (G)
+       3            4             3
+                 '----------' 
+                       ^
+                       |
+    We need to travel 4 + 1 = 5 km to reach (G)
+
+Putting this together, we get "optimistically we need to travel 3 km, if we go to node 
+B we need to travel a total of 5 km"
+```
 
 In simpler terms, lets say we were at node `a` in the above graph. It would make 
 more sense to directly travel to `G` with a cost of 4 instead of going to `b` then `G`.

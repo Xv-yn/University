@@ -100,6 +100,10 @@ need to look at the sub-trees of C and D. As such we "prune" those branches.
 Now, the most obvious thought is, to get those values, don't we need to look from the leaf
 nodes? Making "pruning" essentially pointless extra steps?
 
+> [!note] NOTE
+> It's like seeing 2 moves in advance!
+> You can only really prune with 3 layers, it's possible with 2 but less accurate 
+
 Technically yes, but here is an example where it is less nodes to generate:
 ```txt
          >=3        MAX
@@ -115,9 +119,15 @@ Technically yes, but here is an example where it is less nodes to generate:
  / | \   / | \
 3  12 8 2  X  X     
 ```
-So if we look here, at leaf node `2` we know immediately that MIN will pick `2` and the
-neighbouring node is clearly bigger than 2 (it's 3). So why bother generating the other two
-nodes if we are never going to pick the node labelled `2`.
+So if we look here, to get 3, we iterate over all the children and determine that 3 
+is the smallest child. Similarley to the neightbouring branch, its first child is 2.
+
+Now if we let `2` become the "parent" the MAX player would never pick this, due to 3 
+being bigger. So it doen't matter what in the other two `X` because even if its a 
+bigger number MIN would pick `2` and MAX would NEVER pick `2` over 3.
+
+So why bother generating the other two nodes if we are never going to pick the node 
+labelled `2`.
 
 ## Still Not Enough
 

@@ -90,6 +90,13 @@ while temp_stack is not empty:
 Time Complexity: O(b^d)
 
 ## Uniform Cost Search
+
+This form of searching is basically:
+- start with cost 1
+- see how far we can make it from left to right with a cost of 1
+- after all possible nodes have been expanded, attempt with cost 2
+- and so on until the entire graph is traversed
+
 ```txt
 # Assumed node structure Node(cost, children[], other_data)
 

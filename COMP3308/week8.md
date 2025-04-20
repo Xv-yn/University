@@ -95,6 +95,23 @@ In a more formal approach:
     - The prediction is already correct, so:
         w_new = w_old
 
+> [!note] Note
+> p = input
+> t = target
+> a = output
+> w = weight
+> b = bias
+> e = error
 
+```txt
+Init:
+w = [0,0,0]
+b = 0
 
-
+Each Iteration:
+p = [0,0,0]     t = 0
+a = step((p * w) + b)
+e = t - a
+w_new = w_old + (e * p)
+b_new = b_old + e
+```
