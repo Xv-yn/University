@@ -5,6 +5,14 @@ P(A|B) = P(B|A) * P(A) /
 
 P(A|B) = Probability of A given B
 P(B|A) = Probability of B given A
+
+> [!important]
+> Note that P(B|A) can be split into:
+> - P(Variable_1 = XXX | A)
+> - P(Variable_2 = XXX | A) and so on...
+> 
+> And P(B|A) = P(Variable\_1 = XXX | A) * P(Variable\_2 = XXX | A) * ...
+
 P(A) = Probability of A
 P(B) = Probability of B
 

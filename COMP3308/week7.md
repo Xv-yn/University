@@ -81,6 +81,23 @@ And there would be 6 of these "P_x * log\_2(P\_x)" added together.
 
 Note that ALL probabilities must add up to 1.
 
+>[!important] Further Notation
+> I(P(x),P(y)) = -(P_x * log\_2(P\_x) + P\_y * log\_2(P\_y))
+> I() is a simplified notation of saying the entropy function
+
+When we "split" based on a specific variable, we want to split by the 
+different categorical values of the variable and compare against the desired 
+output.
+
+For example, say property 1 (P1) only has T and F. And each T or F will give 
+either a + or -. 
+
+A split on P1 would lead to H(P1_T) and H(P1_F).
+
+And to calculate H(P1_T), we use I(Probability(+),Probability(-))
+
+And same for P1_F
+
 ## Information Gain
 
 Information gain is a number that tells you how much entropy 
