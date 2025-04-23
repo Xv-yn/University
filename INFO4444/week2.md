@@ -81,7 +81,7 @@ Expectations
 Example: Amazon Alexa
         1. It seemed like a perfect AI
         2. It was fun to use
-        3. Realized that it was only really sued for music and lights
+        3. Realized that it was only really used for music and lights
         4. Acceptance
 
 ## Design Dominance

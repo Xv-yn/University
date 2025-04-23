@@ -3,19 +3,20 @@
 ## Todo
 
 Sunday & Monday
-- [ ] COMP3308 Week 1 ~ 8 Revision
-- [ ] COMP3308 Week 1 ~ 8 Tutorial Work
-- [ ] COMP3308 Assignment
+- [x] COMP3308 Week 1 ~ 8 Revision
+- [x] COMP3308 Week 1 ~ 8 Tutorial Work
+- [x] COMP3308 Assignment
 
 Tuesday & Wednesday
-- [ ] INFO4444 Week 1 ~ 8 Revision
-- [ ] INFO4444 Week 1 ~ 8 Tutorial Work
-- [ ] INFO4444 Assignment
+- [x] INFO4444 Week 1 ~ 8 Revision
+- [x] INFO4444 Week 1 ~ 8 Tutorial Work
+- [x] INFO4444 Assignment
 
 Thursday & Friday
 - [ ] COMP3027 Week 1 ~ 8 Revision
 - [ ] COMP3027 Week 1 ~ 8 Tutorial Work
 - [ ] COMP3027 Weekly Quiz
+- [ ] COMP3027 Assignment 3
 
 Saturday & Sunday
 - [ ] AMED3002 Week 1 ~ 8 Revision
