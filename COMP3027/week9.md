@@ -77,7 +77,6 @@
           CANNOT pick ¬x₂ in the second clause because ¬x₂ MUST be false.
         - This is why we connect each literal to each of its negation.
 
-
 ## NP-Hard Problems
 
 ## NP-Complete Problems
