@@ -4,12 +4,12 @@
 
 - [ ] COMP3027 Week 10 Notes
 - [ ] COMP3027 Week 11 Notes
-- [ ] [!caution] COMP3027 Assignment
+- [x] [!caution] COMP3027 Assignment
 
-- [ ] COMP3308 Week 11 Notes
+- [x] COMP3308 Week 11 Notes
 
-- [ ] INFO4444 Week 11 Notes
-- [ ] [!caution] INFO4444 Assignment
+- [x] INFO4444 Week 11 Notes
+- [x] [!caution] INFO4444 Assignment
 
 - [ ] [!caution] AMED3002 Assignment
 
