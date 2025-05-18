@@ -2,7 +2,7 @@
 
 ## Todo
 
-- [ ] COMP3027 Week 10 Notes
+- [x] COMP3027 Week 10 Notes
 - [ ] COMP3027 Week 11 Notes
 - [x] [!caution] COMP3027 Assignment
 
