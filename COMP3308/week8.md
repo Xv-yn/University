@@ -109,7 +109,7 @@ w = [0,0,0]
 b = 0
 
 Each Iteration:
-p = [0,0,0]     t = 0
+p = [1,0,0]     t = 0
 a = step((p * w) + b)
 e = t - a
 w_new = w_old + (e * p)
