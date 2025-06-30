@@ -19,15 +19,27 @@ In simpler terms, we are adding the `d_in` and `d_out` variables:
       Now, you expand to 256 traits — adding things like 
       imaginative, adaptable, strategic, witty, etc.
 - `len(input_embeddings) = len(d_out)`
-    - In this scenario, you're applying a transformation without changing size 
-      — but you're still applying learned weights.
-    - Same number of emotional traits, but maybe you're reframing or reweighing 
-      them — realizing “kindness” is more important in this context than “funny.”
+    - In this scenario, you're applying a transformation without changing 
+      size — but you're still applying learned weights.
+    - Same number of emotional traits, but maybe you're reframing or 
+      reweighing them — realizing “kindness” is more important in this 
+      context than “funny.”
 - `len(input_embeddings) > len(d_out)`
     - In this scenario, you're reducing the number of dimensions.
-    - You have 1024 nuanced emotional traits, but you need to boil that down to just 256 for quick 
-      decision-making — like compressing a detailed personality test into a short 
-      profile.
+    - You have 1024 nuanced emotional traits, but you need to boil that down 
+      to just 256 for quick decision-making — like compressing a detailed 
+      personality test into a short profile.
+
+We can also speed up the learning process by splitting the initial token 
+embeddings into sections we call "heads". For example, say we have 256 
+embeddings per token, and we create 4 heads.
+- Head 1 gets embedding dimensions 0–63
+- Head 2 gets 64–127
+- Head 3 gets 128–191
+- Head 4 gets 192–255
+
+Doing this allows the model to learn faster, e.g. Head 1 learns grammer, 
+Head 2 learns context, etc. 
 
 ```python
 batch = torch.stack((inputs, inputs), dim=0)
@@ -73,6 +85,7 @@ class MultiHeadAttention(nn.Module):
         values = values.transpose(1, 2)
 
         # Compute scaled dot-product attention (aka self-attention) with a causal mask
+        # Results in: (b, num_heads, num_tokens, num_tokens)
         attn_scores = queries @ keys.transpose(2, 3)  # Dot product for each head
 
         # Original mask truncated to the number of tokens and converted to boolean
