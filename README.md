@@ -1,2 +1,12 @@
-Test
+# Current Week 0
+
+## TODO:
+
+- [ ] Install Meandering Programmer Markdown Formatter
+- [ ] Course Familiarization for COMP3502
+- [ ] Course Familiarization for MIMI2002
+- [ ] Course Familiarization for AMED3003
+- [ ] Assessment Schedule for COMP3502
+- [ ] Assessment Schedule for AMED3003
+- [ ] Assessment Schedule for MIMI2002
 
