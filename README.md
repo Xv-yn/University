@@ -5,6 +5,7 @@
 
 - [x] Install Meandering Programmer Markdown Formatter
 - [ ] Set up LSP for neovim
+- [ ] Install BSPWM on ElBook
 
 - [ ] Course Familiarization for COMP3502
     - [ ] Content skim
