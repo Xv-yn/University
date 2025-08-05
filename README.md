@@ -2,10 +2,18 @@
 
 ## TODO:
 
-- [ ] AMED3003 Assignment Sketch
-- [ ] AMED3003 Content Revision
+### Wednesday
+
 - [ ] COMP3520 Lecture Notes
-- [ ] MIMI2002 Lecture Notes
-- [ ] MIMI2002 Contet Revision
-- [ ] MIMI2002 Prac Preparation
+- [ ] AMED3003 Assignment Sketch
+
+### Thursday
+
 - [ ] AMED3003 Week 2 Content Review
+- [ ] AMED3003 Prac Preparation
+
+### Friday
+
+- [ ] MIMI2002 Lecture Notes
+- [ ] MIMI2002 Content Revision
+- [ ] MIMI2002 Prac Preparation

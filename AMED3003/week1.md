@@ -34,27 +34,36 @@ Literally, Biomarkers can be:
 > Not all biomarkers fall under just one category, a biomarker can fall under multiple categories
 
 - Diagnostic Biomarkers
+  - "Do you have the disease?"
   - Detects or confirms the presence of a disease; needs to be measured precisely, reliably,
-    repeatedly at low cost; e.g troponin in blood for heart attack.
+    repeatedly at low cost
+  - e.g troponin in blood for heart attack.
 - Prognostic
-  - Describes the recurrence or disease progression; e.g high HER2 receptor positivity in breast
-    cancer.
+  - "How bad is the disease? What might happen?"
+  - Describes the recurrence or disease progression
+  - e.g high HER2 receptor positivity in breast cancer.
 - Predictive
-  - Presence or change predicts an individual to have a likely favourable or unfavourable effect;
-    e.g high HbA1c levels predicts advancement to diabetes.
+  - "Will this person respond to treatment? Or get this disease?"
+  - Presence or change predicts an individual to have a likely favourable or unfavourable effect
+  - e.g high HbA1c levels predicts advancement to diabetes.
 - Monitoring Response
+  - "Is the treatment working?"
   - Biomarker that is measured serially to assess the status of the disease for evidence of exposure,
-    or to detect an effect of a product/agent; e.g monitoring blood pressure when being treated with
+    or to detect an effect of a product/agent
+  - e.g monitoring blood pressure when being treated with
     drugs for hypertension;
-    When level of the biomarker changes with exposure to agent/therapy;
-    e.g expected blood glucose level decrease as a response to diabetes treatment
+  - When level of the biomarker changes with exposure to agent/therapy;
+  - e.g expected blood glucose level decrease as a response to diabetes treatment
 - Safety
-  - That is measured before or after an intervention to indicate extent of toxicity, adverse event;
-    e.g serum lead levels for lead exposure; urinary cotinine levels to indicate nicotine (cigarette
+  - "Is this treatment harming the patient?"
+  - That is measured before or after an intervention to indicate extent of toxicity, adverse event
+  - e.g serum lead levels for lead exposure; urinary cotinine levels to indicate nicotine (cigarette
     smoke) exposure
 - Susceptibility
+  - "Are you at risk of getting the disease?"
   - Biomarker that indicates the potential to develop a disease (who currently does not have the
-    condition); e.g elevated LDL as a risk for developing coronary artery disease
+    condition)
+  - e.g elevated LDL as a risk for developing coronary artery disease
 
 ## What makes a good biomarker?
 
@@ -107,8 +116,9 @@ These are the common methods to detect biomarkers:
 - Simply put: Checkpoint Inhibitors are drugs that search for a specific protein that is produced due
   to the existence of a specifc cancer gene (doesn't have to be a cancer gene) and binds to that
   protein to neutralize it (make that protein useless)
-- PD1/PDL1 axis
-- Anti-PD1 antibodies have shown great success
+- E.g:
+  - PD1/PDL1 axis
+  - Anti-PD1 antibodies have shown great success
 
 ## Biomarkers for response to immunotherapy for Melanoma - checkpoint inhibition
 
@@ -178,7 +188,7 @@ negative test
 
 - How correct are the identifications
 
-## Disgnostic Assays
+## Diagnostic Assays
 
 - 2D, 3D, fluidics, microfluidics
 - Microscopy
