@@ -4,7 +4,7 @@
 
 ### Wednesday
 
-- [ ] COMP3520 Lecture Notes
+- [x] COMP3520 Lecture Notes
 - [ ] AMED3003 Assignment Sketch
 
 ### Thursday
@@ -17,3 +17,7 @@
 - [ ] MIMI2002 Lecture Notes
 - [ ] MIMI2002 Content Revision
 - [ ] MIMI2002 Prac Preparation
+
+## Saturday
+
+- [ ] COMP3502 Content Review
