@@ -5,12 +5,12 @@
 ### Wednesday
 
 - [x] COMP3520 Lecture Notes
-- [ ] AMED3003 Assignment Sketch
+- [x] AMED3003 Assignment Sketch
 
 ### Thursday
 
-- [ ] AMED3003 Week 2 Content Review
-- [ ] AMED3003 Prac Preparation
+- [x] AMED3003 Week 2 Content Review
+- [x] AMED3003 Prac Preparation
 
 ### Friday
 

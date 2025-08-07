@@ -4,6 +4,9 @@
 2. Assignment - Can I use stock images?
 3. Assignment - Can I use googled Images and reference them?
 
+https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.642380/full
+https://www.sciencedirect.com/science/article/pii/S1040842824001781
+
 # Biomarkers
 
 "A **defined characteristic** that is measured and evaluated by as an indicator of normal biological
