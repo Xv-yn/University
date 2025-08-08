@@ -14,10 +14,13 @@
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
-- [ ] MIMI2002 Content Revision
-- [ ] MIMI2002 Prac Preparation
+- [x] MIMI2002 Lecture Notes
+- [x] MIMI2002 Content Revision
+- [x] MIMI2002 Prac Preparation
 
 ## Saturday
 
-- [ ] COMP3502 Content Review
+- [ ] COMP3502 Notes Rewrite
+- [ ] AMED3002 Notes Rewrite
+
+## Sunday
