@@ -1,28 +1,26 @@
-# Questions
-
-1. Assignment - Can I use GPT to generate Images(Icons)?
-2. Assignment - Can I use stock images?
-3. Assignment - Can I use googled Images and reference them?
-
-https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2021.642380/full
-https://www.sciencedirect.com/science/article/pii/S1040842824001781
-
 # Biomarkers
 
-"A **defined characteristic** that is measured and evaluated by as an indicator of normal biological
-processes, pathogenic processes or responses to an exposure or therapeutic intervention"
+A biomarker is defined as follows:
 
-**Defined Characteristic** - A specific characteristic that can be determined numerically or otherwise.
+"A **defined characteristic** that is measured and evaluated by as an indicator of
+normal biological processes, pathogenic processes or responses to an exposure or
+therapeutic intervention"
 
-Simply put it says: measuring a biological factor that can tell us something about the state of the
-human body.
-
-It can be derived from molecular, histologic, radiographic or physiological characteristics; blood,
-urine, tissues can be measured.
+**Defined Characteristic** - A specific characteristic that can be determined
+numerically or otherwise.
 
 A biomarker links a characteristic to a specific health measurement.
 
-Literally, Biomarkers can be:
+In simpler terms, a biomarker is something that we can use to determine how healthy or
+unhealthy a person is.
+
+For example, a hot forehead is not a biomarker BUT having a forehead temperature of 39
+degrees Celcius is a biomarker when using it to determine if someone has a fever.
+
+Another example would be the exact blood glucose level in blood (XX mL) to determine if
+someone has diabetes.
+
+In the literal sense, biomarkers can be (but not limited to):
 
 - Proteins (e.g., PSA for prostate cancer)
 - Genes / DNA mutations (e.g., BRCA1 for breast cancer)
@@ -33,103 +31,84 @@ Literally, Biomarkers can be:
 
 ## Categories of Biomarkers
 
-> [!note]
-> Not all biomarkers fall under just one category, a biomarker can fall under multiple categories
+> [!Note]
+> Not all biomarkers fall under just one category, a biomarker can fall under multiple
+> categories.
+> E.g. A biomarker can be both diagnostic and prognostic (depending on circumstance)
 
-- Diagnostic Biomarkers
+- **Diagnostic**
   - "Do you have the disease?"
-  - Detects or confirms the presence of a disease; needs to be measured precisely, reliably,
-    repeatedly at low cost
+  - Detects or confirms the presence of a disease; needs to be measured precisely,
+    reliably, repeatedly at low cost
   - e.g troponin in blood for heart attack.
-- Prognostic
+- **Prognostic**
   - "How bad is the disease? What might happen?"
   - Describes the recurrence or disease progression
   - e.g high HER2 receptor positivity in breast cancer.
-- Predictive
+- **Predictive**
   - "Will this person respond to treatment? Or get this disease?"
-  - Presence or change predicts an individual to have a likely favourable or unfavourable effect
+  - Presence or change predicts an individual to have a likely favourable or
+    unfavourable effect
   - e.g high HbA1c levels predicts advancement to diabetes.
-- Monitoring Response
+- **Monitoring Response**
   - "Is the treatment working?"
-  - Biomarker that is measured serially to assess the status of the disease for evidence of exposure,
+  - Biomarker that is measured serially to assess the status of the disease for
+    evidence of exposure,
     or to detect an effect of a product/agent
   - e.g monitoring blood pressure when being treated with
     drugs for hypertension;
   - When level of the biomarker changes with exposure to agent/therapy;
   - e.g expected blood glucose level decrease as a response to diabetes treatment
-- Safety
+- **Safety**
   - "Is this treatment harming the patient?"
-  - That is measured before or after an intervention to indicate extent of toxicity, adverse event
-  - e.g serum lead levels for lead exposure; urinary cotinine levels to indicate nicotine (cigarette
-    smoke) exposure
-- Susceptibility
+  - That is measured before or after an intervention to indicate extent of toxicity,
+    adverse event
+  - e.g serum lead levels for lead exposure; urinary cotinine levels to indicate
+    nicotine (cigarette smoke) exposure
+- **Susceptibility**
   - "Are you at risk of getting the disease?"
-  - Biomarker that indicates the potential to develop a disease (who currently does not have the
-    condition)
+  - Biomarker that indicates the potential to develop a disease (who currently does
+    not have the condition)
   - e.g elevated LDL as a risk for developing coronary artery disease
 
+## Examples of Biomarkers
+
+### Immunologial Biomarkers
+
+- Serum Cytokines
+  - small proteins involved in cell signalling
+- Chemokines
+  - chemotactic cytokines that help in movement of cells
+- Soluble receptors
+  - shed from the cells
+- Activation markers
+  - correlating with function of the immune cells
+
+### Biomarkers for Allergies
+
+- Type 2 immune response cells involved basophils, eosinophils, mast cells, T-cells,
+  epithelial cells, DC
+  - cytokines IL-4,5,9,13,31; plasma CCL27; (asthma)
+- Gene signatures
+  - inform targeting IL-4 using IL-4Ra Dupilumab
+
+### Biomarkers for Cancer
+
+- Melanoma moles; IHC melan A;
+- Prognostic markers (for metastasis)
+  - Tumour size, Lymph nodes involved, Stage, Grade
+- Diagnostic markers
+  - Blood CEA, PSA, alpha-feto protein, CA125
+
 ## What makes a good biomarker?
+
+There are many kinds of biomarkers, some unique to each person, some that only exist in
+a small minority of people, etc. The best biomarkers meet the following requirements:
 
 - Safe/ easy to measure
 - Cost-effective to follow up / test
 - Low false positive rate
 - Consistent across gender/ ethnic groups
-
-## How to detect Biomarkers
-
-These are the common methods to detect biomarkers:
-
-- Blood Tests / Liquid Biopsy
-- Immunoassays (ELISA)
-- PCR (Polymerase Chain Reaction)
-- Next-Generation Sequencing (NGS)
-- Immunohistochemistry (IHC)
-- Mass Spectrometry (MS)
-- Flow Cytometry
-
-## Immunologial Biomarkers
-
-- Serum Cytokines – small proteins involved in cell signalling
-- Chemokines – chemotactic cytokines that help in movement of cells
-- Soluble receptors – shed from the cells
-- Activation markers – correlating with function of the immune cells
-
-## Biomarkers for Allergies
-
-- Type 2 immune response- cells involved basophils, eosinophils, mast cells, T-cells,
-  epithelial cells, DC; cytokines IL-4,5,9,13,31; plasma CCL27; (asthma)
-- Gene signatures- inform targeting IL-4 using IL-4Ra Dupilumab
-- Omics-based research to study response to treatment being carried out currently
-
-## Biomarkers for Cancer
-
-> [!note]
-> Melanoma moles; IHC melan A;
-
-- Prognostic markers (for metastasis)
-  - Tumour size, Lymph nodes involved, Stage, Grade
-- Diagnostic markers
-  - Blood CEA, PSA, alpha-feto protein, CA125;
-
-## Checkpoint Inhibition
-
-- Checkpoints = Brakes
-- Induce Negative signalling in T cells; Need to block the checkpoints with antibodies = checkpoint
-  inhibition
-- Simply put: Checkpoint Inhibitors are drugs that search for a specific protein that is produced due
-  to the existence of a specifc cancer gene (doesn't have to be a cancer gene) and binds to that
-  protein to neutralize it (make that protein useless)
-- E.g:
-  - PD1/PDL1 axis
-  - Anti-PD1 antibodies have shown great success
-
-## Biomarkers for response to immunotherapy for Melanoma - checkpoint inhibition
-
-For Melanoma
-
-- High ligand e.g PD-L1 expression
-- CD8 score
-- Tumour mutations
 
 ## Translating a biomarker into a clinical application
 
@@ -140,31 +119,24 @@ Phases of development
 3. Validation
 4. Control and extensive testing
 
-- Must have the potential to answer an important clinical question and change clinical practice
+- Must have the potential to answer an important clinical question and change clinical
+  practice
 - High standard of accuracy; practical to sample
 - Measurable in a medium-high throughput manner in a time efficient manner
 - Able to be standardised, validated with certified assays, accredited labs
 - Acceptable to scientists, health care providers, patients to adopt
 - Regulatory, governance approvals
 
-## Digital Biomarkers
-
-- DBx: a characteristic (or characteristics) collected from digital health technologies that is
-  measured as an indicator of normal biological processes
-
-- DBfx: digital fingerprint/ footprint: an impression or unique signature of a defined
-  healthcare characteristic, made by the integration of various digital biomarkers
-
 ## Ethical
 
-- Ethical: beneficence, (overall population level benefits) non-maleficence, (false results, invasive
-  diagnostics) justice, (ensure steps are in place to follow through from screening; equality/equity)
-  autonomy (understanding consequence of participation)
+- Ethical: beneficence, (overall population level benefits) non-maleficence, (false
+  results, invasive diagnostics) justice, (ensure steps are in place to follow through
+  from screening; equality/equity) autonomy (understanding consequence of participation)
 - Economic: value for money
-- Legal: standards in testing, accreditation qualification of tests; confidentiality, avoid discrimination,
-  informed consent
-- Social: knowledge of condition, treatment, perception (of sensitivity/susceptibility), stigma, socio-
-  economic, socio-demographic factors
+- Legal: standards in testing, accreditation qualification of tests; confidentiality,
+  avoid discrimination, informed consent
+- Social: knowledge of condition, treatment, perception (of sensitivity/susceptibility),
+  stigma, socio-economic, socio-demographic factors
 
 ## Diagnosis vs screening
 
@@ -180,64 +152,59 @@ Diagnotic test is used to establish the presence or absence of a disease
 
 ## Sensitivity vs Specificity
 
-Sensitivity - is the ability of the test to detect all those with disease in the screened population.
+Sensitivity - is the ability of the test to detect all those with disease in the
+screened population.
 Expressed as a % of those with disease correctly identified by a positive test
 
 - How many can it idendify
 
-Specificity - is the ability of the test to identify correctly those free of a disease in the
-screened population. Expressed as a % of those without disease correctly identified by a
-negative test
+Specificity - is the ability of the test to identify correctly those free of a disease
+in the screened population.
+Expressed as a % of those without disease correctly identified by a negative test
 
 - How correct are the identifications
+
+## Checkpoint Inhibition
+
+- Checkpoints = Brakes
+- Induce Negative signalling in T cells; Need to block the checkpoints with antibodies
+  = checkpoint inhibition
+- Simply put: Checkpoint Inhibitors are drugs that search for a specific protein that
+  is produced due to the existence of a specifc cancer gene (doesn't have to be a
+  cancer gene) and binds to that protein to neutralize it (make that protein useless)
+- E.g:
+  - PD1/PDL1 axis
+  - Anti-PD1 antibodies have shown great success
+
+## Digital Biomarkers
+
+- DBx: a characteristic (or characteristics) collected from digital health technologies
+  that is measured as an indicator of normal biological processes
+
+- DBfx: digital fingerprint/ footprint: an impression or unique signature of a defined
+  healthcare characteristic, made by the integration of various digital biomarkers
+
+## How to detect Biomarkers
+
+These are the common methods to detect biomarkers:
+
+- Blood Tests / Liquid Biopsy
+- **Immunoassays (ELISA)**
+- PCR (Polymerase Chain Reaction)
+- Next-Generation Sequencing (NGS)
+- **Immunohistochemistry (IHC)**
+- Mass Spectrometry (MS)
+- **Flow Cytometry**
 
 ## Diagnostic Assays
 
 - 2D, 3D, fluidics, microfluidics
 - Microscopy
-- Immunohistochemistry/ tissue
+- **Immunohistochemistry/ tissue**
 - Spectrometry
 - Bioactivity : Absorbance, fluorescence
-- Western blotting
-- Molecular Diagnostic Assays
-
-## Imaging Modalities
-
-- Computed Tomography
-- X-ray / radiography (gamma rays)
-- MRI- magnetic resonance imaging
-- Nuclear medicine
-- Ultrasound
-- PET – positron emission tomography
-
-## Flow Cytometry
-
-- Fluidics based detection of properties of cells
-- Cells labelled with fluorescent markers-
-- Cell surface protein- bound to antibody conjugated to fluorophore
-- Fluorescence detected by lasers and excitation of the fluorophore
-- Used to detect proteins (which/how much)
-- E.g blood cancer’ phenotyping different immune cells / immunological diagnostics
-
-1. Label the cells with fluorescent dyes or antibodies
-2. Inject the sample into the flow cytometer
-3. Laser hits each cell
-4. Detectors measure light signals
-5. Computer converts light into data
-
-## ELISA
-
-- Enzyme Linked Immunosorbent Assay – detects an anylate in a liquid protein/ligands in a liquid/
-  secreted using antibodies
-- Quantitate amount - using a spectrophotometer – to detect a reporter
-- E.g Presence of antigens/ antibody in blood against pathogens/ hormones
-
-1. Coat plate with a capture antibody specific to your target.
-2. Add sample (e.g., blood) → If the target antigen is present, it binds.
-3. Add a detection antibody that sticks to the antigen.
-4. Add enzyme-linked secondary antibody → binds the detection antibody.
-5. Add substrate → Enzyme reacts → color change!
-6. Measure the color with a plate reader → more color = more target protein.
+- **Western blotting**
+- **Molecular Diagnostic Assays**
 
 ## Immunohistochemistry
 
@@ -270,6 +237,20 @@ negative test
 5. Add secondary antibody (enzyme-linked) → binds primary.
 6. Add substrate → light or color appears at the spot where your protein is.
 
+## ELISA
+
+- Enzyme Linked Immunosorbent Assay – detects an anylate in a liquid protein/ligands in a liquid/
+  secreted using antibodies
+- Quantitate amount - using a spectrophotometer – to detect a reporter
+- E.g Presence of antigens/ antibody in blood against pathogens/ hormones
+
+1. Coat plate with a capture antibody specific to your target.
+2. Add sample (e.g., blood) → If the target antigen is present, it binds.
+3. Add a detection antibody that sticks to the antigen.
+4. Add enzyme-linked secondary antibody → binds the detection antibody.
+5. Add substrate → Enzyme reacts → color change!
+6. Measure the color with a plate reader → more color = more target protein.
+
 ## Molecular Diagnostic Assays
 
 - Molecular biological – DNA, RNA, miRNA
@@ -293,3 +274,17 @@ negative test
 4. Next-Generation Sequencing (NGS)
    - Reads entire genomes or gene panels.
    - Can identify mutations, variants, or gene expression patterns.
+
+## Flow Cytometry
+
+- Cells labelled with fluorescent markers-
+- Cell surface protein- bound to antibody conjugated to fluorophore
+- Fluorescence detected by lasers and excitation of the fluorophore
+- Used to detect proteins (which/how much)
+- E.g blood cancer’ phenotyping different immune cells / immunological diagnostics
+
+1. Label the cells with fluorescent dyes or antibodies
+2. Inject the sample into the flow cytometer
+3. Laser hits each cell
+4. Detectors measure light signals
+5. Computer converts light into data

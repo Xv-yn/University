@@ -20,7 +20,10 @@
 
 ## Saturday
 
-- [ ] COMP3502 Notes Rewrite
-- [ ] AMED3002 Notes Rewrite
+- [x] AMED3002 Notes Rewrite
+- [x] AMED3003 Assignment Draft
 
 ## Sunday
+
+- [ ] COMP3502 Notes Rewrite
+- [ ] MIMI2002 Notes Rewrite

@@ -112,7 +112,8 @@ built:
 
 ## What is a Process?
 
-A process is fundamental to how operating systems work. It can be understood at different levels:
+A process is fundamental to how operating systems work. It can be understood at
+different levels:
 
 - A program in execution
   - A static program becomes a process when it's running.
