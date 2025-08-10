@@ -5,7 +5,7 @@ can touch, but it’s essential software that acts like the manager or boss
 of the computer. It controls both the hardware (like your CPU, memory,
 hard drive, etc.) and software (like programs and apps).
 
-The Operation System:
+The Operating System:
 
 - Manages execution of programs
   - It decides which programs get to run and when.
@@ -22,12 +22,23 @@ The Operation System:
   - It helps your computer connect to other computers, like accessing
     the internet or shared files on a network.
 
-Think of the structure of a whole computer as follows""
+Think of the structure of a whole computer as a top down sandwich, the more you learn
+about programming, the more layers you can see and change:
 
 - Applications (top bread) – What you use directly (games, browsers, etc).
 - Libraries/Utilities – Make life easier for apps.
 - Operating System (middle layer) – Manages everything.
 - Hardware (bottom bread) – The physical machine.
+
+```
+    [ Applications ]
+-------------------------
+[ Libraries & Utilities ]
+-------------------------
+   [ Operating System ]
+-------------------------
+       [ Hardware ]
+```
 
 ## Kernel vs Operating System
 
@@ -36,6 +47,7 @@ the same thing. Here's the difference:
 
 - Kernel
   - The kernel is the core **part** of the operating system.
+    - Think of it as the "brain" of the OS.
   - It directly interacts with the hardware.
   - It manages low-level tasks like:
     - CPU scheduling
@@ -48,6 +60,7 @@ the same thing. Here's the difference:
 - Operating System
   - The OS includes the kernel plus all the other essential software that
     helps users and programs interact with the computer.
+    - Think of the OS as the whole human body **including** the brain.
   - This includes:
     - The file system
     - User interface (GUI or command-line tools)
@@ -67,13 +80,13 @@ On Linux:
 - The operating system might be Ubuntu, Fedora, or Debian—which includes the
   kernel, desktop environment, drivers, utilities, and package managers.
 
-## Three Key Conceptual Responsibilities
+## Three Key Conceptual Responsibilities of an OS
 
 1. Virtualization
    - Goal: Make each application think it has the computer to itself.
-   - The OS creates the illusion that each program has full control of the
-     CPU, memory, and other resources—even though they’re being shared with
-     many other programs.
+   - The OS creates the illusion that each program has full control of the CPU,
+     memory, and other resources, even though they’re being shared with many other
+     programs, by allocating virtual resources.
    - Example: When you open two browser tabs, each one feels like it’s
      running on its own, even though they’re actually sharing the same CPU
      and memory.
@@ -107,6 +120,27 @@ built:
 - I/O device management
 - File management
 - Protection and security
+
+## OS Control Tables
+
+The OS needs to keep track of everything it manages — including processes,
+memory, I/O devices, and files.
+
+To do this, it uses tables:
+
+1. Memory Tables
+   - Track which parts of memory are used or free.
+   - Record allocation to processes.
+2. I/O Tables
+   - Manage the status of I/O devices.
+   - Track which processes are using which devices.
+3. File Tables
+   - Store info about open files, file permissions, and access status.
+4. Process Tables
+   - Contain a record for every active process (usually a Process Control
+     Block for each).
+   - Link to the process’s process image (the actual code, data, stack, etc.
+     in memory).
 
 # Process Management
 
@@ -146,19 +180,6 @@ manage it:
 | I/O Status Info |                      Info about files/devices being used.                       |
 | Accounting Info |       CPU time used, memory used, etc., often for monitoring or billing.        |
 
-As such each process would look something like this:
-
-|    Attribute    |
-| :-------------: |
-|   Identifier    |
-|      State      |
-|    Priority     |
-| Program Counter |
-| Memory Pointers |
-|  Context Data   |
-| I/O Status Info |
-| Accounting Info |
-
 > [!note]
 > This is also called a Process Control Block (PCB)
 
@@ -178,29 +199,9 @@ needs to run. It’s more about the contents than the metadata.
 |            Stack            | Holds function calls, return addresses, local variables. |
 | Process Control Block (PCB) |      The metadata (aka attributes) of the process.       |
 
-## OS Control Tables
-
-The OS needs to keep track of everything it manages — including processes,
-memory, I/O devices, and files.
-
-To do this, it uses tables: organized data structures that store information
-about the current state of each managed entity.
-
-1. Memory Tables
-   - Track which parts of memory are used or free.
-   - Record allocation to processes.
-2. I/O Tables
-   - Manage the status of I/O devices.
-   - Track which processes are using which devices.
-3. File Tables
-   - Store info about open files, file permissions, and access status.
-4. Process Tables
-   - Contain a record for every active process (usually a Process Control
-     Block for each).
-   - Link to the process’s process image (the actual code, data, stack, etc.
-     in memory).
-
 ## Process Table
+
+Referring back to the OS Control Tables...
 
 The Process Table is the central hub — it tracks all active processes.
 
@@ -212,6 +213,146 @@ The Process Table is the central hub — it tracks all active processes.
 - Tables are often cross-referenced, so data can be shared across subsystems.
 - Example: A process's file descriptor might reference an entry in the file
   table.
+
+## Creating Processes
+
+When the OS decides to create a new process, it performs these steps:
+
+1. Assigns a unique Process ID (PID)
+   - This helps the OS track the process.
+2. Creates and initializes a Process Control Block (PCB)
+   - This stores metadata like PID, state, priority, program counter,
+     registers, etc.
+3. Allocates memory
+   - Code, data, stack, and heap segments are set up in RAM.
+4. Sets up linkages
+   - For parent-child relationships, scheduling, or resource tracking.
+5. Updates OS data structures
+   - Includes process tables, scheduling queues, memory maps, etc.
+
+Traditionally, the OS created all processes.
+
+But in modern systems, it's common for one process to create another — this
+is called process spawning.
+
+Key Terms:
+
+- Parent process: the process that creates another.
+- Child process: the newly created process.
+
+```
+                       (init)
+                       (pid=1)
+                    /     |     \
+                   /      |      \
+                  /       |       \
+                 /        |        \
+                /         |         \
+             (login)    (python)    (sshd)
+            (pid=8415) (pid=2808) (pid=3028)
+            /                           \
+           /                             \
+        (bash)                          (sshd)
+      (pid=8416)                       (pid=3610)
+       /      \                             \
+      /        \                             \
+   (ps)       (vim)                         (tcsh)
+(pid=9298)  (pid=9204)                    (pid=4005)
+```
+
+The diagram shows a real-world tree of processes:
+
+- At the top is init (pid = 1) — the very first process started by the OS.
+- this init procress creates other processes like:
+  - login, python, sshd
+  - Those then create child processes, e.g.:
+    - bash (from login)
+    - ps and vim (from bash)
+    - tcsh (from sshd)
+
+## UNIX Process Creation
+
+In UNIX, a new process is created by calling `fork()`.
+
+This system call causes the OS (in kernel mode) to:
+
+1. Allocate a slot in the process table.
+2. Assign a PID to the new child process.
+3. Copy the parent’s process image (code, stack, heap, etc.).
+4. Update file counters to reflect shared open files.
+5. Place the child into the Ready state.
+6. Return values:
+   - Parent gets child’s PID.
+   - Child gets 0.
+
+Once the child is created, the kernel’s dispatcher can do any of the following:
+
+- Let the parent continue running.
+- Let the child start executing immediately.
+- Switch to another unrelated process entirely.
+
+```
+             parent                resumes
+       .----------------> (wait) -------->
+      /                     ^
+fork()                      |
+      \                     |
+       '----> exec() ---> exit()
+       child
+```
+
+The diagram shows this classic pattern:
+
+- fork() → creates a child.
+- In the child, call exec() → replaces the child’s memory with a new program.
+- Meanwhile, the parent calls wait() → it pauses until the child finishes.
+- After child’s exit(), the parent resumes.
+
+In code:
+
+```C
+pid = fork();          // create child
+if (pid < 0) {
+    // Error
+} else if (pid == 0) {
+    // Child process
+    execlp("/bin/ls", "ls", NULL);
+} else {
+    // Parent process
+    wait(NULL);
+    printf("Child Complete");
+}
+```
+
+## Process Termination
+
+How a Process Can Terminate
+
+- HALT Instruction
+  - The program executes a special instruction to stop.
+  - This generates an interrupt to notify the OS.
+  - Often used in system-level or bootloader code.
+- User Action
+  - The user manually quits the program or logs off.
+  - Examples: Clicking "Close", Ctrl+C, or logging out of a session.
+- Fault or Error
+  - An unexpected condition like:
+    - Division by zero
+    - Segmentation fault
+    - Illegal instruction
+  - The OS usually kills the process to prevent system instability.
+- Parent Process Terminates
+  - The OS may automatically terminate the child processes.
+  - Depends on the system — some UNIX systems allow orphans (which are
+    adopted by init).
+
+What Happens After Termination?
+
+Once the OS knows a process has ended, it typically:
+
+- Moves it to the "terminated" or "zombie" state briefly (to allow parent to
+  read exit status).
+- Then fully deletes the process from memory.
 
 ## Process States
 
@@ -375,7 +516,7 @@ each category and each element in each list is a process.
 - Ready Processes
 - Blocked Processes
 
-## More Detail
+## Sample OS Step-by-Step Process Management
 
 1. User process is running.
 2. Timer interrupt or system call occurs → Trap/Interrupt → OS regains control.
@@ -445,143 +586,3 @@ state (e.g., PC and PS).
 
 Think of it like a save/load system in a video game — only instead of saving
 your sword and location, it’s saving CPU registers and instruction addresses.
-
-## Creating Processes
-
-When the OS decides to create a new process, it performs these steps:
-
-1. Assigns a unique Process ID (PID)
-   - This helps the OS track the process.
-2. Creates and initializes a Process Control Block (PCB)
-   - This stores metadata like PID, state, priority, program counter,
-     registers, etc.
-3. Allocates memory
-   - Code, data, stack, and heap segments are set up in RAM.
-4. Sets up linkages
-   - For parent-child relationships, scheduling, or resource tracking.
-5. Updates OS data structures
-   - Includes process tables, scheduling queues, memory maps, etc.
-
-Traditionally, the OS created all processes.
-
-But in modern systems, it's common for one process to create another — this
-is called process spawning.
-
-Key Terms:
-
-- Parent process: the process that creates another.
-- Child process: the newly created process.
-
-```
-                       (init)
-                       (pid=1)
-                    /     |     \
-                   /      |      \
-                  /       |       \
-                 /        |        \
-                /         |         \
-             (login)    (python)    (sshd)
-            (pid=8415) (pid=2808) (pid=3028)
-            /                           \
-           /                             \
-        (bash)                          (sshd)
-      (pid=8416)                       (pid=3610)
-       /      \                             \
-      /        \                             \
-   (ps)       (vim)                         (tcsh)
-(pid=9298)  (pid=9204)                    (pid=4005)
-```
-
-The diagram shows a real-world tree of processes:
-
-- At the top is init (pid = 1) — the very first process started by the OS.
-- this init procress creates other processes like:
-  - login, python, sshd
-  - Those then create child processes, e.g.:
-    - bash (from login)
-    - ps and vim (from bash)
-    - tcsh (from sshd)
-
-## UNIX Process Creation
-
-In UNIX, a new process is created by calling `fork()`.
-
-This system call causes the OS (in kernel mode) to:
-
-1. Allocate a slot in the process table.
-2. Assign a PID to the new child process.
-3. Copy the parent’s process image (code, stack, heap, etc.).
-4. Update file counters to reflect shared open files.
-5. Place the child into the Ready state.
-6. Return values:
-   - Parent gets child’s PID.
-   - Child gets 0.
-
-Once the child is created, the kernel’s dispatcher can do any of the following:
-
-- Let the parent continue running.
-- Let the child start executing immediately.
-- Switch to another unrelated process entirely.
-
-```
-             parent                resumes
-       .----------------> (wait) -------->
-      /                     ^
-fork()                      |
-      \                     |
-       '----> exec() ---> exit()
-       child
-```
-
-The diagram shows this classic pattern:
-
-- fork() → creates a child.
-- In the child, call exec() → replaces the child’s memory with a new program.
-- Meanwhile, the parent calls wait() → it pauses until the child finishes.
-- After child’s exit(), the parent resumes.
-
-In code:
-
-```C
-pid = fork();          // create child
-if (pid < 0) {
-    // Error
-} else if (pid == 0) {
-    // Child process
-    execlp("/bin/ls", "ls", NULL);
-} else {
-    // Parent process
-    wait(NULL);
-    printf("Child Complete");
-}
-```
-
-## Process Termination
-
-How a Process Can Terminate
-
-- HALT Instruction
-  - The program executes a special instruction to stop.
-  - This generates an interrupt to notify the OS.
-  - Often used in system-level or bootloader code.
-- User Action
-  - The user manually quits the program or logs off.
-  - Examples: Clicking "Close", Ctrl+C, or logging out of a session.
-- Fault or Error
-  - An unexpected condition like:
-    - Division by zero
-    - Segmentation fault
-    - Illegal instruction
-  - The OS usually kills the process to prevent system instability.
-- Parent Process Terminates
-  - The OS may automatically terminate the child processes.
-  - Depends on the system — some UNIX systems allow orphans (which are
-    adopted by init).
-
-What Happens After Termination?
-
-Once the OS knows a process has ended, it typically:
-
-- Moves it to the "terminated" or "zombie" state briefly (to allow parent to
-  read exit status).
-- Then fully deletes the process from memory.

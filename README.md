@@ -25,5 +25,5 @@
 
 ## Sunday
 
-- [ ] COMP3502 Notes Rewrite
-- [ ] MIMI2002 Notes Rewrite
+- [x] COMP3502 Notes Rewrite
+- [x] MIMI2002 Notes Rewrite
