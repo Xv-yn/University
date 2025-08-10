@@ -1,29 +1,38 @@
-# Current Week 1
+# Current Week 2
 
 ## TODO:
 
+### Monday
+
+- [ ] MIMI2002 Part 1 Lecture Notes
+- [ ] COMP3888 Project Planning/Preparation
+- [ ] COMP3888 Call at 9pm
+
+### Tuesday
+
+- [ ] COMP3520 Lecture Notes
+- [ ] AMED3003 Lecture Notes
+- [ ] AMED3003 Assignment Confirmation
+- [ ] COMP3520 Quiz
+
 ### Wednesday
 
-- [x] COMP3520 Lecture Notes
-- [x] AMED3003 Assignment Sketch
+- [ ] COMP3888 Project
+- [ ] MIMI2002 Pre-Lab Work
 
 ### Thursday
 
-- [x] AMED3003 Week 2 Content Review
-- [x] AMED3003 Prac Preparation
+- [ ] MIMI2002 Post-Lab Work
+- [ ] AMED3003 Revision
+- [ ] COMP3888 Project
 
 ### Friday
 
-- [x] MIMI2002 Lecture Notes
-- [x] MIMI2002 Content Revision
-- [x] MIMI2002 Prac Preparation
+- [ ] MIMI2002 Part 2 Lecture Notes
+- [ ] COMP3888 Project
+- [ ] MIMI2002 Revision
 
-## Saturday
+### Saturday
 
-- [x] AMED3002 Notes Rewrite
-- [x] AMED3003 Assignment Draft
-
-## Sunday
-
-- [x] COMP3502 Notes Rewrite
-- [x] MIMI2002 Notes Rewrite
+- [ ] COMP3888 Project
+- [ ] COMP3520 Revision
