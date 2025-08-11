@@ -5,8 +5,8 @@
 ### Monday
 
 - [x] MIMI2002 Part 1 Lecture Notes
-- [ ] COMP3888 Project Planning/Preparation
-- [ ] COMP3888 Call at 9pm
+- [x] COMP3888 Project Planning/Preparation
+- [x] COMP3888 Call at 9pm
 
 ### Tuesday
 
