@@ -243,3 +243,40 @@
   - Emerging / Research
     - 14-3-3η protein – associated with joint damage.
     - Cytokine profiling (IL-6, TNF-α) – therapy response prediction.
+
+## Colorectal Cancer (CRC)
+
+- Pathogenesis
+  - Nature of disease: Malignant tumor arising from epithelial cells lining the colon or rectum.
+  - Key mechanisms:
+    - Genetic pathways:
+      - Chromosomal instability pathway (CIN):
+        - APC mutation → early adenoma formation.
+        - KRAS mutation → adenoma progression.
+        - TP53 loss → carcinoma.
+      - Microsatellite instability pathway (MSI):
+        - Defective DNA mismatch repair (MMR) genes: MLH1, MSH2, MSH6, PMS2.
+        - Lynch syndrome = germline MMR mutations.
+      - CpG island methylator phenotype (CIMP):
+        - Promoter hypermethylation silences tumor suppressors (MLH1).
+    - Environmental & lifestyle risks:
+      - Diet high in red/processed meat, low fiber.
+      - Smoking, alcohol, obesity, chronic inflammatory bowel disease.
+
+- Biomarkers
+  - Established / Diagnostic
+    - Fecal occult blood test (FOBT) / FIT – screening for occult bleeding.
+    - CEA (carcinoembryonic antigen) – not for screening; used for prognosis and recurrence monitoring.
+    - MMR/MSI testing:
+      - Loss of MMR proteins by IHC (MLH1, MSH2, MSH6, PMS2).
+      - PCR-based MSI testing.
+    - KRAS, NRAS, BRAF mutation testing – guides targeted therapy decisions.
+    - HER2 amplification – predictive for anti-HER2 therapy in some cases.
+    - Prognostic / Predictive
+      - MSI-high (MSI-H) status – better prognosis, predicts benefit from immune checkpoint inhibitors.
+      - BRAF V600E mutation – poor prognosis.
+      - RAS wild type – predicts benefit from EGFR inhibitors (cetuximab, panitumumab).
+  - Emerging / Research
+    - Circulating tumor DNA (ctDNA) – early relapse detection.
+    - MicroRNA panels in blood/stool.
+    - Tumor mutational burden (TMB) – immunotherapy selection.
