@@ -189,22 +189,50 @@ Expressed as a % of those without disease correctly identified by a negative tes
 These are the common methods to detect biomarkers:
 
 - Blood Tests / Liquid Biopsy
+  - Proteins, metabolites, cell-free DNA (cfDNA), circulating tumor cells (CTCs), RNA
+  - General screening; can combine with other assays.
 - **Immunoassays (ELISA)**
+  - Proteins, peptides, hormones
+  - Uses antibodies for highly specific protein detection.
 - PCR (Polymerase Chain Reaction)
+  - DNA, RNA (via RT-PCR)
+  - Detects gene mutations, expression levels, pathogens.
 - Next-Generation Sequencing (NGS)
+  - DNA, RNA
+  - High-throughput genetic/mutation profiling.
 - **Immunohistochemistry (IHC)**
+  - Proteins (in tissue context)
+  - Localizes proteins within tissue sections using antibodies.
 - Mass Spectrometry (MS)
+  - Proteins, peptides, metabolites, lipids
+  - Highly sensitive molecular identification/quantification.
 - **Flow Cytometry**
+  - Proteins (surface/intracellular), cell populations
+  - Identifies and quantifies cells based on markers
 
 ## Diagnostic Assays
 
 - 2D, 3D, fluidics, microfluidics
+  - Cells, small molecules, proteins, nucleic acids
+  - Platforms for integrated biomarker detection; often multiplex.
 - Microscopy
+  - Cells, tissue morphology, labeled proteins/nucleic acids
+  - Can use staining (e.g., H&E, fluorescent tags).
 - **Immunohistochemistry/ tissue**
+  - Proteins
+  - Same principle as IHC above; for tissue-based diagnosis.
 - Spectrometry
+  - Proteins, metabolites, small molecules
+  - Includes MS and other spectral methods for molecular ID.
 - Bioactivity : Absorbance, fluorescence
+  - Enzyme activity, metabolites, proteins, nucleic acids
+  - Used in colorimetric/fluorometric assays (e.g., enzyme assays).
 - **Western blotting**
+  - Proteins
+  - Separates by size, confirms specificity via antibodies.
 - **Molecular Diagnostic Assays**
+  - DNA, RNA, proteins
+  - Umbrella term — includes PCR, NGS, hybridization assays, etc.
 
 ## Immunohistochemistry
 
