@@ -216,3 +216,293 @@ Symptoms are generally caused by:
   - Antibodies and immune cells destroy infected cells -> tissue damage
   - Symptoms of immune cells infiltrating the area where virus infection has
     occurred
+
+# Immune System
+
+The immune system is composed of 3 main things:
+
+- Molecules
+- Cells
+- Specialized Tissues
+
+And can ble split into 2 main parts:
+
+- Innate immunity
+- Adaptive immunity
+
+## Innate Immunity
+
+### Stages
+
+1. Infection
+   - Virus or Foreign Material enters the body
+2. Recognition of pathogens by sensors
+   - via cytokine release
+   - Body notices pathogen and releases cytokines to alert the rest of the body
+3. Activation of cells and inflammation
+   - Complement activation
+   - Recruitment of cells
+   - Phagocytosis
+4. Removal of infectious agent
+
+White blood cells (leukocytes) must leave the bloodstream and go into the infected
+tissue. The body does this in ordered steps using “smell signals” (chemokines) and
+“Velcro” (adhesion molecules).
+
+On a step-by-step basis:
+
+1. Alarm (infection sensed)
+   Resident cells (e.g., macrophages) detect microbes and release cytokines (TNF, IL-1)
+   and chemokines.
+   Analogy: A smoke alarm goes off and texts the fire crew the location.
+
+2. Endothelium gets sticky
+   Those cytokines make nearby blood-vessel lining cells (endothelial cells) put
+   selectins (E- and P-selectin) on their surface.
+   Analogy: The roadway to the fire gets lined with Velcro strips (selectins) so
+   responders can race to the location without fear of slipping.
+
+3. Chemokines on proteoglycans
+   Chemokines stick to the vessel wall on proteoglycans—like scent droplets on the road.
+   Analogy: Breadcrumbs (chemokines) sprayed along the curb showing the exact route.
+
+4. Rolling (tether & roll)
+   Leukocytes (white blood cell) have selectin ligands. Weak, quick bonds between
+   endothelial selectins and leukocyte selectin ligands make the cell slow down and
+   roll along the wall.
+   Analogy: This white blood cell travels by rolling along the walls of blood vessels.
+
+5. Activation by chemokines
+   While rolling, chemokines on the wall bind leukocyte chemokine receptors.
+   This triggers “inside-out” signaling that flips leukocyte integrins (e.g., LFA-1,
+   VLA-4) from low- to high-affinity.
+   Analogy: As the white blood cell is rolling, its surface area picks up all kinds of
+   things, but when it picks up Breadcrumbs (see 3) it follows the trail.
+
+6. Firm adhesion (full stop)
+   Activated integrins on the leukocyte bind strongly to ICAM-1/VCAM-1 on the
+   endothelium. The leukocyte stops.
+   Analogy: Once the white blood cell detects a specific binding molecule (ICAM-1 or
+   VCAM-1) it stops moving.
+
+7. Diapedesis / transmigration (squeeze through)
+   With help from molecules like PECAM-1, the leukocyte squeezes between
+   endothelial cells into the tissue.
+   Analogy: A firefighter slips through a narrow gate between fence slats.
+
+8. Chemotaxis (seek the target)
+   In the tissue, the cell follows the chemokine gradient (“smell trail”) to the exact
+   site of infection.
+   Analogy: Following the smell of smoke straight to the burning room.
+
+## Adaptive Immunity
+
+- Takes days to mount a response
+  - Requires activation
+- Highly specific recognition
+  - Recognises distinct parts of a molecule (antigens, epitopes)
+- HUGE diversity
+- Clonal expansion
+- Memory
+- Does not react to self — needs education
+
+Naïve T & B cells don’t fight yet; they must be activated by antigen in secondary
+lymphoid tissues (lymph nodes, spleen, mucosal/cutaneous lymphoid tissues).
+Analogy: Rookie officers wait at the station until a case briefing sends them out.
+
+### Where cells grow vs. where they get activated
+
+- Primary lymphoid organs (grow/educate):
+  - Bone marrow: B cells mature
+  - Thymus: T cells mature
+  - Analogy: Medical school (bone marrow) and police academy (thymus).
+
+- Secondary lymphoid organs (where they get activated):
+  - Lymph nodes: tissue/skin infections drain here
+  - Spleen: filters blood-borne antigens
+  - MALT/CALT: mucosal & skin checkpoints (e.g., tonsils, Peyer’s patches)
+  - Analogy: City precincts where rookies meet messengers and get assignments.
+
+### The Lymphatic System
+
+The lymphatic system = green side-roads + storm drains
+
+**Job**: Specialized vessels that drain fluid from tissues and carry it to lymph nodes.
+**Analogy**: Street storm drains feeding a neighborhood police station.
+
+**Why it matters**: Keeps tissue fluid balanced and funnels evidence (microbes/antigens)
+and messengers (dendritic cells) to the node where immune responses start.
+
+Antigen gets from tissue to a lymph node
+
+- Dendritic cells (DCs) carry it
+  - DCs eat microbes, load peptides onto MHC, then migrate in lymph to the node.
+  - Analogy: A field detective collects evidence and drives it to the station with the
+    lights on.
+
+- Free antigen can drain too
+  - Bits of microbe flow in tissue fluid to the node and are picked up there by
+    macrophages/DCs.
+  - Analogy: Loose evidence washes down the storm drain and is logged at intake.
+
+Lymph node layout = organized building
+
+- Afferent lymphatic vessels (INBOUND): bring lymph + DCs into the node.
+  - Analogy: Side doors where deliveries arrive.
+- Subcapsular sinus: first hallway under the “roof” (capsule) where incoming lymph
+  spreads.
+  - Analogy: Mailroom where packages get sorted.
+- B-cell zone (follicles; can form germinal centers):
+  - Analogy: Open-plan office for B teams doing upgrades (class switch, affinity
+    maturation).
+- T-cell zone (paracortex):
+  - Analogy: Briefing room where DCs present wanted posters (peptide–MHC) to naïve
+    T cells.
+- High Endothelial Venules (HEV): entry from blood for naïve lymphocytes.
+  - Analogy: A special staff entrance from the main highway.
+- Efferent lymphatic vessel (OUTBOUND): exits toward the next node or bloodstream.
+  - Analogy: Back driveway where activated squads roll out.
+
+### Who goes where (traffic rules)
+
+Migrating DCs + tissue fluid enter via afferent lymphatics → subcapsular sinus →
+T zone (to present antigen).
+Analogy: Couriers come through the side door to the briefing room.
+
+Naïve T & B cells arrive from blood via HEV and home to their zones (T zone/B follicles).
+Analogy: Rookies badge in through the staff entrance and head to their departments.
+
+After activation, cells leave via the efferent vessel to fight at the infection site.
+Analogy: Units deploy out the back driveway to the field.
+
+### Which station handles which kind of case?
+
+Lymph nodes: tissue/skin infections (stuff that drains via lymph).
+Analogy: Neighborhood precincts.
+
+Spleen: blood-borne infections (everything in circulation).
+Analogy: Central customs checkpoint.
+
+MALT/CALT (tonsils, Peyer’s patches, etc.): mucosal & skin entry points.
+Analogy: Airport security at busy gates.
+
+### Naïve lymphocytes (recirculation loop)
+
+What: Newly matured but untested T and B cells (“naïve”) cycle continuously through
+blood → secondary lymphoid organs (lymph nodes, spleen, MALT) → lymph → blood until
+they meet their antigen.
+
+Why: Maximizes the chance each rare cell meets the one antigen it fits.
+
+Key movers:
+
+- CD62L/L-selectin (on naïve cells) → lets them enter nodes via HEV.
+- CCR7 (on naïve cells) senses CCL19/CCL21 in T-cell zones → proper positioning.
+- S1P₁ receptor senses sphingosine-1-phosphate gradient → exit via efferent lymph.
+
+Analogy: Like trainees riding a metro loop: special turnstiles (HEV) let them into
+stations (nodes); platform signs (CCL19/21) guide them to the right room; the outbound
+train (S1P gradient) takes them to the next station to keep searching.
+
+### Naïve T-cell trafficking
+
+Entry (HEV in lymph node):
+
+- Endothelium shows: L-selectin ligand, ICAM-1, CCL19/CCL21.
+- Naïve T cell shows: L-selectin (CD62L), LFA-1 (β2-integrin), CCR7.
+- Sequence: L-selectin → rolling; CCL19/21 → activate LFA-1; LFA-1 ↔ ICAM-1 →
+  firm arrest → diapedesis into T-zone.
+
+Exit: S1P₁ pulls cells toward efferent lymphatics when they haven’t been activated.
+
+After activation (different story): Effector T cells switch homing gear (e.g.,
+E/P-selectin ligands, CXCR3, VLA-4) to target inflamed tissues (binding VCAM-1/ICAM-1).
+Naïve cells don’t do this yet.
+
+Analogy: Think airport gates: L-selectin is your boarding pass check, CCL19/21 is the
+“Proceed to Gate” alert, LFA-1/ICAM-1 is the jet bridge lock-in. S1P is the moving
+walkway to the next terminal if your flight (antigen) isn’t there.
+
+### Lymphatic capillaries (how fluid & antigen enter lymph)
+
+Structure: Blind-ended capillaries with flap-like mini-valves; anchoring filaments
+pull valves open when tissue swells. One-way valves prevent backflow.
+
+Function: Sweep up excess fluid, free antigen, and migrating dendritic cells → deliver
+to lymph nodes.
+
+Analogy: Shop vac with spring-loaded doors—pressure outside opens them to suck in
+spill; doors snap shut to keep it in while the hose carries it to the filter (node).
+
+### Antigen vs. epitope vs. peptides
+
+Antigen: Anything a BCR or TCR can bind (proteins, lipids, polysaccharides…).
+
+Epitope: The specific piece of the antigen that the receptor recognizes.
+
+Peptides: Short protein fragments presented by MHC to T cells.
+
+Analogy: Antigen = book; epitope = a sentence in that book; peptide on MHC = that
+sentence photocopied and pinned to a notice board for T cells.
+
+### B-cell receptor (BCR) vs T-cell receptor (TCR)
+
+B cells
+
+- Recognize native, whole antigens (no MHC needed).
+- Often get help from Tfh cells for class switching/affinity maturation.
+- Analogy: B cells can look at the whole object in the evidence bag.
+
+T cells
+
+- Recognize peptide–MHC complexes on host cells/APCs (CD4 ↔ MHC II; CD8 ↔ MHC I).
+- CD8⁺ kill infected cells; CD4⁺ coordinate/help others.
+- Analogy: T cells only act when the front desk puts a photo (peptide) on an official
+  badge (MHC)—no badge, no case.
+
+### MHC-I & CD8 T cells (cytotoxic T lymphocytes, CTLs)
+
+What they see: CD8 T cells recognize peptides on MHC-I.
+Analogy: Patrol officers checking a \*“factory’s internal selfie badge.”
+
+Peptide source: Inside the cell (viral proteins, tumor/abnormal self).
+
+Where MHC-I is found: All nucleated cells (not RBCs).
+
+After activation: CD8 T cells become CTLs that kill infected cells (perforin/granzymes,
+Fas–FasL) and limit pathogen spread.
+Analogy: If the selfie shows sabotage, SWAT shuts the factory down.
+
+Why this matters: Because every nucleated cell shows internal status, CTLs can target any virus-infected cell type.
+
+### MHC-II & CD4 T cells (helper T cells)
+
+What they see: CD4 T cells recognize peptides on MHC-II.
+Analogy: Detectives reviewing an evidence board curated by professionals.
+
+Peptide source: Outside the cell → phagocytosed, processed, displayed.
+
+Where MHC-II is found: Professional APCs only — dendritic cells, macrophages, B cells.
+
+After activation: CD4 T cells coordinate others:
+
+Th1 → help macrophages kill intracellular microbes
+
+Tfh → help B cells class-switch & affinity-mature
+
+Th2/Th17 → help against parasites/extracellular bacteria
+Analogy: Team leaders assign tasks and supply the right tools (cytokines).
+
+### APCs activate naïve T cells (the 3-signal rule)
+
+Signal 1: TCR ↔ peptide–MHC (specificity).
+Analogy: Face match on the wanted poster.
+
+Signal 2 (costim): CD28 ↔ B7 (CD80/86).
+Analogy: Official stamp to open the case; without it → anergy.
+
+Signal 3 (cytokines): IL-12/IL-4/TGF-β/IL-6… shape Th/CTL fate.
+Analogy: Mission brief telling squads what role to take.
+
+Result: Clonal expansion + effector function; TCR specificity unchanged (same target,
+more soldiers).
