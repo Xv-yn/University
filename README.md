@@ -38,4 +38,5 @@
 
 - [ ] COMP3888 Project
 - [ ] COMP3520 Assignment
-- [ ] Install GraphPad
+- [ ] AMED3003 Install GraphPad
+- [ ] MIMI2002 Update LabArchives Notes
