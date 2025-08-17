@@ -10,29 +10,32 @@
 
 ### Tuesday
 
-- [ ] COMP3520 Lecture Notes
-- [ ] AMED3003 Lecture Notes
-- [ ] AMED3003 Assignment Confirmation
-- [ ] COMP3520 Quiz
+- [x] COMP3520 Lecture Notes
+- [x] AMED3003 Lecture Notes
+- [x] AMED3003 Assignment Confirmation
+- [x] COMP3520 Quiz
 
 ### Wednesday
 
-- [ ] COMP3888 Project
-- [ ] MIMI2002 Pre-Lab Work
+- [x] MIMI2002 Pre-Lab Work
 
 ### Thursday
 
-- [ ] MIMI2002 Post-Lab Work
-- [ ] AMED3003 Revision
-- [ ] COMP3888 Project
+- [x] MIMI2002 Post-Lab Work
+- [x] AMED3003 Revision
+- [x] COMP3888 Project
 
 ### Friday
 
-- [ ] MIMI2002 Part 2 Lecture Notes
-- [ ] COMP3888 Project
-- [ ] MIMI2002 Revision
+- [x] MIMI2002 Part 2 Lecture Notes
+- [x] MIMI2002 Revision
 
 ### Saturday
 
+- [x] COMP3520 Revision
+
+### Sunday
+
 - [ ] COMP3888 Project
-- [ ] COMP3520 Revision
+- [ ] COMP3520 Assignment
+- [ ] Install GraphPad
