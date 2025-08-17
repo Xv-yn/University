@@ -36,7 +36,7 @@
 
 ### Sunday
 
-- [ ] COMP3888 Project
+- [x] COMP3888 Project
 - [ ] COMP3520 Assignment
 - [ ] AMED3003 Install GraphPad
-- [ ] MIMI2002 Update LabArchives Notes
+- [x] MIMI2002 Update LabArchives Notes
