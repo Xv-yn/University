@@ -1,42 +1,44 @@
-# Current Week 2
+# Current Week 3
+
+## Active Assessments
+
+- [ ] AMED3003 Melanoma Schematic (90% Complete)
+
+- [ ] COMP3520 Weekly Quiz
+- [ ] COMP3520 Teacher Classroom Assignment (30% Complete)
+
+- [ ] COMP3888 Project Scope Statement (20% Complete)
+
+- [ ] MIMI2002 Weekly Quiz
 
 ## TODO:
 
 ### Monday
 
-- [x] MIMI2002 Part 1 Lecture Notes
-- [x] COMP3888 Project Planning/Preparation
-- [x] COMP3888 Call at 9pm
+- [ ] COMP3888 Project Call
+- [ ] AMED3003 Install GraphPad on Laptop
+- [ ] MIM2002 Lecture Notes
 
 ### Tuesday
 
-- [x] COMP3520 Lecture Notes
-- [x] AMED3003 Lecture Notes
-- [x] AMED3003 Assignment Confirmation
-- [x] COMP3520 Quiz
+- [ ] MIMI2002 Workshop + Quiz
+- [ ] AMED3003 Lecture Notes
+- [ ] COMP3520 Lecture Notes
 
 ### Wednesday
 
-- [x] MIMI2002 Pre-Lab Work
+- [ ] COMP3520 Tutorial
+- [ ] COMP3888 Client Meeting 2pm
+- [ ] COMP3888 Project Scope
 
 ### Thursday
 
-- [x] MIMI2002 Post-Lab Work
-- [x] AMED3003 Revision
-- [x] COMP3888 Project
+- [ ] AMED3003 Workshop
+- [ ] AMED3003 Notes
+- [ ] AMED3003 Assignment
 
 ### Friday
 
-- [x] MIMI2002 Part 2 Lecture Notes
-- [x] MIMI2002 Revision
-
-### Saturday
-
-- [x] COMP3520 Revision
-
-### Sunday
-
-- [x] COMP3888 Project
+- [ ] MIMI2002 Lecture Notes
+- [ ] COMP3520 Quiz
 - [ ] COMP3520 Assignment
-- [ ] AMED3003 Install GraphPad
-- [x] MIMI2002 Update LabArchives Notes
