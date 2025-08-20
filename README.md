@@ -29,8 +29,8 @@
 
 - [ ] COMP3520 Tutorial
 - [x] COMP3888 Client Meeting 2pm
-- [ ] COMP3888 Project Scope
-- [ ] COMP3888 Project Presentation
+- [x] COMP3888 Project Scope
+- [x] COMP3888 Project Presentation
 
 ### Thursday
 
