@@ -249,51 +249,28 @@ White blood cells (leukocytes) must leave the bloodstream and go into the infect
 tissue. The body does this in ordered steps using “smell signals” (chemokines) and
 “Velcro” (adhesion molecules).
 
-On a step-by-step basis:
+On a simplified step-by-step process:
 
-1. Alarm (infection sensed)
-   Resident cells (e.g., macrophages) detect microbes and release cytokines (TNF, IL-1)
-   and chemokines.
-   Analogy: A smoke alarm goes off and texts the fire crew the location.
-
-2. Endothelium gets sticky
-   Those cytokines make nearby blood-vessel lining cells (endothelial cells) put
-   selectins (E- and P-selectin) on their surface.
-   Analogy: The roadway to the fire gets lined with Velcro strips (selectins) so
-   responders can race to the location without fear of slipping.
-
-3. Chemokines on proteoglycans
-   Chemokines stick to the vessel wall on proteoglycans—like scent droplets on the road.
-   Analogy: Breadcrumbs (chemokines) sprayed along the curb showing the exact route.
-
-4. Rolling (tether & roll)
-   Leukocytes (white blood cell) have selectin ligands. Weak, quick bonds between
-   endothelial selectins and leukocyte selectin ligands make the cell slow down and
-   roll along the wall.
-   Analogy: This white blood cell travels by rolling along the walls of blood vessels.
-
-5. Activation by chemokines
-   While rolling, chemokines on the wall bind leukocyte chemokine receptors.
-   This triggers “inside-out” signaling that flips leukocyte integrins (e.g., LFA-1,
-   VLA-4) from low- to high-affinity.
-   Analogy: As the white blood cell is rolling, its surface area picks up all kinds of
-   things, but when it picks up Breadcrumbs (see 3) it follows the trail.
-
-6. Firm adhesion (full stop)
-   Activated integrins on the leukocyte bind strongly to ICAM-1/VCAM-1 on the
-   endothelium. The leukocyte stops.
-   Analogy: Once the white blood cell detects a specific binding molecule (ICAM-1 or
-   VCAM-1) it stops moving.
-
-7. Diapedesis / transmigration (squeeze through)
-   With help from molecules like PECAM-1, the leukocyte squeezes between
-   endothelial cells into the tissue.
-   Analogy: A firefighter slips through a narrow gate between fence slats.
-
-8. Chemotaxis (seek the target)
-   In the tissue, the cell follows the chemokine gradient (“smell trail”) to the exact
-   site of infection.
-   Analogy: Following the smell of smoke straight to the burning room.
+1. Theres an infection in the tissue
+2. The macrophage releases both cytokines and chemokines
+   - The chemokines are basically letters/notes saying "hey this is the kind of virus
+     /pathogen we are dealing with"
+   - The cytokines tell the endothelial cell to "raise the red flag (selectins), the
+     problem is in this area"
+3. The leukocytes who are just minding their own business, traveling through the blood
+   stream, notice the selectins and go "oh shit theres a problem in this area" and
+   follow the notes left behind (the chemokines)
+   - The instant they know theres a problem in the area they slow down by activating
+     the **selectins** on their cell surface
+   - Think of selectins like a surface that is normally smooth for faster travel,
+     then turning rough so they can get a grip on a surface.
+   - This "slow down" process is called **rolling**
+   - While rolling, chemokines bind to leukocyte chemokine receptors → this flips
+     integrins into their “rough gripping” state.
+4. Once on the surface, the leukocyte, crawls (rolls) along the endothelial surface,
+   and eventually the **integrins** bind with their respective ligands and comes to a
+   full stop. The leukocyte squeezes between endothelial cells. Where it sees the
+   infection and kills the problem.
 
 ## Adaptive Immunity
 
@@ -309,6 +286,30 @@ On a step-by-step basis:
 Naïve T & B cells don’t fight yet; they must be activated by antigen in secondary
 lymphoid tissues (lymph nodes, spleen, mucosal/cutaneous lymphoid tissues).
 Analogy: Rookie officers wait at the station until a case briefing sends them out.
+
+### Analogy Summary
+
+The lymphatic system acts as the body's sewage system. As the body tissues keep
+working with fluids, there's bound to be overflow and if not handeled, the overflowing
+liquid could cause massive swelling hence, the body uses the lymphatic system to handle
+this problem.
+
+So when theres a virus or pathogen or something. The tissue leaks lets say "radioactive
+waste".
+
+Now theres the emergency aid system that's basically a dentritic cell acting as a
+sponge to contain the problem, but obviously its not enough, so the dendritic cell
+"safely" moves this waste (safely carries a sample of this waste) into the lymphatic
+(sewage) system and goes "Hey I got XX kind of radioactive waste here, we need to take
+care of this problem"
+
+- More specifically the dentritic cell consumes the pathogen and moves into the nearest
+  lymph node while presenting an antigen (something the body can use to identify this
+  spefic pathogen)
+
+Since the threat is known, the Naïve T & B cells get activated (they get a target to
+kill, think of them as hitman that are on standby until we give them a photo), and
+are sent out to kill those specific targets.
 
 ### Where cells grow vs. where they get activated
 
@@ -405,6 +406,10 @@ stations (nodes); platform signs (CCL19/21) guide them to the right room; the ou
 train (S1P gradient) takes them to the next station to keep searching.
 
 ### Naïve T-cell trafficking
+
+These guys are basically hitmen that have not recieved a photo of who to kill. They
+will keep travelling through blood (airplanes) and lymph nodes (airports) until they
+recieve a target (at the airport) then go out on a hunt to kill.
 
 Entry (HEV in lymph node):
 
