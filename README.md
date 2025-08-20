@@ -7,7 +7,7 @@
 - [ ] COMP3520 Weekly Quiz
 - [ ] COMP3520 Teacher Classroom Assignment (30% Complete)
 
-- [ ] COMP3888 Project Scope Statement (20% Complete)
+- [ ] COMP3888 Project Scope Statement (90% Complete)
 
 - [ ] MIMI2002 Weekly Quiz
 
