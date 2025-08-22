@@ -2,12 +2,13 @@
 
 ## Active Assessments
 
-- [ ] AMED3003 Melanoma Schematic (90% Complete)
+- [x] AMED3003 Melanoma Schematic (100% Complete)
 
 - [ ] COMP3520 Weekly Quiz
 - [ ] COMP3520 Teacher Classroom Assignment (30% Complete)
 
-- [ ] COMP3888 Project Scope Statement (90% Complete)
+- [x] COMP3888 Project Scope Statement (100% Complete)
+- [x] COMP3888 Presentation Sildes ans Speech (20% Complete)
 
 - [ ] MIMI2002 Weekly Quiz
 
@@ -23,29 +24,29 @@
 
 - [x] MIMI2002 Workshop + Quiz
 - [x] AMED3003 Lecture Notes
-- [ ] COMP3520 Lecture Notes
+- [x] COMP3520 Lecture Notes
 
 ### Wednesday
 
-- [ ] COMP3520 Tutorial
+- [x] COMP3520 Tutorial
 - [x] COMP3888 Client Meeting 2pm
 - [x] COMP3888 Project Scope
 - [x] COMP3888 Project Presentation
 
 ### Thursday
 
-- [ ] AMED3003 Workshop
-- [ ] AMED3003 Notes
-- [ ] AMED3003 Assignment Finalize
+- [x] AMED3003 Workshop
+- [x] AMED3003 Notes
+- [x] AMED3003 Assignment Finalize
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Lecture Notes
+- [x] MIMI2002 Lecture Notes
+- [x] COMP3520 Lecture Notes
 
 ### Saturday
 
+- [ ] COMP3520 Quiz
 - [ ] COMP3520 Assignment
 
 ### Sunday

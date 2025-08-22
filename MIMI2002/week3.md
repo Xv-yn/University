@@ -240,3 +240,224 @@ Goals of epidemiology (from first slide):
 Control transmission / speed of spread
 
 Eliminate pathogen from population
+
+# Shift to Parasitism in the Symbiosis Spectrum
+
+1. Symbiosis Spectrum Dynamics
+   - Symbiotic relationships are not fixed — they can shift dynamically between
+     mutualism, commensalism, and parasitism.
+   - The host’s health status and environmental conditions strongly influence the
+     direction of this shift.
+
+2. Factors Causing a Shift to Parasitism
+   - Host Susceptibility
+     - Weakened or immunocompromised host → microbes that were harmless or even
+       beneficial can exploit vulnerability.
+     - Example: gut microbiota imbalance during illness, stress, or immune
+       suppression.
+   - Infectious Agent Characteristics
+     - Microbes may carry virulence factors that remain dormant in normal
+       conditions but activate under stress.
+     - Horizontal gene transfer can introduce pathogenic traits.
+   - Microbiota Imbalance (Dysbiosis)
+     - Normal microbiota maintains immune homeostasis.
+     - Disturbance (e.g., antibiotics, poor diet, stress) shifts the microbial
+       composition, allowing opportunistic pathogens to dominate.
+   - Environmental & Lifestyle Factors
+     - Diet (e.g., high fat/sugar altering Firmicutes/Bacteroidetes ratio).
+     - Travel or exposure to new microbes.
+     - Stress, smoking, alcohol, etc.
+
+# Distinguishing Commensals from Pathogens
+
+1. Commensals
+   - Part of the normal microbiota.
+   - Typically cause no harm to the host; may even provide benefits like colonisation
+     resistance against pathogens.
+   - Example: Staphylococcus aureus
+     - Commensal in 20–40% of healthy people (commonly in the nose).
+     - Normally harmless unless host defenses are compromised.
+     - Can shift to cause disease in susceptible individuals (boils, impetigo,
+       scalded skin syndrome, bloodstream infections).
+   - Key idea → harmless in one context, harmful in another.
+
+2. Pathogens
+   - Organisms that always cause disease when present in a susceptible host.
+   - Usually acquired exogenously (from outside).
+   - Example: Variola virus (smallpox)
+     - Always pathogenic → never a commensal state.
+     - Causes severe systemic disease.
+     - Eradicated through vaccination, quarantine, and absence of animal reservoir.
+
+> [!note] Note
+> Clear distinction: pathogenicity is inherent and not dependent on host microbiota
+> context.
+
+# Mutualism vs. Commensalism
+
+1. Mutualism (Win–Win)
+   - Both organisms benefit from the relationship.
+   - The host and the microbe each gain something positive.
+
+2. Commensalism (Win–Neutral)
+   - One organism benefits, the other is unaffected (neither harmed nor helped).
+   - The host does not gain an obvious advantage, but also doesn’t suffer.
+
+# How Link to Disease Chain Interrelate to Increase the Incidence and Spread of Disease
+
+1. Host–Microbe Interaction
+   - Infection is a dynamic battle between pathogen and host.
+   - Host mounts an immune response (e.g., antibodies) → temporarily reduces pathogen
+     numbers.
+   - Some pathogens adapt using antigenic variation (changing coat proteins) → allows
+     evasion of immunity.
+   - Result: repeated cycles of growth and decline, keeping pathogen load high.
+   - Link to disease chain:
+     - Agent: antigenic variation increases persistence.
+     - Host: immune evasion prolongs infection.
+     - Transmission: sustained pathogen levels increase spread.
+
+2. Microbial Virulence
+   - Definition: intensity of pathogenicity; higher virulence = higher harm.
+   - Indicators:
+     - Ability to invade tissues.
+     - Ability to evade immunity.
+     - Fatality rates.
+   - Link to disease chain:
+     - Determines how efficiently the agent establishes infection and spreads.
+     - More virulent pathogens = higher incidence, faster outbreaks.
+
+3. Virulence Factors (mechanisms aiding spread)
+   - Aid colonisation: e.g., capsules, pili/fimbriae, outer membrane proteins.
+   - Penetration of host tissues: e.g., invasins.
+   - Evasion of host response: e.g., encapsulation, immune suppression, antigenic
+     variation.
+   - Direct damage: toxins (exotoxins, endotoxins), degradative enzymes.
+   - Antibiotic resistance: prolongs infection and transmission.
+   - Link to disease chain:
+     - These traits explain how microbes overcome barriers in the chain of infection
+       (entry, survival, multiplication, exit, spread).
+
+# Breaking the Chain of Infection
+
+1. Colonisation (Attachment/Adhesion)
+   - Microbes must first attach to host cells via:
+     - Non-specific: biofilms, glycocalyx.
+     - Specific: adhesins on fimbriae/pili, viral spike proteins binding host
+       receptors.
+   - Breaking this link:
+     - Vaccines or receptor blockers can prevent adhesion.
+     - Example: neutralising antibodies binding viral spikes → block host cell entry.
+
+2. Immune Evasion (Host Cell Uptake)
+   - Pathogens like Listeria monocytogenes use invasins/internalins to trigger
+     endocytosis and hide inside host cells.
+   - Can move using actin tails → spread cell to cell.
+   - Breaking this link:
+     - Strong immune response or antimicrobial therapy to stop intracellular
+       replication.
+     - Prevents pathogen persistence and further spread.
+
+3. Penetrating Host Tissues
+   - Enzymes allow pathogens to invade deeper tissues:
+     - Hyaluronidase → breaks down connective tissue “cement.”
+     - Collagenase → digests collagen for spread.
+     - Hemolysins → break RBCs, release iron, weaken host defense.
+   - Breaking this link:
+     - Use of inhibitors, targeted antimicrobials, or vaccines against virulence
+       factors.
+     - Stops systemic spread, containing infection locally.
+
+4. Evading Host Defenses
+   - Capsules, phagocytosis resistance, and immune evasion mechanisms prolong
+     infection.
+   - Breaking this link:
+     - Vaccination against capsule antigens (e.g., pneumococcal vaccine).
+     - Enhances immune clearance → stops transmission cycle.
+
+# Microbial Strategies
+
+1. Colonisation
+   - Adhesion/Attachment is the first step in establishing infection.
+     - Non-specific adhesion: biofilms, glycocalyces.
+     - Specific adhesion: adhesins/ligands bind to host receptors.
+       - Example: Fimbriae (pili) in bacteria, spike proteins in viruses.
+   - These strategies ensure microbes remain at infection sites despite host
+     clearance mechanisms.
+
+2. Invasion
+   - Microbes penetrate host tissues or cells using enzymes and invasins.
+   - Examples:
+     - Listeria monocytogenes: invasin proteins trigger endocytosis in
+       non-phagocytic cells; uses actin tails for intracellular movement.
+     - Enzymes:
+       - Hyaluronidase → breaks down hyaluronic acid (cellular cement) → spreads
+         faster.
+       - Collagenase → breaks down collagen → nutrients & rapid spread.
+       - Hemolysins → lyse RBCs for iron, weaken immune function.
+
+3. Immune Evasion
+   - Microbes use diverse strategies to avoid or resist host defenses:
+     - Capsules (polysaccharides): mask antigenic sites, prevent phagocytosis (e.g.
+       Streptococcus pneumoniae, Neisseria meningitidis).
+     - IgA protease: degrades IgA antibodies in mucosal surfaces (e.g. Neisseria,
+       Haemophilus).
+     - Protein A (Staph aureus): binds Fc of IgG, prevents opsonisation &
+       phagocytosis.
+     - M protein (Strep pyogenes): prevents phagocytosis, molecular mimicry →
+       autoimmune complications (acute rheumatic fever).
+     - Affecting phagocytosis: microbes can inhibit chemotaxis, block
+       phagosome-lysosome fusion, resist lysosomal enzymes, or survive
+       intracellularly.
+
+4. Damage to Host
+   - Pathogens cause harm through virulence factors:
+     - Toxins:
+       - Exotoxins: secreted proteins (e.g. tetanus, cholera); high antigenicity;
+         specific effects.
+       - Endotoxins (LPS/Lipid A): part of Gram-negative cell wall; released on
+         lysis; cause systemic inflammation (fever, shock).
+     - Cytotoxins, degradative enzymes, superantigens: disrupt host tissues and
+       immune signaling.
+     - Pathogenicity islands (PI): clusters of genes encoding virulence factors
+       (e.g. secretion systems, toxins, resistance).
+     - Damage promotes spread of infection and increases severity.
+
+5. Host Susceptibility
+   - Infection outcome depends on host factors:
+     - Age, sex, socio-economic status, genetics.
+     - Non-specific barriers: skin, stomach acid, microbiota, mucus, enzymes.
+     - Immune status: immunocompromised hosts more vulnerable.
+   - Interaction between microbial virulence and host defenses determines whether
+     colonisation progresses to disease.
+
+# Role of the Host Immune System in Responding to Infection
+
+1. Host Susceptibility
+   - Susceptibility determines how strongly the immune system can resist infection.
+   - Factors influencing susceptibility:
+     - Host factors: age, sex, occupation, socio-economic status, genetics/inherited
+       traits.
+     - Non-specific defences: intact skin, mucous membranes, stomach acid, saliva,
+       tears (lysozyme), cilia, microbiota, sweat, and urination/defecation.
+     - Immune status: immunocompromised hosts are more vulnerable to infection.
+
+2. Infectious Dose (ID50)
+   - The number of microbes required to cause infection in 50% of hosts.
+   - Disease outcome depends on:
+     - Initial inoculum (how many pathogens enter).
+     - Virulence of the microbe.
+     - Host susceptibility (immune competence).
+   - Examples:
+     - Very low infectious dose (<10 cells): Mycobacterium tuberculosis, Shigella,
+       Hepatitis B.
+     - High infectious dose: Vibrio cholerae (10⁶–10¹¹ cells).
+   - Stronger immune systems can resist smaller doses; weaker systems allow easier
+     establishment of infection.
+
+3. Limitations of Understanding Host-Pathogen Interaction
+   - Research models (e.g. mice or single demographics) may not represent all hosts.
+   - Ethical limitations restrict human testing.
+   - One Health concept: Human, animal, and environmental health are interconnected.
+   - Holobionts: The host and its associated microbiota form an ecological niche that
+     shapes immunity and susceptibility.
