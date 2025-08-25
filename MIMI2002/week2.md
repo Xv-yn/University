@@ -18,6 +18,36 @@ Viruses:
 Viruses are extremely small to "see" a viral particle, an electron
 microscope MUST be used.
 
+## The Characteristics of Living Things
+
+Viruses do not meet the criteria for living things. As seen below:
+
+- [ ] Cellular Organization
+  - All living things are made of one or more cells (the basic unit of life).
+
+- [ ] Metabolism (Energy Use)
+  - They take in energy and materials (like food, light, or chemicals) and convert them into usable
+    forms to grow, move, or repair themselves.
+
+- [ ] Homeostasis (Internal Regulation)
+  - They maintain stable internal conditions (like temperature, pH, water balance) even when the
+    outside environment changes.
+
+- [ ] Growth and Development
+  - They grow (increase in size/number of cells) and often undergo development (changing form or
+    abilities as they mature).
+
+- [ ] Response to Stimuli
+  - They sense and react to changes in their environment (like plants bending toward light, or animals
+    responding to danger).
+
+- [x] Reproduction (with a caveat)
+  - They can make new individuals, either sexually (two parents) or asexually (one parent).
+
+- [x] Adaptation / Evolution
+  - Populations of living things change over generations through evolution, adapting to their
+    environment
+
 ## Structure fo a Virus
 
 - Viruses have a nucleic acid genome or either DNA or RNA
@@ -57,6 +87,7 @@ microscope MUST be used.
 ### Spread of Virus Within Host
 
 - Localized Infection
+  - Analogy: The fire starts in one room (say, the kitchen) and stays there.
   - Virus starts replicating at primary site of infection
     - Produces more viruses
     - Releases the produced viruses outside the cell (shedding to exterior)
@@ -71,10 +102,12 @@ microscope MUST be used.
       - Papilomaviruses
 
 - Disseminated Infection
+  - Analogy: The fire starts in the kitchen but then jumps to other specific rooms (maybe the living
+    room and bedroom).
   - Must breach physical and immunological barriers
   - Extends beyond primary site of infection
   - Viruses move via circulatory system
-    - Directly through capillaries vai bite or puncture
+    - Directly through capillaries via bite or puncture
     - Can invade organs via blood vessels
     - Examples:
       - HIV
@@ -94,6 +127,7 @@ microscope MUST be used.
       - Motor Neurons
 
 - Systemic Infection
+  - Analogy: The fire spreads into the wiring and air ducts, now it’s everywhere at once.
   - Affects many organs
 
 > [!NOTE]
@@ -150,7 +184,7 @@ microscope MUST be used.
 
 Transmission is dependent on:
 
-- The number of virsu particles shed
+- The number of virus particles shed
 - Number of virus particles required to infect a new host
 - Stability of virus in the environemnt (how long can it live outside the host)
 
