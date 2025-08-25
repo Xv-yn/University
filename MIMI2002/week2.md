@@ -186,7 +186,7 @@ Transmission is dependent on:
 
 - The number of virus particles shed
 - Number of virus particles required to infect a new host
-- Stability of virus in the environemnt (how long can it live outside the host)
+- Stability of virus in the environment (how long can it live outside the host)
 
 These are the methods in which a virus can spread:
 
@@ -501,8 +501,11 @@ T cells
 
 ### MHC-I & CD8 T cells (cytotoxic T lymphocytes, CTLs)
 
+> [!NOTE]
+> MHC-I = Major Histocompatibility Complex Class I
+
 What they see: CD8 T cells recognize peptides on MHC-I.
-Analogy: Patrol officers checking a \*“factory’s internal selfie badge.”
+Analogy: Patrol officers checking a “factory’s internal selfie badge.”
 
 Peptide source: Inside the cell (viral proteins, tumor/abnormal self).
 
@@ -512,7 +515,8 @@ After activation: CD8 T cells become CTLs that kill infected cells (perforin/gra
 Fas–FasL) and limit pathogen spread.
 Analogy: If the selfie shows sabotage, SWAT shuts the factory down.
 
-Why this matters: Because every nucleated cell shows internal status, CTLs can target any virus-infected cell type.
+Why this matters: Because every nucleated cell shows internal status, CTLs can target
+any virus-infected cell type.
 
 ### MHC-II & CD4 T cells (helper T cells)
 
