@@ -1,3 +1,5 @@
+# AI in Neuroimaging
+
 # Imaging in Diagnostics
 
 ## Basic Physics of Ionising and Non-Ionising Imaging Techniques.
@@ -72,7 +74,7 @@ Disadvantages:
 - Limited detail for soft tissues (brain, solid organs, muscles).
 - Only 2D projection, overlapping structures can obscure findings.
 
-### CT (Computed Tomography)
+### CT (Computed Tomography/CT Scan)
 
 **What it is**: Advanced X-ray technique producing cross-sectional (3D) images.
 
