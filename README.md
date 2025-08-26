@@ -10,6 +10,7 @@
 
 - [x] COMP3888 Project Scope Statement (100% Complete)
 - [x] COMP3888 Presentation Sildes ans Speech (100% Complete)
+- [ ] COMP3888 AI Model Part 2 (70% Complete)
 
 - [ ] MIMI2002 Fortnightly Quiz
 
@@ -23,9 +24,9 @@
 
 ### Tuesday
 
-- [ ] AMED3002 Lecture Notes
-- [ ] COMP3888 Call with Client Setup
-- [ ] COMP3888 Presentation Setup
+- [x] AMED3002 Lecture Notes
+- [x] COMP3888 Call with Client Setup
+- [x] COMP3888 Presentation Setup
 
 ### Wednesday
 
