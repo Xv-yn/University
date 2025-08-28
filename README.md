@@ -30,20 +30,22 @@
 
 ### Wednesday
 
-- [ ] COMP3888 Client Call
-- [ ] COMP3888 Presentation
-- [ ] MIMI2002 Prac Preparation
+- [x] COMP3888 Client Call
+- [x] COMP3888 Presentation
+- [x] MIMI2002 Prac Preparation
 
 ### Thursday
 
-- [ ] MIMI2002 Prac
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Assignment
+- [x] MIMI2002 Prac
+- [x] COMP3520 Lecture Notes
+- [x] COMP3520 Quiz
+- [x] COMP3520 Assignment
 
 ### Friday
 
 - [ ] MIMI2002 Lecture Notes
+- [ ] COMP3520 Assignment
+- [ ] AMED3002 Poster Assignment
 
 ### Saturday
 
