@@ -10,7 +10,7 @@
       Est. Given: 11 Aug 2025 Week 2 Monday
       Due: 25 Aug 2025 at 23:59 Week 4 Monday
 
-- [ ] (25%) Assignment 2 Poster
+- [x] (25%) Assignment 2 Poster
       Individual
       Est. Given: 19 Aug 2025 Week 3 Tuesday
       Due: 2 Sep 2025 at 16:30 Week 5 Tuesday

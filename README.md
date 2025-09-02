@@ -19,14 +19,14 @@
 
 ### Monday
 
-- [ ] MIMI2002 Lecture Notes
-- [ ] MIMI2002 Lecture Notes (Friday)
-- [ ] MIMI2002 Prac Prep
-- [ ] COMP3888 9pm Call
+- [x] MIMI2002 Lecture Notes
+- [x] MIMI2002 Lecture Notes (Friday)
+- [x] MIMI2002 Prac Prep
+- [x] COMP3888 9pm Call
 
 ### Tuesday
 
-- [ ] AMED3003 Lecture Notes
+- [x] AMED3003 Lecture Notes
 - [ ] COMP3888 Report
 - [ ] COMP3888 Call with Client Setup
 - [ ] AMED3003 Prac Preparation
