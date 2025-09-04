@@ -27,26 +27,25 @@
 ### Tuesday
 
 - [x] AMED3003 Lecture Notes
-- [ ] COMP3888 Report
-- [ ] COMP3888 Call with Client Setup
-- [ ] AMED3003 Prac Preparation
+- [x] COMP3888 Report
+- [x] COMP3888 Call with Client Setup
+- [x] AMED3003 Prac Preparation
 
 ### Wednesday
 
-- [ ] COMP3888 Client Call
-- [ ] AMED3003 Prac Preparation
+- [x] COMP3888 Client Call
+- [x] AMED3003 Prac Preparation
 
 ### Thursday
 
-- [ ] AMED3003 Prac
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Assignment
+- [x] AMED3003 Prac
+- [x] COMP3520 Assignment
 
 ### Friday
 
 - [ ] MIMI2002 Lecture Notes
-- [ ] COMP3520 Assignment
+- [ ] COMP3520 Quiz
+- [ ] COMP3520 Lecture Notes
 - [ ] COMP3888 Report
 
 ### Saturday
