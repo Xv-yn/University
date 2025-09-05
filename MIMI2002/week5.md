@@ -307,3 +307,93 @@ General Features of Streptococcus
    - Side effects: hepatotoxicity, neurotoxicity, rashes.
    - Surgical resection may be required for aspergilloma.
    - Despite treatment, mortality remains high in invasive cases.
+
+# Diversity of Influenza Virus
+
+- Family: Orthomyxoviridae; genera: Influenza A, B, C, D.
+- Human disease: Mainly caused by Influenza A (IAV) and B (IBV).
+- Hosts:
+  - IAV: Humans, birds, pigs, horses, dogs, seals, bats.
+  - IBV: Only humans.
+- Antigenic variation:
+  - Antigenic drift: Gradual mutations in HA/NA; seasonal epidemics → yearly vaccine
+    updates
+  - Antigenic shift: Major reassortment of HA/NA genes; leads to pandemics (e.g.
+    Spanish flu 1918, H1N1 2009
+
+> [!NOTE]
+> HA = Haemagglutinin gene
+> NA = Neuraminidase gene
+
+# Epidemiology, Transmission, Pathology, Virulence
+
+- Epidemiology:
+  - Seasonal flu infects ~10% globally each year.
+  - Pandemics occur every 10–50 years, higher mortality due to no pre-existing
+    immunity.
+- Transmission
+  - Airborne droplets/aerosols.
+  - Fomite transmission (surfaces).
+  - Direct contact.
+- Pathophysiology
+  - Targets respiratory epithelial cells.
+  - Severe cases: replication in lower respiratory tract → inflammation, pneumonia.
+- Clinical disease
+  - Symptoms: fever, cough, sore throat, malaise, headache, myalgia.
+  - Range: asymptomatic → fatal (main cause of death = influenza pneumonitis).
+  - High-risk groups: young, elderly, pregnant, immunocompromised, genetic
+    predispositions (e.g., IFN signaling defects).
+- Virulence mechanisms:
+  - HA mediates viral entry; NA mediates exit
+  - NS proteins inhibit interferon response.
+  - Error-prone RNA polymerase → frequent mutations.
+
+# Host Response
+
+- Innate immunity
+  - Pattern recognition receptors (PRRs) detect virus.
+  - Induce interferons, cytokines → antiviral state.
+  - NK cells and CD8+ T cells kill infected cells.
+
+- Adaptive immunity:
+  - Antibody response, especially IgA, prevents reinfection.
+  - Neutralizing antibodies target HA and NA.
+
+# Diagnosis, Treatment, and Control
+
+- Diagnosis:
+  - PCR and rapid antigen tests.
+
+- Treatment
+  - Neuraminidase inhibitors (e.g., oseltamivir, zanamivir).
+  - Amantadine/rimantadine (limited by resistance).
+
+- Prevention
+  - Annual vaccination (due to antigenic drift).
+  - Vaccine types:
+    - Killed/inactivated virus (IM injection).
+    - Protein subunit vaccines.
+    - Live attenuated vaccine (intranasal, 2–49 yrs, low risk).
+
+- Non-pharmaceutical interventions (NPIs)
+  - Masks, social distancing, hygiene, improved ventilation.
+  - School closures, border control during pandemics.
+
+# Seasonal vs Pandemic Influenza
+
+- Seasonal flu:
+  - Driven by antigenic drift.
+  - Lower mortality; controlled by yearly vaccination.
+
+- Pandemic flu:
+  - Driven by antigenic shift (reassortment from animals).
+  - No immunity in population → high severity, global outbreaks.
+
+# Relationship with Respiratory System & Other Viruses
+
+- Influenza damages respiratory epithelium, predisposing to secondary infections.
+
+- Compared to coronaviruses:
+  - Influenza = segmented, negative-sense RNA virus.
+  - SARS-CoV-2 = non-segmented, positive-sense RNA virus
+  - Both spread via respiratory route but differ in genome and pathogenesis.

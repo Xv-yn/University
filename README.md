@@ -6,7 +6,7 @@
 - [x] AMED3003 HPV Poster (100% Complete)
 
 - [ ] COMP3520 Weekly Quiz
-- [ ] COMP3520 Teacher Classroom Assignment (90% Complete)
+- [x] COMP3520 Teacher Classroom Assignment (100% Complete)
 
 - [x] COMP3888 Project Scope Statement (100% Complete)
 - [x] COMP3888 Presentation Sildes ans Speech (100% Complete)
@@ -43,7 +43,7 @@
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
+- [x] MIMI2002 Lecture Notes
 - [ ] COMP3520 Quiz
 - [ ] COMP3520 Lecture Notes
 - [ ] COMP3888 Report
