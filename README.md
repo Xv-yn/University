@@ -11,7 +11,7 @@
 - [x] COMP3888 Project Scope Statement (100% Complete)
 - [x] COMP3888 Presentation Sildes ans Speech (100% Complete)
 - [ ] COMP3888 AI Model Part 2 (80% Complete)
-- [ ] COMP3888 Report (0% Complete)
+- [x] COMP3888 Report (100% Complete)
 
 - [ ] MIMI2002 Fortnightly Quiz
 
@@ -44,13 +44,13 @@
 ### Friday
 
 - [x] MIMI2002 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3888 Report
+- [x] COMP3520 Quiz
+- [x] COMP3520 Lecture Notes
+- [x] COMP3888 Report
 
 ### Saturday
 
-- [ ] COMP3888 Report
+- [x] COMP3888 Report
 - [ ] MIMI2002 Oral Assessment Prep
 
 ### Sunday
