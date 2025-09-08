@@ -1,59 +1,52 @@
-# Current Week 5
+# Current Week 6
 
 ## Active Assessments
-
-- [x] AMED3003 Melanoma Schematic (100% Complete)
-- [x] AMED3003 HPV Poster (100% Complete)
 
 - [ ] COMP3520 Weekly Quiz
 - [x] COMP3520 Teacher Classroom Assignment (100% Complete)
 
-- [x] COMP3888 Project Scope Statement (100% Complete)
-- [x] COMP3888 Presentation Sildes ans Speech (100% Complete)
 - [ ] COMP3888 AI Model Part 2 (80% Complete)
-- [x] COMP3888 Report (100% Complete)
 
 - [ ] MIMI2002 Fortnightly Quiz
+- [ ] MIMI2002 Prac Quiz
 
 ## TODO:
 
 ### Monday
 
-- [x] MIMI2002 Lecture Notes
-- [x] MIMI2002 Lecture Notes (Friday)
-- [x] MIMI2002 Prac Prep
-- [x] COMP3888 9pm Call
+- [ ] MIMI2002 Lecture Notes
+- [ ] MIMI2002 Prac Prep
+- [ ] COMP3888 9pm Call
+- [ ] COMP3888 Individual Reflection
 
 ### Tuesday
 
-- [x] AMED3003 Lecture Notes
-- [x] COMP3888 Report
-- [x] COMP3888 Call with Client Setup
-- [x] AMED3003 Prac Preparation
+- [ ] AMED3003 Lecture Notes
+- [ ] COMP3888 Call with Client Setup
+- [ ] MIMI2002 Prac Quiz Prep
 
 ### Wednesday
 
-- [x] COMP3888 Client Call
-- [x] AMED3003 Prac Preparation
+- [ ] COMP3888 Client Call
+- [ ] AMED3003 Prac Preparation
+- [ ] MIMI2002 Prac Quiz Prep
 
 ### Thursday
 
-- [x] AMED3003 Prac
-- [x] COMP3520 Assignment
+- [ ] AMED3003 Prac
+- [ ] MIMI2002 Oral Assessment Prep
 
 ### Friday
 
-- [x] MIMI2002 Lecture Notes
-- [x] COMP3520 Quiz
-- [x] COMP3520 Lecture Notes
-- [x] COMP3888 Report
+- [ ] MIMI2002 Lecture Notes
+- [ ] COMP3520 Quiz
+- [ ] COMP3520 Lecture Notes
+- [ ] MIMI2002 Oral Assessment Prep
 
 ### Saturday
 
-- [x] COMP3888 Report
 - [ ] MIMI2002 Oral Assessment Prep
 
 ### Sunday
 
-- [ ] COMP3888 Report
 - [ ] MIMI2002 Oral Assessment Prep

@@ -5,7 +5,7 @@
       Est. Given: 5 Aug 2025 Week 1 Tuesday
       Due: 19 Aug 2025 at 11:00 Week 3 Tuesday
 
-- [ ] (4%) Open Book Quiz 2
+- [x] (4%) Open Book Quiz 2
       Individual
       Est. Given: 19 Aug 2025 Week 3 Tuesday
       Due: 2 Sep 2025 at 11:00 Week 5 Tuesday
