@@ -7,9 +7,6 @@
 
 - [ ] COMP3888 AI Model Part 2 (80% Complete)
 
-- [ ] MIMI2002 Fortnightly Quiz
-- [ ] MIMI2002 Prac Quiz
-
 ## TODO:
 
 ### Monday
@@ -22,27 +19,27 @@
 
 ### Tuesday
 
-- [ ] AMED3003 Lecture Notes
-- [ ] COMP3888 Call with Client Setup
-- [ ] MIMI2002 Prac Quiz Prep
-- [ ] COMP3888 9pm Call
+- [x] AMED3003 Lecture Notes
+- [x] COMP3888 Call with Client Setup
+- [x] MIMI2002 Prac Quiz Prep
+- [x] COMP3888 9pm Call
 
 ### Wednesday
 
-- [ ] COMP3888 Client Call
-- [ ] AMED3003 Prac Preparation
-- [ ] MIMI2002 Prac Quiz Prep
+- [x] COMP3888 Client Call
+- [x] AMED3003 Prac Preparation
+- [x] MIMI2002 Prac Quiz Prep
 
 ### Thursday
 
-- [ ] AMED3003 Prac
-- [ ] MIMI2002 Oral Assessment Prep
+- [x] MIMI2002 Prac
+- [x] MIMI2002 Prac Quiz
+- [x] COMP3520 Quiz
+- [x] COMP3520 Lecture Notes
 
 ### Friday
 
 - [ ] MIMI2002 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Lecture Notes
 - [ ] MIMI2002 Oral Assessment Prep
 
 ### Saturday
