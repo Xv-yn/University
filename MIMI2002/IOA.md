@@ -52,6 +52,15 @@ Chlamydia is an **obligated intracellular bacterium**.
      - `Exocytosis` → pushes them out more gently.
    - EBs spread to nearby cells → the infection cycle continues.
 
+## Damage
+
+Tissue damage:
+
+- Host inflammatory response (neutrophils, macrophages) → ROS, enzymes → local tissue
+  injury.
+- Chronic inflammation leads to scarring (e.g., fallopian tubes → infertility;
+  conjunctiva → blindness in trachoma).
+
 ## Immune Response to Chlamydia
 
 ### Innate Immune Response (First Responders)
