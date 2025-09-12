@@ -10,7 +10,7 @@
       Est. Given: 19 Aug 2025 Week 3 Tuesday
       Due: 2 Sep 2025 at 11:00 Week 5 Tuesday
 
-- [ ] (10%) Restrcited Open Book Quiz
+- [x] (10%) Restrcited Open Book Quiz
       Individual
       Est. Given: 26 Aug 2025 Week 4 Monday
       Due: 11 Sep 2025 at 11:30 Week 6 Thursday

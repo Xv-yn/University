@@ -247,3 +247,117 @@ from antigen-presenting cells (APCs) to become activated:
   - Dendritic cells are the most potent APCs:
   - Migrate to lymph nodes after pathogen encounter.
   - Can interact with thousands of T cells per hour to find the right antigen-specific TCR.
+
+# How T-cell receptor (TCR) diversity is generated
+
+# Burnet’s clonal selection hypothesis (conceptual steps)
+
+1. Pre-existing specificity: Each lymphocyte (B or T) bears receptors of a single
+   specificity generated before antigen exposure.
+2. Antigen selects the clone: When an antigen binds its matching receptor with
+   sufficient affinity, it selects that lymphocyte.
+3. Clonal expansion: The selected cell proliferates, generating a clone of identical,
+   antigen-specific effector cells.
+4. Differentiation: Progeny become effector cells (e.g., cytotoxic T cells or helper
+   T cells) to clear the antigen, and memory cells for faster responses next time.
+5. Self-tolerance: Clones with high affinity for self are eliminated or inactivated
+   during development (central/peripheral tolerance), explaining why the immune system
+   usually ignores self.
+
+# Steps in T-cell maturation (thymus “boot camp”)
+
+1. From bone marrow → thymus: immature pro-T cells arrive.
+   - Analogy: recruits entering boot camp.
+2. β chain first: TCR-β recombines → pre-TCR forms with invariant pre-Tα (checkpoint).
+   - Analogy: test-firing the rifle frame before adding the scope.
+3. α chain next: TCR-α recombines → full αβ TCR on a double-positive (DP) CD4⁺CD8⁺
+   thymocyte.
+4. Positive selection: keep cells that weakly recognize self-MHC + self peptide; they
+   become single-positive and keep the matching co-receptor:
+   - Recognize MHC-I → CD8⁺; MHC-II → CD4⁺.
+   - Analogy: door scanner: your badge must register, but not cling.
+5. Negative selection: delete cells that bind too strongly to self-MHC + peptide
+   (central tolerance).
+   - Analogy: eject anyone who hugs the scanner—too risky.
+6. Exit as naïve CD4⁺ or CD8⁺ T cells → circulate through blood ↔ lymph nodes looking
+   for antigen on APCs.
+
+# Clonal expansion & memory cells — why responses get faster
+
+1. Activation needs two signals: TCR + co-stimulation (e.g., CD28) → IL-2 production
+   drives proliferation.
+   - Analogy: key + ignition = engine revs.
+2. Clonal expansion: antigen-specific T cells can increase ~10,000-fold during
+   infection; non-specific cells don’t expand. (p24)
+   - Analogy: only the matching “unit” gets mass-called up.
+3. Contraction: after pathogen control, 90–95% die, returning toward baseline.
+4. Memory T cells: long-lived, maintained by cytokines (not continuous antigen), react
+   faster and need less co-stimulation on re-exposure; can be CD4 or CD8.
+   - Analogy: veterans on reserve—trained, equipped, mobilize quickly.
+
+# CD8 vs CD4 T cells — what they see & what they do
+
+- CD8 (Cytotoxic T cells, CTLs)
+  - Recognize peptides from intracellular sources on MHC-I (on all nucleated cells).
+  - Kill infected cells directly.
+  - Analogy: SWAT team eliminating compromised rooms.
+
+- CD4 (Helper T cells)
+  - Recognize peptides from extracellular sources on MHC-II (on DCs, macrophages, B
+    cells).
+  - Coordinate immunity via cytokines (activate macrophages, help B cells,
+    orchestrate inflammation).
+  - Analogy: field commanders giving orders and upgrades.
+
+# CD4 T-cell subsets — signatures & jobs
+
+- Th1 — IFN-γ; activates macrophages; best for intracellular microbes (e.g., Mtb).
+  - Analogy: turns macrophages into “super-janitors” with stronger bleach.
+- Th2 — IL-4, IL-5, IL-13; fights helminths; promotes eosinophils & mucus; linked to
+  allergy.
+  - Analogy: pest-control team specializing in big worms.
+- Th17 — IL-17; recruits neutrophils; good for extracellular bacteria & fungi;
+  implicated in autoimmunity.
+  - Analogy: calls in street-sweepers (neutrophils) for dirty, slippery roads.
+- Regulatory T cells (Tregs) — CD4⁺ suppressors that maintain tolerance; mechanisms
+  include IL-10, reducing APC stimulation, and soaking up IL-2.
+  - Analogy: referees blowing the whistle to stop friendly fire.
+
+# Other T-cell flavors vs αβ T cells
+
+- γδ T cells: often tissue-resident; non-classical antigen recognition (sometimes
+  MHC-independent); fast “innate-like” responses.
+  - Analogy: border rangers—fewer rules, quicker reactions.
+
+- NKT cells: semi-invariant TCRs recognizing lipid antigens on CD1d; rapid cytokine
+  bursts (IFN-γ/IL-4).
+  - Analogy: special liaison unit between innate and adaptive.
+
+- MAIT cells: recognize vitamin B metabolite antigens on MR1; enriched in mucosa &
+  liver; quick antimicrobial responses.
+  - Analogy: metro patrols guarding transit hubs (mucosa).
+
+> [!NOTE]
+> (These three “bridge” innate and adaptive immunity; αβ T cells use peptide–MHC with
+> vast receptor diversity.)
+
+# How T cells + innate cells team up vs intracellular bacteria (e.g., TB)
+
+- Sensing & priming in LN: DCs ingest bacteria, migrate to LN, present MHC-II peptides
+  to naïve CD4 → Th1 differentiation (driven by IL-12 from APCs and IFN-γ from NK).
+  - Analogy: crime scene data sent to HQ to brief the right squad.
+
+- Macrophage activation on site: Th1 cells reach the lesion and deliver a dual
+  hit—IFN-γ + CD40L–CD40—that boosts ROS/NO/lysosomal enzymes to kill microbes inside
+  phagosomes.
+  - Analogy: upgrade the cleaning crew with stronger detergents and better tools.
+
+- If bacteria escape the vesicle: CD8 CTLs recognize infected cells via MHC-I and kill
+  the host cell, eliminating the bacterial factory.
+  - Analogy: demolish the compromised room to stop further spread.
+
+- Early innate help: NK cells/ILC1 provide IFN-γ early to bias Th1 responses.
+
+- When control fails: persistent infection → granulomas, chronic macrophage/T-cell
+  activation → tissue damage (hallmark of TB disease).
+  - Analogy: building a containment wall that also scars the neighborhood.

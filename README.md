@@ -39,12 +39,18 @@
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
-- [ ] MIMI2002 Oral Assessment Prep
+- [x] MIMI2002 Lecture Notes
+- [x] MIMI2002 Oral Assessment Prep
+  - [x] Chlamydia Lifecycle
+  - [x] Innate Immmune Response to Chlamydia
+  - [x] Adaptive Immune Response to Chlamydia
 
 ### Saturday
 
 - [ ] MIMI2002 Oral Assessment Prep
+  - [ ] Gonorrhoeae Lifecycle
+  - [ ] Innate Immmune Response to Gonorrhoeae
+  - [ ] Adaptive Immune Response to Gonorrhoeae
 
 ### Sunday
 
