@@ -47,11 +47,14 @@
 
 ### Saturday
 
-- [ ] MIMI2002 Oral Assessment Prep
-  - [ ] Gonorrhoeae Lifecycle
-  - [ ] Innate Immmune Response to Gonorrhoeae
-  - [ ] Adaptive Immune Response to Gonorrhoeae
+- [x] MIMI2002 Oral Assessment Prep
+  - [x] Gonorrhoeae Lifecycle
+  - [x] Innate Immmune Response to Gonorrhoeae
+  - [x] Adaptive Immune Response to Gonorrhoeae
 
 ### Sunday
 
 - [ ] MIMI2002 Oral Assessment Prep
+  - [ ] Treponema pallidum Lifecycle
+  - [ ] Innate Immmune Response to Treponema pallidum
+  - [ ] Adaptive Immune Response to Treponema pallidum
