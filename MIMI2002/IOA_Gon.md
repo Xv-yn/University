@@ -105,7 +105,7 @@ times in cells but mainly thrives extracellularly.
    - IL-8 draws huge numbers of neutrophils into the mucosa.
    - Neutrophil recruitment occurs as soon as epithelial cells sense gonorrhoea. As well
      as swarming in after transcytosis.
-   - Neutrophils engulf bacteria and release ROS + proteases.
+   - Neutrophils engulf bacteria and release Reactive Oxygen Species (ROS) + proteases.
    - Problem: gonorrhoea can sometimes survive inside neutrophils, using them as
      temporary shelters.
    - Result: lots of neutrophil death → pus (purulent discharge).
@@ -137,7 +137,7 @@ times in cells but mainly thrives extracellularly.
        - IL-6 + IL-23 + TGF-β = the classic “recipe” for Th17 differentiation.
      - Th1 responses (IFN-γ, activated macrophages) are great for intracellular
        pathogens (like TB, Chlamydia).
-       - But N. gonorrhoeae mostly lives outside cells once it’s crossed the epitheliu
+       - But N. gonorrhoeae mostly lives outside cells once it’s crossed the epithelium
    - It’s like fighting a fire-type boss in Pokémon — but gonorrhoea tricks you
      into only sending out grass-type Pokémon.
    - This means:
