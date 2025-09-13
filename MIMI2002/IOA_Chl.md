@@ -1,6 +1,4 @@
-# IOA Notes
-
-## Chlamydia trachomatis Infection Strategy
+# Chlamydia trachomatis Infection Strategy
 
 Chlamydia is an **obligated intracellular bacterium**.
 
@@ -61,9 +59,9 @@ Tissue damage:
 - Chronic inflammation leads to scarring (e.g., fallopian tubes → infertility;
   conjunctiva → blindness in trachoma).
 
-## Immune Response to Chlamydia
+# Immune Response to Chlamydia
 
-### Innate Immune Response (First Responders)
+## Innate Immune Response (First Responders)
 
 - Epithelial cell sensing
   - Infected epithelial cells `recognize Chlamydia through pattern recognition`
@@ -105,7 +103,7 @@ Tissue damage:
 > [!NOTE]
 > Limitation: Chlamydia manipulates MHC I → sometimes “invisible” to NK cells.
 
-### Adaptive Immune Response (Specific Defenders)
+## Adaptive Immune Response (Specific Defenders)
 
 Antibodies (B cell side):
 
