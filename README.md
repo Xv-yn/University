@@ -1,9 +1,12 @@
-# Current Week 6
+# Current Week 7
 
 ## Active Assessments
 
+- [ ] MIMI2002 IOA Assessment
+
+- [ ] AMED3003 Melanoma Presentation
+
 - [ ] COMP3520 Weekly Quiz
-- [x] COMP3520 Teacher Classroom Assignment (100% Complete)
 
 - [ ] COMP3888 AI Model Part 2 (80% Complete)
 
@@ -11,50 +14,41 @@
 
 ### Monday
 
-- [x] MIMI2002 Lecture Notes
-- [x] MIMI2002 Prac Prep
-- [x] COMP3888 Individual Reflection 1
-- [x] COMP3888 Reflection 2
-- [x] COMP3888 Speech
+- [ ] MIMI2002 Oral Assessment Prep
+  - [ ] Trichomonas vaginalis Lifecycle
+  - [ ] Innate Immmune Response to Trichomonas vaginalis
+  - [ ] Adaptive Immune Response to Trichomonas vaginalis
+- [ ] MIMI2002 Prac Prep
+- [ ] COMP3888 9pm Call
 
 ### Tuesday
 
-- [x] AMED3003 Lecture Notes
-- [x] COMP3888 Call with Client Setup
-- [x] MIMI2002 Prac Quiz Prep
-- [x] COMP3888 9pm Call
+- [ ] MIMI2002 Tutorial
+- [ ] AMED3003 Lecture Notes
 
 ### Wednesday
 
-- [x] COMP3888 Client Call
-- [x] AMED3003 Prac Preparation
-- [x] MIMI2002 Prac Quiz Prep
+- [ ] MIMI2002 Oral Assessment Prep
+  - [ ] Herpes Simplex Virus type 2 (HSV-2) Lifecycle
+  - [ ] Innate Immmune Response to Herpes Simplex Virus type 2 (HSV-2)
+  - [ ] Adaptive Immune Response to Herpes Simplex Virus type 2 (HSV-2)
+- [ ] COMP3888 Client Call
 
 ### Thursday
 
-- [x] MIMI2002 Prac
-- [x] MIMI2002 Prac Quiz
-- [x] COMP3520 Quiz
-- [x] COMP3520 Lecture Notes
+- [ ] MIMI2002 Oral Assessment Prep
+  - [ ] Complete Revision
 
 ### Friday
 
-- [x] MIMI2002 Lecture Notes
-- [x] MIMI2002 Oral Assessment Prep
-  - [x] Chlamydia Lifecycle
-  - [x] Innate Immmune Response to Chlamydia
-  - [x] Adaptive Immune Response to Chlamydia
+- [ ] MIMI2002 Oral Assessment
+- [ ] COMP3520 Lecture Notes
+- [ ] COMP3520 Quiz
 
 ### Saturday
 
-- [x] MIMI2002 Oral Assessment Prep
-  - [x] Gonorrhoeae Lifecycle
-  - [x] Innate Immmune Response to Gonorrhoeae
-  - [x] Adaptive Immune Response to Gonorrhoeae
+- [ ] COMP3888 Project
 
 ### Sunday
 
-- [ ] MIMI2002 Oral Assessment Prep
-  - [ ] Treponema pallidum Lifecycle
-  - [ ] Innate Immmune Response to Treponema pallidum
-  - [ ] Adaptive Immune Response to Treponema pallidum
+- [ ] AMED3003 Melanoma Presentation
