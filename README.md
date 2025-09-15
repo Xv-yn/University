@@ -14,12 +14,12 @@
 
 ### Monday
 
-- [ ] MIMI2002 Oral Assessment Prep
-  - [ ] Trichomonas vaginalis Lifecycle
-  - [ ] Innate Immmune Response to Trichomonas vaginalis
-  - [ ] Adaptive Immune Response to Trichomonas vaginalis
-- [ ] MIMI2002 Prac Prep
-- [ ] COMP3888 9pm Call
+- [x] MIMI2002 Oral Assessment Prep
+  - [x] Trichomonas vaginalis Lifecycle
+  - [x] Innate Immmune Response to Trichomonas vaginalis
+  - [x] Adaptive Immune Response to Trichomonas vaginalis
+- [x] MIMI2002 Prac Prep
+- [x] COMP3888 9pm Call
 
 ### Tuesday
 
