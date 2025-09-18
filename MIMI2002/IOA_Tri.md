@@ -1,4 +1,4 @@
-# Treponema pallidum Infection Strategy
+# Trichomonas vaginalis Infection Strategy
 
 1. Exposure & Entry
    - Passed by sexual contact (genital, oral-genital less common).
@@ -49,7 +49,7 @@
 
 - Net effect: it stays stuck to mucosa, feeding and irritating without being quickly cleared.
 
-# Immune Response to Treponema pallidum
+# Immune Response to Trichomonas vaginalis
 
 ## Innate Immune Response (First Responders)
 

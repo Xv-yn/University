@@ -4,27 +4,27 @@
    - Spread by sexual contact, skin-to-skin mucosal contact, or from mother to
      baby at birth.
    - Infects mucosal epithelial cells of the genital tract.
-   - Virus attaches using glycoproteins (e.g., gB, gD) that bind to host
-     receptors (nectin-1, HVEM).
-   - Enters cells via membrane fusion or endocytosis.
+   - Virus `attaches using glycoproteins (e.g., gB, gD)` that `bind to host
+receptors (nectin-1, HVEM)`.
+   - Enters cells via `membrane fusion or endocytosis`.
 
 2. Lytic Infection (Primary Phase)
    - Once inside epithelial cells:
      - The viral DNA is released into the nucleus.
-     - Viral genes are expressed in a cascade: immediate-early → early → late proteins.
+     - Viral genes are expressed in a `cascade`: immediate-early → early → late proteins.
      - Host machinery is hijacked to replicate viral DNA and assemble new virions.
    - Infected epithelial cells eventually lyse → releasing new viruses.
    - This causes painful genital ulcers, sometimes with systemic flu-like symptoms.
 
 3. Spread to Nerve Cells
    - HSV-2 doesn’t just stay in epithelial cells.
-   - Newly made virions infect sensory nerve endings at the site of infection.
-   - Viral particles travel retrograde along axons to the sacral dorsal root
-     ganglia (sensory neuron cell bodies).
+   - Newly made virions `infect sensory nerve endings` at the site of infection.
+   - Viral particles travel retrograde along axons to the `sacral dorsal root
+ganglia` (sensory neuron cell bodies).
 
 4. Latency (Viral Hibernation)
    - In neurons, the viral genome remains as a circular episome (not integrated).
-   - Almost all viral genes are silenced → only latency-associated transcripts
+   - Almost all viral genes are silenced → only `latency-associated transcripts`
      (LATs) are made.
    - LATs help suppress apoptosis and keep the virus hidden from immune detection.
    - Neurons survive, and no virus is produced → clinically silent stage.
