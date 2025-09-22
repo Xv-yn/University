@@ -15,9 +15,9 @@
 
 ### Monday
 
-- [ ] COMP3520 Weekly Quiz
-- [ ] AMED3003 Presentation
-- [ ] AMED3003 NBS Lecture Video
+- [x] COMP3520 Weekly Quiz
+- [x] AMED3003 Presentation
+- [x] AMED3003 NBS Lecture Video
 
 ### Tuesday
 
@@ -35,6 +35,16 @@
 
 ### Friday
 
+- [ ] COMP3520 Lecture Notes
+- [ ] COMP3520 Quiz
+- [ ] COMP3520 Assignment
+
 ### Saturday
 
+- [ ] COMP3520 Assignment
+- [ ] COMP3888 Project
+
 ### Sunday
+
+- [ ] AMED3003 Presentation
+- [ ] COMP3520 Assignment
