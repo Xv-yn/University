@@ -21,9 +21,9 @@
 
 ### Tuesday
 
-- [ ] COMP3888 Project
-- [ ] AMED3003 Quiz
-- [ ] AMED3003 Lecture Notes
+- [x] COMP3888 Project
+- [x] AMED3003 Quiz
+- [x] AMED3003 Lecture Notes
 
 ### Wednesday
 
@@ -32,6 +32,8 @@
 ### Thursday
 
 - [ ] AMED3003 Presentation
+  - [ ] Complete Conclusion
+  - [ ] Add Text To Each Slide
 
 ### Friday
 
