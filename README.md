@@ -27,19 +27,19 @@
 
 ### Wednesday
 
-- [ ] COMP3888 Project
+- [x] COMP3888 Project
 
 ### Thursday
 
-- [ ] AMED3003 Presentation
-  - [ ] Complete Conclusion
-  - [ ] Add Text To Each Slide
+- [x] AMED3003 Presentation
+  - [x] Complete Conclusion
+  - [x] Add Text To Each Slide
 
 ### Friday
 
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] COMP3520 Assignment
+- [x] COMP3520 Lecture Notes
+- [x] COMP3520 Quiz
+- [x] COMP3520 Assignment
 
 ### Saturday
 
@@ -48,5 +48,5 @@
 
 ### Sunday
 
-- [ ] AMED3003 Presentation
+- [ ] COMP3520 Content Revision
 - [ ] COMP3520 Assignment
