@@ -105,4 +105,4 @@ Page Cache:
 Kernel Memory Allocator:
 
 - Frequent small allocations.
-- Uses buddy system + slab allocator.:w
+- Uses buddy system + slab allocator.

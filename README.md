@@ -1,4 +1,4 @@
-# Current Week 8
+# Current Week STUVAC
 
 ## Active Assessments
 
@@ -15,38 +15,33 @@
 
 ### Monday
 
-- [x] COMP3520 Weekly Quiz
-- [x] AMED3003 Presentation
-- [x] AMED3003 NBS Lecture Video
+- [ ] COMP3520 Revision
+- [ ] Practice Quiz Questions
 
 ### Tuesday
 
-- [x] COMP3888 Project
-- [x] AMED3003 Quiz
-- [x] AMED3003 Lecture Notes
+- [ ] AMED3003 Revision
 
 ### Wednesday
 
-- [x] COMP3888 Project
+- [ ] AMED3003 Revision
 
 ### Thursday
 
-- [x] AMED3003 Presentation
-  - [x] Complete Conclusion
-  - [x] Add Text To Each Slide
+- [ ] AMED3003 Revision
+  - [ ] AMED3003 Quiz Questions
+  - [ ] ChatGPT Generated Questions
 
 ### Friday
 
-- [x] COMP3520 Lecture Notes
-- [x] COMP3520 Quiz
-- [x] COMP3520 Assignment
+- [ ] MIMI2002 Revision
 
 ### Saturday
 
-- [ ] COMP3520 Assignment
-- [ ] COMP3888 Project
+- [ ] MIMI2002 Revision
 
 ### Sunday
 
-- [ ] COMP3520 Content Revision
-- [ ] COMP3520 Assignment
+- [ ] MIMI2002 Revision
+  - [ ] MIMI2002 Quiz Questions
+  - [ ] ChatGPT Generated Questions
