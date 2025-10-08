@@ -15,7 +15,7 @@
       Est. Given: 19 Aug 2025 Week 3 Tuesday
       Due: 2 Sep 2025 at 16:30 Week 5 Tuesday
 
-- [ ] (15%) Presentation
+- [x] (15%) Presentation
       Individual
       Est. Given: 23 Sep 2025 Week 7 Tuesday
       Due: 7 Oct 2025 at 14:00 Week 9 Tuesday

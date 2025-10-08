@@ -5,13 +5,13 @@
 ## Basic Physics of Ionising and Non-Ionising Imaging Techniques.
 
 - Ionising Radiation
-  - Definition: Radiation with enough energy to remove tightly bound electrons from atoms, creating
-    ions.
+  - Definition: Radiation with enough energy to remove tightly bound electrons from
+    atoms, creating ions.
   - Physics:
     - High-energy electromagnetic waves (X-rays, γ-rays, some UV).
     - Photon energy > ~10 eV is sufficient to ionise atoms.
-    - Can cause direct ionisation (ejecting electrons) or indirect ionisation (free radical
-      formation, damaging DNA).
+    - Can cause direct ionisation (ejecting electrons) or indirect ionisation (free
+      radical formation, damaging DNA).
   - Imaging modalities (electron-based):
     - X-rays (plain films)
     - CT (Computed Tomography)
@@ -21,17 +21,21 @@
   - Biological effects:
     - Direct: Cell/tissue death, burns, hair loss, bowel inflammation.
     - Indirect: DNA mutations, free radical damage, cancer risk.
-    - Effects can be deterministic (dose-dependent, e.g. burns) or stochastic (probability
-      increases with dose, e.g. cancer).
+    - Effects can be deterministic (dose-dependent, e.g. burns) or stochastic
+      (probability increases with dose, e.g. cancer).
   - Key principle:
     - ALARA – “As Low As Reasonably Achievable” (minimise exposure).
-    - Causes electron interactions (X-ray, CT, nuclear medicine) → powerful but risk of DNA damage.
+    - Causes electron interactions (X-ray, CT, nuclear medicine) → powerful but risk
+      of DNA damage.
 
 - Non-Ionising Radiation
-  - Definition: Radiation that does not have enough energy to ionise atoms (cannot eject electrons).
+  - Definition: Radiation that does not have enough energy to ionise atoms (cannot
+    eject electrons).
   - Physics:
-    - Lower-energy part of the spectrum (radio, microwave, infrared, visible light, part of UV).
-    - Transfers energy mainly as heat or through resonance (vibration/rotation of molecules).
+    - Lower-energy part of the spectrum (radio, microwave, infrared, visible light,
+      part of UV).
+    - Transfers energy mainly as heat or through resonance (vibration/rotation of
+      molecules).
   - Imaging modalities (proton or sound-based):
     - MRI (Magnetic Resonance Imaging):
       - Uses strong magnetic fields + radiofrequency pulses.
@@ -47,7 +51,8 @@
 
 - Electromagnetic Spectrum Context
   - Ionising radiation = γ-rays, X-rays, some UV.
-  - Non-ionising radiation = visible light, infrared, microwaves, radio waves, MRI RF waves,
+  - Non-ionising radiation = visible light, infrared, microwaves, radio waves, MRI
+    RF waves,
     ultrasound (mechanical, not EM).
 
 ## Advantages and Disadvantages of MRI, CT, Ultrasound, X-Ray, and DSA for Diagnostic Imaging
@@ -58,9 +63,9 @@
 
 **What it measures**: Tissue density and absorption of X-rays.
 
-**How it works**: X-rays are generated in a vacuum tube → pass through the body → denser tissues (bone,
-metal) absorb more and appear white, air appears black, soft tissues grey → detector/film records the
-pattern.
+**How it works**: X-rays are generated in a vacuum tube → pass through the body →
+denser tissues (bone, metal) absorb more and appear white, air appears black, soft
+tissues grey → detector/film records the pattern.
 
 Advantages:
 
@@ -80,14 +85,16 @@ Disadvantages:
 
 **What it measures**: Degree of X-ray attenuation by different tissues.
 
-**How it works**: An X-ray tube rotates around the patient → multiple images from different angles →
-computer reconstructs into slices. Can use contrast agents for vessels or soft tissue enhancement.
+**How it works**: An X-ray tube rotates around the patient → multiple images from
+different angles → computer reconstructs into slices. Can use contrast agents for
+vessels or soft tissue enhancement.
 
 Advantages:
 
 - Excellent spatial resolution (good detail).
 - Fast → great in trauma/emergency settings.
-- Good for bone, acute blood, lung disease, stroke, tumours, and vascular imaging (with contrast).
+- Good for bone, acute blood, lung disease, stroke, tumours, and vascular imaging
+  (with contrast).
 - Cross-sectional, avoids superimposed structures.
 
 Disadvantages:
@@ -99,14 +106,17 @@ Disadvantages:
 
 ### MRI (Magnetic Resonance Imaging)
 
-**What it is**: Non-ionising imaging that uses magnetic fields and radiofrequency waves.
+**What it is**: Non-ionising imaging that uses magnetic fields and radiofrequency
+waves.
 
-**What it measures**: Signals from protons (mainly hydrogen in water and fat) when aligned and then
+**What it measures**: Signals from protons (mainly hydrogen in water and fat) when
+aligned and then
 released from a magnetic field.
 
-**How it works**: Patient placed in strong magnet → protons align with magnetic field → radiofrequency
-pulses knock them out of alignment → as they relax back, they emit signals detected and converted into
-images. Different sequences (T1, T2, FLAIR) highlight different tissues.
+**How it works**: Patient placed in strong magnet → protons align with magnetic field
+→ radiofrequency pulses knock them out of alignment → as they relax back, they emit
+signals detected and converted into images. Different sequences (T1, T2, FLAIR)
+highlight different tissues.
 
 Advantages:
 
@@ -129,16 +139,17 @@ Disadvantages:
 
 **What it measures**: Reflected echoes from tissue interfaces (density differences).
 
-**How it works**: A transducer emits sound waves → echoes bounce back differently depending on tissue
-type (fluid, soft tissue, bone) → computer constructs real-time image. Often used for pregnancy, heart
-(echocardiography), abdomen, vessels (Doppler).
+**How it works**: A transducer emits sound waves → echoes bounce back differently
+depending on tissue type (fluid, soft tissue, bone) → computer constructs real-time
+image. Often used for pregnancy, heart (echocardiography), abdomen, vessels (Doppler).
 
 Advantages:
 
 - No ionising radiation (safe in pregnancy & children).
 - Cheap, quick, portable, can be done at bedside.
 - Good for soft tissue, fluid-filled structures, foetus.
-- Real-time imaging → useful for guiding procedures (biopsies, line placement, injections).
+- Real-time imaging → useful for guiding procedures (biopsies, line placement,
+  injections).
 
 Disadvantages:
 
@@ -153,9 +164,9 @@ Disadvantages:
 
 **What it measures**: Flow of contrast medium in blood vessels.
 
-**How it works**: Iodine contrast injected into vessels → X-ray images taken before and after
-injection → computer subtracts background structures → only vessels remain visible → used for
-aneurysms, blockages, interventional procedures.
+**How it works**: Iodine contrast injected into vessels → X-ray images taken before
+and after injection → computer subtracts background structures → only vessels remain
+visible → used for aneurysms, blockages, interventional procedures.
 
 Advantages:
 
@@ -196,7 +207,8 @@ Stochastic (Indirect) Effects
 Organ-Specific Long-Term Sensitivity
 
 - Eyes: Cataracts months or years later
-- Thyroid: Highly sensitive to radioactive iodine → thyroid cancer risk, especially in children
+- Thyroid: Highly sensitive to radioactive iodine → thyroid cancer risk, especially in
+  children
 - Lungs: Vulnerable to DNA damage from inhaled radioactive particles
 - Stomach & intestines: Risk if radioactive material ingested
 - Reproductive organs: Sterility, inherited genetic mutations
@@ -210,7 +222,8 @@ Evidence from Atomic Bomb Survivors
 - Hiroshima and Nagasaki studies show:
   - Increased acute radiation sickness (bone marrow and colon damage)
   - Leukemia surge in the first decade after exposure (early onset effect)
-  - Solid cancers (thyroid, breast, lung, colon) peaking 10–20 years later, persisting up to 40 years
+  - Solid cancers (thyroid, breast, lung, colon) peaking 10–20 years later, persisting
+    up to 40 years
   - Children at exposure had higher risk of long-term cancers
   - Lowest radiation dose linked to cancer increase: ~100 mGy
 
@@ -225,7 +238,8 @@ Overall, risk of fatal cancer rises by ~10% per Sv
 > Local vs whole-body exposure:
 >
 > - Bomb survivors experienced whole-body irradiation.
-> - Medical procedures (e.g. CT scans, X-rays, radiotherapy) generally target specific body regions.
+> - Medical procedures (e.g. CT scans, X-rays, radiotherapy) generally target specific
+>   body regions.
 >
 > DNA repair ability:
 >
@@ -234,25 +248,29 @@ Overall, risk of fatal cancer rises by ~10% per Sv
 >
 > Risk adjustment:
 >
-> - Original estimates suggested ~10% increased fatal cancer risk per Sv (based on Japanese data).
-> - Modern evidence suggests this is halved to ~5%/Sv when doses are given in smaller fractions.
+> - Original estimates suggested ~10% increased fatal cancer risk per Sv (based on
+>   Japanese data).
+> - Modern evidence suggests this is halved to ~5%/Sv when doses are given in smaller
+>   fractions.
 >
 > Age effects:
 >
-> - Children: 2–3× higher risk, as their tissues are more radiosensitive and they have longer lifespans for cancer to develop.
+> - Children: 2–3× higher risk, as their tissues are more radiosensitive and they have
+>   longer lifespans for cancer to develop.
 > - Elderly: Lower relative risk due to reduced lifespan and slower cell turnover.
 
 ### Background vs Medical vs Catastrophic Exposure
 
-Background radiation: ~2.8–3.0 mSv per year globally (radon, cosmic rays, food, medical exposure).
+Background radiation: ~2.8–3.0 mSv per year globally (radon, cosmic rays, food,
+medical exposure).
 
 Medical exposure: CT scans, X-rays, radiotherapy add significantly to dose.
 
-Catastrophic exposure: Atomic bomb survivors, Chernobyl, Fukushima – much higher cancer rates and
-genetic effects.
+Catastrophic exposure: Atomic bomb survivors, Chernobyl, Fukushima – much higher
+cancer rates and genetic effects.
 
-Principle of safety: ALARA (As Low As Reasonably Achievable) – minimise exposure, balance risk vs
-benefit in medical imaging.
+Principle of safety: ALARA (As Low As Reasonably Achievable) – minimise exposure,
+balance risk vs benefit in medical imaging.
 
 ### Long-Term Patient Implications
 

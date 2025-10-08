@@ -1,10 +1,8 @@
-# Current Week STUVAC
+# Current Week 9
 
 ## Active Assessments
 
 - [ ] MIMI2002 Fortnightly Quiz
-
-- [ ] AMED3003 Melanoma Presentation
 
 - [ ] COMP3520 Weekly Quiz
 - [ ] COMP3520 Assignment 2
@@ -15,33 +13,35 @@
 
 ### Monday
 
-- [ ] COMP3520 Revision
-- [ ] Practice Quiz Questions
+- [x] AMED3003 Presentation Prep
 
 ### Tuesday
 
-- [ ] AMED3003 Revision
+- [x] COMP3888 Prep
 
 ### Wednesday
 
-- [ ] AMED3003 Revision
+- [ ] MIMI2002 Prac Prep
+- [ ] AI Data
 
 ### Thursday
 
-- [ ] AMED3003 Revision
-  - [ ] AMED3003 Quiz Questions
-  - [ ] ChatGPT Generated Questions
+- [ ] MIMI2002 Revision
+- [ ] AI Data
 
 ### Friday
 
-- [ ] MIMI2002 Revision
+- [ ] MIMI2002 Lecture Notes
+- [ ] COMP3520 Lecture Notes
+- [ ] COMP3520 Quiz
+- [ ] AI Data
 
 ### Saturday
 
-- [ ] MIMI2002 Revision
+- [ ] COMP3520 Assignment
+- [ ] AI Data
 
 ### Sunday
 
-- [ ] MIMI2002 Revision
-  - [ ] MIMI2002 Quiz Questions
-  - [ ] ChatGPT Generated Questions
+- [ ] COMP3888 Project
+- [ ] AI Data
