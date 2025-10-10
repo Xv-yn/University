@@ -21,20 +21,20 @@
 
 ### Wednesday
 
-- [ ] MIMI2002 Prac Prep
-- [ ] AI Data
+- [x] MIMI2002 Prac Prep
+- [x] AI Data
 
 ### Thursday
 
-- [ ] MIMI2002 Revision
-- [ ] AI Data
+- [x] MIMI2002 Revision
+- [x] AI Data
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Quiz
-- [ ] AI Data
+- [x] MIMI2002 Lecture Notes
+- [x] COMP3520 Lecture Notes
+- [x] COMP3520 Quiz
+- [x] AI Data Organization
 
 ### Saturday
 
