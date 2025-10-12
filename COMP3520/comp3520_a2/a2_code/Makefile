@@ -6,10 +6,11 @@ all: main worker
 sim: simulation.c
 	$(CC) $(CFLAGS) -o sim simulation.c
 
-main: main.c worker.c
+main: main.c sigtrap.c
 	$(CC) $(CFLAGS) -o main main.c
-	$(CC) $(CFLAGS) -o worker worker.c
+	$(CC) $(CFLAGS) -o sigtrap sigtrap.c
+
 
 clean:
-	rm -f main worker
+	rm -f main sigtrap sim
 

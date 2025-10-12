@@ -128,9 +128,9 @@ static void ensure_started(Job *j){
     if(pid == 0){
         char idbuf[32];
         snprintf(idbuf,sizeof(idbuf),"%d", j->id);
-        char *argv[] = { "./worker", idbuf, NULL };
-        execv("./worker", argv);
-        perror("execv ./worker");
+        char *argv[] = { "./sigtrap", idbuf, NULL };
+        execv("./sigtrap", argv);
+        perror("execv ./sigtrap");
         _exit(127);
     }
     j->pid = pid;
