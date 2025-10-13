@@ -1,11 +1,11 @@
-# Current Week 9
+# Current Week 10
 
 ## Active Assessments
 
 - [ ] MIMI2002 Fortnightly Quiz
 
 - [ ] COMP3520 Weekly Quiz
-- [ ] COMP3520 Assignment 2
+- [ ] COMP3520 Assignment 2 (99% Complete)
 
 - [ ] COMP3888 AI Model Part 2 (80% Complete)
 
@@ -13,35 +13,40 @@
 
 ### Monday
 
-- [x] AMED3003 Presentation Prep
+- [x] MIMI2002 Lecture Notes
+- [ ] COMP3888 9pm Meeting
+- [ ] AI Data
 
 ### Tuesday
 
-- [x] COMP3888 Prep
+- [ ] MIMI2002 Quiz
+- [ ] AMED3002 Lecture Notes
+- [ ] AI Data
 
 ### Wednesday
 
-- [x] MIMI2002 Prac Prep
-- [x] AI Data
+- [ ] COMP3888 Client Meeting
+- [ ] AI Data
 
 ### Thursday
 
-- [x] MIMI2002 Revision
-- [x] AI Data
+- [ ] COMP3520 Lecture Notes
+- [ ] COMP3520 Assignment
+- [ ] COMP3520 Quiz
+- [ ] AI Data
 
 ### Friday
 
-- [x] MIMI2002 Lecture Notes
-- [x] COMP3520 Lecture Notes
-- [x] COMP3520 Quiz
-- [x] AI Data Organization
+- [ ] MIMI2002 Lecture Notes
+- [ ] MIMI2002 Exam Revision
+- [ ] AI Data
 
 ### Saturday
 
-- [ ] COMP3520 Assignment
+- [ ] COMP3888 Documentation (HRNET)
 - [ ] AI Data
 
 ### Sunday
 
-- [ ] COMP3888 Project
+- [ ] COMP3888 Documentation (HRNET)
 - [ ] AI Data
