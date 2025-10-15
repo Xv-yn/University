@@ -8,9 +8,9 @@ sim: simulation.c
 
 main: main.c sigtrap.c
 	$(CC) $(CFLAGS) -o main main.c
-	$(CC) $(CFLAGS) -o sigtrap sigtrap.c
+	$(CC) $(CFLAGS) -o process sigtrap.c
 
 
 clean:
-	rm -f main sigtrap sim
+	rm -f main process sim
 
