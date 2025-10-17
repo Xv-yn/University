@@ -14,25 +14,23 @@
 ### Monday
 
 - [x] MIMI2002 Lecture Notes
-- [ ] COMP3888 9pm Meeting
-- [ ] AI Data
+- [x] COMP3888 9pm Meeting
+- [x] AI Data
 
 ### Tuesday
 
-- [ ] MIMI2002 Quiz
-- [ ] AMED3002 Lecture Notes
-- [ ] AI Data
+- [x] MIMI2002 Quiz
+- [x] AMED3002 Lecture Notes
+- [x] AI Data
 
 ### Wednesday
 
-- [ ] COMP3888 Client Meeting
-- [ ] AI Data
+- [x] COMP3888 Client Meeting
+- [x] AI Data
 
 ### Thursday
 
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Assignment
-- [ ] COMP3520 Quiz
+- [ ] COMP3888 Documentation (HRNET + STGCN)
 - [ ] AI Data
 
 ### Friday
@@ -43,10 +41,12 @@
 
 ### Saturday
 
-- [ ] COMP3888 Documentation (HRNET)
+- [ ] COMP3888 Documentation
 - [ ] AI Data
 
 ### Sunday
 
-- [ ] COMP3888 Documentation (HRNET)
+- [ ] COMP3520 Lecture Notes
+- [ ] COMP3520 Assignment
+- [ ] COMP3520 Quiz
 - [ ] AI Data
