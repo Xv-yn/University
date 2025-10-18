@@ -121,3 +121,148 @@
 - Special B Cell Types
   - B-1 B cells: innate-like, secrete natural IgM antibodies.
   - Regulatory B cells: secrete IL-10, suppress immune responses, and promote Tregs.
+
+# Activation of Naïve B Cells
+
+Naïve B cells express IgM and IgD as surface receptors (BCRs).
+
+These BCRs recognize antigens such as proteins, polysaccharides, lipids, and nucleic
+acids.
+
+When an antigen binds, Igα and Igβ transmit activation signals.
+
+Activation is enhanced if:
+
+- The microbe also activates a pattern recognition receptor (PRR) or
+- Engages complement receptor 2 (CR2).
+
+Activated B cells:
+
+- Begin secreting IgM.
+- Enter the cell cycle (proliferate).
+- Upregulate MHC-II for antigen presentation.
+- Increase expression of cytokine receptors.
+
+# B Cell Activation by Protein Antigens & the Germinal Centre Reaction
+
+Step 1: B Cell Antigen Processing
+
+- B cells endocytose protein antigens after BCR binding.
+- Antigens are processed and presented on MHC-II molecules.
+- CD4⁺ helper T cells recognize these peptides — a T-dependent response.
+
+Step 2: T–B Cell Interaction
+
+- In lymph nodes:
+  - Dendritic cells (DCs) activate CD4⁺ T cells in the T cell zone.
+  - Naïve B cells are activated by the same antigen in the follicle.
+  - Activated T and B cells migrate to meet at the T–B border, where CD40–CD40L and
+    cytokine signals occur.
+
+Step 3: Extrafollicular Response
+
+- Some activated B cells proliferate and differentiate into short-lived plasma cells.
+- Produce mainly IgM (some isotype switching possible).
+- A few activated B cells return to the follicle, forming a germinal centre (GC).
+
+Step 4: Germinal Centre Reaction
+
+- Inside the GC:
+  - Massive proliferation of B cells.
+  - Isotype (class) switching.
+  - Somatic hypermutation (SHM) → changes in the V region.
+  - Affinity maturation → selection for higher-affinity antibodies.
+- B cells interact with:
+  - T follicular helper (Tfh) cells (provide help via cytokines and CD40L).
+  - Follicular dendritic cells (FDCs) (present native antigen).
+
+Step 5: Outcomes
+
+- High-affinity B cells survive and differentiate into:
+- Long-lived plasma cells (antibody secretion).
+- Memory B cells (rapid response upon re-exposure).
+
+# Steps in Isotype Switching
+
+- Mediated by CD40L–CD40 interaction and cytokines from helper T cells.
+- Different cytokines → different isotypes:
+  - IFN-γ → IgG subclasses (for opsonization and complement activation).
+  - IL-4 → IgE (for parasite defense, allergy).
+  - TGF-β → IgA (for mucosal immunity).
+
+Mechanism:
+
+1. CD40L activates AID (Activation-Induced cytidine Deaminase) in B cells.
+2. AID induces DNA breaks in “switch regions” upstream of constant (C) genes.
+3. Recombination joins a new C region with the existing V(D)J segment.
+4. The variable region (antigen-binding site) remains the same — specificity is
+   unchanged, only function changes.
+
+# Affinity Maturation
+
+- Driven by somatic hypermutation (SHM) and selection in the germinal centre.
+- AID enzyme introduces point mutations in the V regions of the antibody genes.
+- Occurs in the dark zone of the GC.
+- B cells then migrate to the light zone:
+  - Compete for binding to antigen on FDCs.
+  - Higher-affinity BCRs successfully bind antigen and present it to Tfh cells.
+  - Receive survival signals; others undergo apoptosis.
+- Repeated cycles of mutation and selection → progressively higher-affinity antibodies.
+
+# T-Dependent vs T-Independent Antigens
+
+| Feature                     | **T-Dependent (TD)**                | **T-Independent (TI)**                 |
+| --------------------------- | ----------------------------------- | -------------------------------------- |
+| **Antigen type**            | Protein                             | Polysaccharides, lipids, nucleic acids |
+| **Requires T cell help?**   | Yes (CD4⁺ T cells)                  | No                                     |
+| **Isotype switching**       | Extensive (IgG, IgA, IgE)           | Limited (mostly IgM)                   |
+| **Affinity maturation**     | Strong                              | Weak                                   |
+| **Memory B cell formation** | Yes                                 | Limited                                |
+| **Typical response**        | Long-lasting, high affinity         | Short-lived, low affinity              |
+| **Importance**              | Key for protein antigens & vaccines | Defense against encapsulated bacteria  |
+
+# How Antibodies Prevent & Eliminate Infections
+
+1. Neutralization
+   - Antibodies (mainly IgA and IgG) bind pathogens or toxins.
+   - Block binding to host cells → prevent infection and toxin entry.
+   - Major mechanism of vaccine-induced protection.
+
+2. Opsonization
+   - Antibodies tag microbes for phagocytosis by macrophages and neutrophils (via
+     Fc receptors).
+
+3. Complement Activation
+   - IgG and IgM activate the classical complement pathway, leading to pathogen
+     lysis and inflammation.
+
+4. ADCC (Antibody-Dependent Cellular Cytotoxicity)
+   - IgG binds to viral proteins on infected cells.
+   - NK cells recognize Fc region (via CD16/FcγRIII) and kill infected cells.
+
+5. Mucosal Immunity
+   - IgA at mucosal surfaces neutralizes pathogens before they invade epithelial
+     barriers.
+
+# IgA and IgG – Properties & Effector Functions
+
+- IgA
+  - Main mucosal antibody (GI & respiratory tract).
+  - Accounts for ~2/3 of daily antibody production.
+  - Produced in mucosal lymphoid tissue (e.g., Peyer’s patches).
+  - TGF-β drives class switching to IgA.
+  - Exists as a dimer joined by the J chain.
+  - Transported across epithelium via poly-Ig receptor; released with secretory
+    component.
+  - Found in mucus, saliva, tears, and breast milk.
+  - Function: Neutralizes viruses and toxins at mucosal sites to prevent infection.
+
+- IgG
+  - Most abundant in blood and tissues.
+  - Functions:
+    - Neutralization of microbes/toxins.
+    - Opsonization → enhances phagocytosis.
+    - Complement activation.
+    - ADCC via NK cells.
+    - Crosses placenta to provide neonatal immunity.
+  - Key for systemic immunity (e.g., Salk vaccine).

@@ -30,23 +30,22 @@
 
 ### Thursday
 
-- [ ] COMP3888 Documentation (HRNET + STGCN)
-- [ ] AI Data
+- [x] COMP3888 Documentation (HRNET + STGCN)
+- [x] AI Data
 
 ### Friday
 
-- [ ] MIMI2002 Lecture Notes
+- [x] MIMI2002 Lecture Notes
 - [ ] MIMI2002 Exam Revision
-- [ ] AI Data
+- [x] COMP3520 Lecture Notes
+- [x] COMP3520 Assignment
+- [x] COMP3520 Quiz
 
 ### Saturday
 
-- [ ] COMP3888 Documentation
+- [x] COMP3888 Documentation
 - [ ] AI Data
 
 ### Sunday
 
-- [ ] COMP3520 Lecture Notes
-- [ ] COMP3520 Assignment
-- [ ] COMP3520 Quiz
 - [ ] AI Data
