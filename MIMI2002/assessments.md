@@ -25,7 +25,7 @@
       Est. Given: 5 Sep 2025 Week 5 Friday
       Due: 19 Sep 2025 at 09:00 Week 7 Friday
 
-- [ ] (4%) Open Book Quiz 4
+- [x] (4%) Open Book Quiz 4
       Individual
       Est. Given: 30 Sep 2025 Week 8 Tuesday
       Due: 14 Oct 2025 at 11:00 Week 10 Tuesday
