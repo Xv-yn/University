@@ -178,3 +178,96 @@ Prevention:
 | _Rotavirus_             | Virus     | Watery diarrhoea (infants) | Faecal–oral                | Rehydration   | Vaccine             |
 | _Entamoeba histolytica_ | Protist   | Bloody diarrhoea           | Cysts in water/food        | Metronidazole | Sanitation          |
 | _Giardia intestinalis_  | Protist   | Greasy diarrhoea           | Waterborne                 | Metronidazole | Filtration, hygiene |
+
+# Principles of Vaccination
+
+Vaccination (or immunisation) aims to induce specific immunity against infectious
+diseases while avoiding illness or side effects.
+
+Main principles:
+
+- Stimulate protective immune response without causing disease.
+- Mimic natural infection to trigger adaptive immunity (T and B cell activation).
+- Prevent infection and disease spread through herd immunity — protecting even those
+  not vaccinated.
+- Eradicate diseases when humans are the only natural hosts (e.g., smallpox).
+
+Can be achieved by:
+
+- Active immunisation (body produces its own antibodies and memory cells).
+- Passive immunisation (ready-made antibodies are provided).
+
+## Criteria for Useful Vaccines
+
+A vaccine must meet several practical and biological standards to be effective on a
+population level:
+
+- Safe – minimal side effects or risk of disease.
+- Effective – stimulates strong immunity and blocks transmission.
+- Long-lasting – provides durable immune memory.
+- Cheap and available – affordable for global distribution.
+- Stable – can be stored and transported easily.
+- Easy to administer – suitable for large-scale use (e.g., injections, oral doses).
+
+# Passive vs Active Immunisation
+
+| Feature                 | **Passive Immunisation**                                   | **Active Immunisation**                   |
+| ----------------------- | ---------------------------------------------------------- | ----------------------------------------- |
+| **Definition**          | Transfer of pre-formed antibodies                          | Stimulation of body’s own immune response |
+| **Onset**               | Immediate                                                  | Takes time to develop                     |
+| **Duration**            | Short-lived (weeks to months)                              | Long-term (years to lifelong)             |
+| **Memory**              | No immunological memory                                    | Develops immunological memory             |
+| **Natural Examples**    | Maternal antibodies via placenta or breast milk            | Recovery from infection                   |
+| **Artificial Examples** | Injection of antibodies (e.g., anti-venom, immunoglobulin) | Vaccination with antigens                 |
+| **Risks**               | Serum sickness if antibodies from another species          | Mild symptoms from live vaccines possible |
+
+###### Quick Summary
+
+Passive immunisation gives immediate but temporary protection; active immunisation
+gives delayed but long-term protection.
+
+## Types of Vaccines Currently in Use
+
+1. Killed (Inactivated) Vaccines
+   - Pathogen killed by heat or chemicals (e.g. formaldehyde).
+   - Examples: Salk polio vaccine, cholera, hepatitis A.
+   - Advantages: Safe (no reversion to virulent form), stable, suitable for
+     immunocompromised individuals.
+   - Disadvantages: Weaker immune response; multiple doses and adjuvants often
+     required.
+
+2. Live Attenuated Vaccines
+   - Contain weakened organisms that replicate briefly in the body.
+   - Developed by culturing microbes under unusual conditions until they lose
+     virulence.
+   - Examples: Sabin polio, measles, mumps, rubella (MMR), BCG (tuberculosis).
+   - Advantages: Strong, long-lasting immunity; often one dose.
+   - Disadvantages: Not for immunocompromised; risk of mutation back to virulent
+     form; refrigeration required.
+
+3. Subunit Vaccines (Purified or Recombinant Components)
+   - Include only specific parts of the pathogen — usually proteins or
+     polysaccharides — that trigger immune response.
+   - Toxoid vaccines: inactivated bacterial toxins (e.g. diphtheria, tetanus).
+   - Recombinant protein vaccines: lab-produced antigens (e.g. Hepatitis B surface
+     antigen).
+   - Purified protein vaccines: isolated proteins (e.g. influenza haemagglutinin).
+   - Adjuvants are often added to enhance the immune response.
+
+4. Adjuvants
+   - Substances that enhance immune responses to antigens:
+     - Aluminium salts – form antigen depots and increase uptake.
+     - Oil emulsions (Freund’s adjuvant) – create long-lasting antigen release.
+     - TLR agonists – mimic pathogen signals to activate innate immunity.
+
+5. Combination Vaccines
+   - Mix several antigens for convenience and broader protection.
+   - Example: DTPa (Diphtheria, Tetanus, Pertussis) – toxoids + subunit antigens.
+
+### Real-World Successes
+
+Smallpox eradicated (1979) due to an effective, stable vaccine with no animal
+reservoir.
+
+Polio nearly eradicated; comparison of Salk (inactivated) vs Sabin (live) vaccines
+shows trade-offs between safety and strength of immunity.
