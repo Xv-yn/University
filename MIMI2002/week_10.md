@@ -92,6 +92,14 @@
      - IgE → allergy and parasite defense
      - IgD → receptor on naïve B cells
 
+| Cytokine environment | Dominant subtype(s) | Example situation                     |
+| -------------------- | ------------------- | ------------------------------------- |
+| **IL-12, IFN-γ**     | **Th1**             | Intracellular bacteria, viruses       |
+| **IL-4**             | **Th2**             | Helminths, allergens                  |
+| **IL-6 + IL-21**     | **Tfh**             | B-cell help, antibody production      |
+| **TGF-β + IL-6**     | **Th17**            | Fungi, extracellular bacteria         |
+| **TGF-β + IL-2**     | **Treg**            | Tolerance, resolution of inflammation |
+
 # Generation of BCR Diversity
 
 - Arises from V(D)J recombination in bone marrow.
