@@ -77,7 +77,8 @@ Transmission: contaminated food (raw meat, eggs, poultry, vegetables, chocolate)
 
 Epidemiology: ~13,000 Australian cases/year; 94 million globally; 155,000 deaths.
 
-Pathogenesis: survives stomach acid → attaches via Type III secretion system → invades ileum/colon → acute inflammation.
+Pathogenesis: survives stomach acid → attaches via Type III secretion system →
+invades ileum/colon → acute inflammation.
 
 Symptoms: nausea, vomiting, diarrhoea, fever.
 
@@ -87,7 +88,8 @@ Control: hand hygiene, avoid faecal contamination of food
 
 ##### Enterotoxigenic E. coli (ETEC)
 
-Pathogenesis: attaches via fimbriae → secretes heat-labile (LT) and/or heat-stable (ST) enterotoxins → disrupts ion/water flow → watery diarrhoea.
+Pathogenesis: attaches via fimbriae → secretes heat-labile (LT) and/or
+heat-stable (ST) enterotoxins → disrupts ion/water flow → watery diarrhoea.
 
 Symptoms: “Traveller’s diarrhoea”.
 

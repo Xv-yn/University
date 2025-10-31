@@ -4,9 +4,9 @@
 #include <stdbool.h>
 
 /* Usage:
-   1) ./mlq t0 t1 t2 W < jobs.txt          # read jobs from stdin
-   2) ./mlq t0 t1 t2 W jobs.txt            # read jobs from file
-   3) ./mlq                                 # interactive: enter t0 t1 t2 W, then paste jobs, Ctrl-D
+   1) ./sim t0 t1 t2 W < jobs.txt          # read jobs from stdin
+   2) ./sim t0 t1 t2 W jobs.txt            # read jobs from file
+   3) ./sim                                 # interactive: enter t0 t1 t2 W, then paste jobs, Ctrl-D
    Job lines may be "A B P" or "A, B, P" (commas optional)
 */
 

@@ -101,3 +101,149 @@ Treatment and Control
 - Severe infections: IV broad-spectrum antibiotics; treatment failures common.
 - Antibiotic resistance:
   - MRSA (Methicillin-Resistant Staphylococcus aureus) – often multi-drug resistant.
+
+# Dermatophyte Virulence, Transmission, Immune Response, and Treatment
+
+## Dermatophyte Overview
+
+Causative agents: Trichophyton, Microsporum, Epidermophyton
+
+Common diseases: Tinea infections (ringworm, athlete’s foot, jock itch, nail
+infections)
+
+Infection site: Stratum corneum (keratinised layer) — fungi digest keratin for
+nutrients
+
+## Virulence Factors
+
+Proteases: Degrade host keratin and other proteins → tissue invasion.
+
+LysM proteins: Bind fungal cell wall chitin → promote adhesion & immune evasion.
+
+Secondary metabolites: May act as immunosuppressive or antimicrobial toxins.
+
+Signalling adaptability: Rapid adjustment to pH, humidity, and antifungal stress.
+
+Abundant spores: Enable persistence and transmission.
+
+## Transmission
+
+Spread: Direct contact or via contaminated items (towels, bedding, clothing).
+
+Reservoirs: Humans, animals, and soil (anthropophilic, zoophilic, geophilic species).
+
+Risk factors: Warm/moist environments, friction, diabetes, obesity, immunosuppression.
+
+## Immune Response
+
+Inflammation creates the characteristic ring shape (“ringworm”) — immune attack limits
+fungal growth at edges.
+
+Immunocompromised individuals experience more severe and chronic infections.
+
+## Treatment and Control
+
+Topical antifungals: Azoles (inhibit ergosterol synthesis → disrupt membrane).
+
+Environmental management: Keep skin dry, lower pH, avoid sharing personal items.
+
+Systemic antifungals: Required for nail infections.
+
+Selenium sulfide: Promotes shedding of infected keratin layers.
+
+Prevention: Hygiene, drying footwear, avoiding contact with infected surfaces.
+
+# Infectious vs. Non-Infectious Viral Skin Manifestations
+
+## Infectious Viral Skin Infections (True skin infections)
+
+Viruses replicate within skin cells — lesions are infectious:
+
+- HPV: Causes warts.
+- Herpes simplex virus (HSV): Cold sores, genital herpes.
+- Varicella-zoster virus (VZV): Chickenpox and shingles.
+- Smallpox, mpox, enteroviruses: Systemic viral infections that replicate in skin
+  tissues.
+
+## Non-Infectious Viral Rashes (Immune-mediated)
+
+Skin reaction results from immune response to systemic viral infection — not
+contagious:
+
+- Measles: Immune response causes rash.
+- Rubella (German measles) and Roseola (HHV-6/7): Rash follows fever due to immune
+  activation.
+- Parvovirus B19: “Slapped cheek” rash (fifth disease).
+
+| Feature                    | Infectious Lesions | Non-Infectious Rashes   |
+| -------------------------- | ------------------ | ----------------------- |
+| Viral replication in skin? | Yes                | No                      |
+| Contagious?                | Yes                | No                      |
+| Example                    | Herpes, HPV, VZV   | Measles, Parvovirus B19 |
+
+# Human Papillomavirus (HPV): Transmission and Disease
+
+## Structure and Genome
+
+Non-enveloped circular dsDNA virus (~8 kb).
+
+Genes: 6 early (E1–E7) for replication and oncogenesis, 2 late (L1, L2) for capsid.
+
+- There are > 150 genotypes:
+  - HPV 6 & 11 → warts (benign).
+  - HPV 16 & 18 → cervical/oral cancers.
+
+## Transmission
+
+Direct contact: Through minor abrasions.
+
+Sexual transmission: Leads to genital HPV.
+
+Asymptomatic shedding: Possible even without visible lesions.
+
+## Pathogenesis & Disease
+
+Infects basal epithelial cells through microabrasions.
+
+Causes hyperproliferative lesions (warts) or cervical intraepithelial neoplasia (CIN).
+
+Symptoms appear after 3–4 months of incubation.
+
+Many infections are self-limiting (resolve in 1–2 years).
+
+## HPV Infection Cycle
+
+Virus enters basal layer, persists as episomal DNA.
+
+Viral gene expression follows cell differentiation up to surface.
+
+Immune evasion:
+
+- PRRs downregulated.
+- Interferon (IFN-I) response suppressed.
+- MHC I & II downregulated → poor immune detection.
+
+Replicates in nucleus using host DNA polymerase (page 30).
+
+## Treatment & Prevention
+
+Vaccination (Gardasil, Cervarix): Targets HPV 16, 18, and others; prevents warts &
+cervical cancer.
+
+Barrier methods: Condoms reduce transmission.
+
+Screening: Pap smears detect early cervical abnormalities.
+
+Therapies:
+
+- Imiquimod: TLR-7 agonist → stimulates innate immune response.
+- Surgical removal of lesions for persistent cases.
+
+# The Skin Infection Disease Cycle (Generalised Framework)
+
+| **Stage**                | **Description**                                            | **Immune Influence**                             | **Pathogen Strategies**                                             |
+| ------------------------ | ---------------------------------------------------------- | ------------------------------------------------ | ------------------------------------------------------------------- |
+| **Transmission**         | Spread via contact, droplets, fomites, vectors             | Skin barrier, innate defenses                    | Spores (fungi), stable virions (HPV), envelope resistance           |
+| **Initial Infection**    | Entry via microabrasions or follicles                      | Innate immune response (inflammation, cytokines) | Adhesion molecules, immune evasion (e.g., LysM, PRR downregulation) |
+| **Chronic/Latent Phase** | Pathogen persists (e.g., VZV latency, fungal colonisation) | Adaptive immunity limits replication             | Latency genes (VZV), keratin colonisation (dermatophytes)           |
+| **Recurrence**           | Reactivation (stress, immune suppression)                  | Immune decline triggers reactivation             | Viral latency reactivation, fungal spore germination                |

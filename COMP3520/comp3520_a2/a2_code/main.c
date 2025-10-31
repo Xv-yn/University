@@ -17,7 +17,7 @@
 typedef struct Job {
     int    id;
     int    arrival;
-    int    burst_total;        // requested CPU time in "ticks" (seconds)
+    int    burst_total;        // CPU time in seconds
     int    burst_left;
     int    init_prio;          // 0,1,2
     int    level;              // 0,1,2 when enqueued; -1 otherwise
