@@ -280,3 +280,145 @@
     - Circulating tumor DNA (ctDNA) – early relapse detection.
     - MicroRNA panels in blood/stool.
     - Tumor mutational burden (TMB) – immunotherapy selection.
+
+# Exam Summary
+
+#### Colorectal Cancer (CRC)
+
+###### Cause
+
+- Accumulated genetic mutations
+  - Leads to uncontrolled colonic epithelial cell growth
+
+- Promoted by high fat low fiber diet
+
+###### Biomarkers
+
+- **CEA (Carcinoembryonic Antigen)**
+  - Used for Monitoring
+- **KRAS mutation**
+  - Guides targeted therapy
+- **APC mutation**
+
+#### Rheumatoid Arthritis (RA)
+
+**Autoimmune inflammation** of synovial joints
+
+###### Cause
+
+- Genetic Mutations (HLA-DR4/DR1)
+- Environmental triggers such as smoking or infections
+
+###### Biomarkers
+
+- **Rheumatoid Factor (RF)**
+- **Anti-CCP (anti-cyclic citrullinated peptide)**
+  - Specific to RA
+- **ESR / CRP**
+  - Tracks inflammation
+
+#### Acute Myeloid Leukemia (AML)
+
+###### Cause
+
+- Genetic mutation in myeloid stem cells (Bone Marrow Cells)
+
+###### Biomarkers
+
+- **CD13, CD33 (surface markers)**
+  - Used for diagnosis
+- **Myeloperoxidase (MPO)**
+- **FLT3 mutation**
+  - poor prognosis (meaning patient will have a worse expected outcome)
+
+#### Type 1 Diabetes Mellitus (T1DM)
+
+###### Cause
+
+- Autoimmune destruction of pancreatic β-cells
+  - loss of insulin production → hyperglycemia (too much blood sugar)
+
+###### Biomarkers
+
+- **Anti-GAD (Glutamic Acid Decarboxylase)**
+- **Islet Cell Antibodies (ICA)**
+- **Insulin Autoantibodies (IAA)**
+
+Antibodies confirm autoimmune origin
+
+#### Breast Cancer
+
+###### Cause
+
+- Genetic mutation (BRCA)
+- Hormonal effects (too much estrogen)
+
+###### Biomarkers
+
+- **ER / PR (Estrogen & Progesterone Receptors)**
+  - ER/PR/HER2 define subtype of breaast cancer
+- **HER2/neu**, **CA 15-3 / CA 27.29**
+  - CA markers monitor recurrence
+
+#### Melanoma
+
+###### Cause
+
+- UV Radiation
+- Genetic Mutation (BRAF)
+- Weak Immune System
+
+###### Biomarkers
+
+- S100 Protein
+- HMB-45
+
+S100 & HMB-45 are diagnostic
+
+- BRAF Mutation
+  - Used as guides in targeted therapies
+
+#### Multiple Sclerosis (MS)
+
+###### Cause
+
+- Autoimmune demyelination of CNS neurons
+  - leads to impaired nerve transmission
+
+###### Biomarkers
+
+- **Oligoclonal bands in CSF**
+  - Hallmark diagnostic feature
+- **MRI white matter lesions**
+- **Anti-myelin basic protein antibodies**
+
+#### Systemic Lupus Erythematosus (SLE)
+
+###### Cause
+
+- Estrogen
+- UV light
+- Genetics
+
+###### Biomarkers
+
+- **ANA (Antinuclear Antibody)**
+  - Screening
+    - Checking healthy people for early signs of a disease - before they have symptoms.
+- **Anti-dsDNA**
+- **Anti-Smith (Sm)**
+
+sDNA & Sm = specific and correlate with disease activity.
+
+### Table
+
+| **Disease**                            | **Main Cause / Mechanism**                                                                                                                                   | **Top 3 Common Biomarkers**                                                                                   | **Notes / Comments**                                                        |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Colorectal Cancer (CRC)**            | **Accumulated genetic mutations** (APC, KRAS, p53) → uncontrolled colonic epithelial cell growth. Promoted by **high-fat, low-fiber diet** and inflammation. | **CEA (Carcinoembryonic Antigen)**, **KRAS mutation**, **APC mutation**                                       | CEA for monitoring; KRAS guides targeted therapy.                           |
+| **Rheumatoid Arthritis (RA)**          | **Autoimmune inflammation** of synovial joints due to **genetic (HLA-DR4/DR1)** and **environmental** triggers.                                              | **Rheumatoid Factor (RF)**, **Anti-CCP (anti-cyclic citrullinated peptide)**, **ESR / CRP**                   | Anti-CCP = specific for RA; ESR/CRP track inflammation.                     |
+| **Acute Myeloid Leukemia (AML)**       | **Mutations in myeloid stem cells** block differentiation → buildup of immature blasts in bone marrow.                                                       | **CD13, CD33 (surface markers)**, **Myeloperoxidase (MPO)**, **FLT3 mutation**                                | CD markers diagnose; FLT3 = poor prognosis.                                 |
+| **Type 1 Diabetes Mellitus (T1DM)**    | **Autoimmune destruction of pancreatic β-cells** → loss of insulin production → hyperglycemia.                                                               | **Anti-GAD (Glutamic Acid Decarboxylase)**, **Islet Cell Antibodies (ICA)**, **Insulin Autoantibodies (IAA)** | Antibodies confirm autoimmune origin.                                       |
+| **Breast Cancer**                      | **Genetic (BRCA1/2, TP53)** and **hormonal (estrogen)** effects → uncontrolled breast cell proliferation.                                                    | **ER / PR (Estrogen & Progesterone Receptors)**, **HER2/neu**, **CA 15-3 / CA 27.29**                         | ER/PR/HER2 define subtype; CA markers monitor recurrence.                   |
+| **Melanoma**                           | **DNA damage from UV exposure** → **mutations in BRAF, NRAS, or KIT** → uncontrolled melanocyte growth.                                                      | **S100 protein**, **HMB-45**, **BRAF V600E mutation**                                                         | S100 & HMB-45 are diagnostic; BRAF guides targeted therapy (vemurafenib).   |
+| **Multiple Sclerosis (MS)**            | **Autoimmune demyelination** of CNS neurons → impaired nerve transmission.                                                                                   | **Oligoclonal bands in CSF**, **MRI white matter lesions**, **Anti-myelin basic protein antibodies**          | Oligoclonal bands = hallmark diagnostic feature.                            |
+| **Systemic Lupus Erythematosus (SLE)** | **Autoimmune immune complex disease** with anti-nuclear antibodies; triggered by **estrogen, UV light, genetics**.                                           | **ANA (Antinuclear Antibody)**, **Anti-dsDNA**, **Anti-Smith (Sm)**                                           | ANA = screening; dsDNA & Sm = specific and correlate with disease activity. |

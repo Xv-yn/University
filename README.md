@@ -6,8 +6,6 @@
 
 - [ ] COMP3520 Weekly Quiz
 
-- [ ] COMP3888 Individual Report
-
 ## TODO:
 
 ### Monday
@@ -43,10 +41,16 @@
 
 ### Saturday
 
-- [ ] MIMI2002 Exam Revision
-- [ ] AI Data
+- [ ] AMED3003 Exam Revision
+  - [ ] Week 1 Content Revision
+  - [ ] Week 1 ChatGPT Test
+  - [ ] Week 2 Content Revision
+  - [ ] Week 2 ChatGPT Test
 
 ### Sunday
 
-- [ ] MIMI2002 Exam Revision
-- [ ] AI Data
+- [ ] AMED3003 Exam Revision
+  - [ ] Week 3 Content Revision
+  - [ ] Week 3 ChatGPT Test
+  - [ ] Week 4 Content Revision
+  - [ ] Week 4 ChatGPT Test
