@@ -1,4 +1,4 @@
-# Current Week 12
+# Current Week 13
 
 ## Active Assessments
 
@@ -10,38 +10,32 @@
 
 ### Monday
 
-- [x] COMP3888 Individual Report
 - [x] MIMI2002 Lecture Notes
-- [x] MIMI2002 Exam Revision
-- [x] COMP3888 9pm Meeting
+- [x] AMED3003 Exam Revision
 
 ### Tuesday
 
-- [x] COMP3888 Presentation Prep
-- [x] AMED3002 Lecture Notes
-- [x] AI Data
+- [ ] COMP3888 Demo Prep
+- [ ] AMED3003 Exam Revision
+- [ ] AI Data
 
 ### Wednesday
 
-- [x] COMP3888 Presentation
-- [x] COMP3888 Individual Report
-- [x] AI Data
+- [ ] COMP3888 Demo
+- [ ] MIMI2002 Prac Quiz Prep
 
 ### Thursday
 
-- [x] COMP3888 Individual Report
-- [x] AI Data
+- [ ] MIMI2002 Prac Quix
+- [ ] AMED3003 Exam Revision
 
 ### Friday
 
-- [x] MIMI2002 Lecture Notes
-- [x] COMP3520 Lecture Notes
-- [x] COMP3520 Assignment
-- [x] COMP3520 Quiz
+- [ ] AMED3003 Exam Revision
 
 ### Saturday
 
-- [ ] AMED3003 Exam Revision
+- [ ] COMP3520 Exam Revision
   - [ ] Week 1 Content Revision
   - [ ] Week 1 ChatGPT Test
   - [ ] Week 2 Content Revision
@@ -49,7 +43,7 @@
 
 ### Sunday
 
-- [ ] AMED3003 Exam Revision
+- [ ] COMP3520 Exam Revision
   - [ ] Week 3 Content Revision
   - [ ] Week 3 ChatGPT Test
   - [ ] Week 4 Content Revision
