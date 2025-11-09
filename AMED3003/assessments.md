@@ -1,6 +1,6 @@
 # AMED3003 Assessment List
 
-- [ ] (5%) Weekly Quiz
+- [x] (5%) Weekly Quiz
       Individual
       Est. Given: Every Tuesday 2pm
       Due: Every Tuesday 4pm
@@ -20,7 +20,7 @@
       Est. Given: 23 Sep 2025 Week 7 Tuesday
       Due: 7 Oct 2025 at 14:00 Week 9 Tuesday
 
-- [ ] (40%) Final Exam
+- [x] (40%) Final Exam
       Individual
       Est. Given: Formal Exam Period
       Due: Formal Exam Period

@@ -1,50 +1,58 @@
-# Current Week 13
-
-## Active Assessments
-
-- [ ] MIMI2002 Fortnightly Quiz
-
-- [ ] COMP3520 Weekly Quiz
+# Exam Prep
 
 ## TODO:
 
-### Monday
-
-- [x] MIMI2002 Lecture Notes
-- [x] AMED3003 Exam Revision
-
-### Tuesday
-
-- [ ] COMP3888 Demo Prep
-- [ ] AMED3003 Exam Revision
-- [ ] AI Data
-
-### Wednesday
-
-- [ ] COMP3888 Demo
-- [ ] MIMI2002 Prac Quiz Prep
-
-### Thursday
-
-- [ ] MIMI2002 Prac Quix
-- [ ] AMED3003 Exam Revision
-
-### Friday
-
-- [ ] AMED3003 Exam Revision
-
 ### Saturday
 
-- [ ] COMP3520 Exam Revision
-  - [ ] Week 1 Content Revision
-  - [ ] Week 1 ChatGPT Test
-  - [ ] Week 2 Content Revision
-  - [ ] Week 2 ChatGPT Test
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 1 Notes Revision
+  - [ ] Week 1 ChatGPT Exam Questions
+  - [ ] Week 2 Notes Revision
+  - [ ] Week 2 ChatGPT Exam Questions
 
 ### Sunday
 
-- [ ] COMP3520 Exam Revision
-  - [ ] Week 3 Content Revision
-  - [ ] Week 3 ChatGPT Test
-  - [ ] Week 4 Content Revision
-  - [ ] Week 4 ChatGPT Test
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 3 Notes Revision
+  - [ ] Week 3 ChatGPT Exam Questions
+  - [ ] Week 4 Notes Revision
+  - [ ] Week 4 ChatGPT Exam Questions
+
+### Monday
+
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 5 Notes Revision
+  - [ ] Week 5 ChatGPT Exam Questions
+  - [ ] Week 6 Notes Revision
+  - [ ] Week 6 ChatGPT Exam Questions
+
+### Tuesday
+
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 7 Notes Revision
+  - [ ] Week 7 ChatGPT Exam Questions
+  - [ ] Week 8 Notes Revision
+  - [ ] Week 8 ChatGPT Exam Questions
+
+### Wednesday
+
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 9 Notes Revision
+  - [ ] Week 9 ChatGPT Exam Questions
+  - [ ] Week 10 Notes Revision
+  - [ ] Week 10 ChatGPT Exam Questions
+
+### Thursday
+
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 11 Notes Revision
+  - [ ] Week 11 ChatGPT Exam Questions
+  - [ ] Week 12 Notes Revision
+  - [ ] Week 12 ChatGPT Exam Questions
+
+### Friday
+
+- [ ] COMP3520 Exam Prep
+  - [ ] Week 13 Notes Revision
+  - [ ] Week 13 ChatGPT Exam Questions
+  - [ ] Mock Exam Questions

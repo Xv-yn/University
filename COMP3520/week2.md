@@ -19,7 +19,7 @@ The two modes are as follows:
 
 > [!NOTE]
 > Kernel mode is NOT like `sudo`. `sudo` is mainly used to download things and perform
-> privileged user acctions, wheras kernel mode is a CPU execution state with
+> privileged user actions, wheras kernel mode is a CPU execution state with
 > unrestricted hardware and memory access.
 >
 > Think of it as having the keys to a building (sudo) and having the blueprints and

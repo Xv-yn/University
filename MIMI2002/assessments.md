@@ -30,17 +30,17 @@
       Est. Given: 30 Sep 2025 Week 8 Tuesday
       Due: 14 Oct 2025 at 11:00 Week 10 Tuesday
 
-- [ ] (4%) Open Book Quiz 5
+- [x] (4%) Open Book Quiz 5
       Individual
       Est. Given: 14 Oct 2025 Week 10 Tuesday
       Due: 28 Oct 2025 at 16:30 Week 12 Tuesday
 
-- [ ] (10%) Restrcited Open Book Quiz
+- [x] (10%) Restrcited Open Book Quiz
       Individual
       Est. Given: 23 Oct 2025 Week 8 Thursday
       Due: 6 Nov 2025 at 11:30 Week 10 Thursday
 
-- [ ] (40%) Final Exam
+- [x] (40%) Final Exam
       Individual
       Est. Given: Formal Exam Period
       Due: Formal Exam Period

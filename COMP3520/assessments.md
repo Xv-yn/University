@@ -1,6 +1,6 @@
 # COMP3520 Assessment List
 
-- [ ] (10%) Weekly Quiz
+- [x] (10%) Weekly Quiz
       Individual
       Est. Given: Every Monday
       Due: Every Wednesday 2pm
@@ -15,7 +15,7 @@
       Est. Given: 8 Oct 2025 Week 10 Friday
       Due: 21 Oct 2025 at 23:59 Week 12 Friday
 
-- [ ] (50%) Final Exam
+- [x] (50%) Final Exam
       Individual
       Est. Given: Formal Exam Period
       Due: Formal Exam Period
