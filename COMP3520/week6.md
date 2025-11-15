@@ -58,7 +58,7 @@
 
 > [!NOTE]
 > Niceness is another way of saying priority
-> :ower Nice = Higher Priority
+> Lower Nice = Higher Priority
 
 - Dynamic Priority:
   - Based on static priority + sleep bonus.
