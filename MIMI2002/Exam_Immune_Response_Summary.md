@@ -75,7 +75,7 @@
 
 3. The naive B cells bind to the free floating antigen, leading to a "half activation".
    The Mature DCs "touch" various CD8 naive T cells and CD4 naive T cells depending on
-   if it present MHC II or I respectively.
+   if it present MHC I or II respectively.
 
 4. Once the Mature DCs bind to the CD8 Naive T Cell, they activate to form a Cytotoxic
    T Cell. These Cytotoxic T cells are released into the body and kill any infected
